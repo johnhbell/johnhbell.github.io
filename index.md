@@ -36,6 +36,9 @@ subtitle: 'Social Interactions can be incorporated into MDPs(Markov Decision Pro
 ## Scenarios
 We apply the Social MDP framework to a multi-agent grid world which consists of two agents, a yellow robot and red robot. Robots can have a social goal of helping or hindering to different degrees. Each scenario has robots having either the same goal or different physical goals and one of 7 different scaling factors on each of their social goals (-2, -1, -0.5, 0, 0.5, 1, 2). The higher number indicates that the social goal is weighted much more than the physical goal, and an agent wants to maximize the other agent's goal. Similarly for the lower number, except that an agent wants to minimize another agent's goal. 
 
+### All Scenarios
+Refer to the list of <a href="{{ item.url | relative_url }}/scenarios">all scenarios</a>.
+
 ### Highlighted Scenarios:
 
 <b>Scenario 1</b>
@@ -161,10 +164,6 @@ Red robot is initialized with the physical goal of Flower and social goal of -1.
     </tr>
 </table>
                  
-
-### All Scenarios
-Refer to the list of <a href="{{ item.url | relative_url }}/scenarios">all scenarios</a>.
-
 ## Results
 <div class="gallery" data-columns="4">
     <img>
