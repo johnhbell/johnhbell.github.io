@@ -1,4 +1,5 @@
 ---
+permalink: /scenarios/
 title: Scenarios
 subtitle: We describe all the possible scenarios predicted by our model in 2D grid world demonstrating diverse set of social behaviors. 
 ---

@@ -163,8 +163,7 @@ Red robot is initialized with the physical goal of Flower and social goal of -1.
                  
 
 ### All Scenarios
-Complete list of scenarios are described <a href="{{ item.url | relative_url }}/scenarios_all">here</a>.
-
+Refer to the list of <a href="{{ item.url | relative_url }}/scenarios">all scenarios</a>.
 
 ## Results
 <div class="gallery" data-columns="4">
