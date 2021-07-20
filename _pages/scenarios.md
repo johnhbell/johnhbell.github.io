@@ -1059,7 +1059,7 @@ Red robot is initialized with the physical goal of Flower and social goal of 2. 
 ---
 
 ###### Scenario 15 ######
-Red robot is initialized with the physical goal of Flower and social goal of -2. Yellow robot is initialized with the physical goal of Tree and social goal of -0.5. Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.
+Red robot is initialized with the physical goal of Tree and social goal of -2. Yellow robot is initialized with the physical goal of Flower and social goal of -0.5. Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.
 
 <table cellpadding="1">
     <tr>
