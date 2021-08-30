@@ -1273,10 +1273,10 @@ Red robot is initialized with the physical goal of Flower and social goal of -1.
     
     <tr>
         <td>
-            
+            <iframe width="857" height="482" src="https://www.youtube.com/embed/gDV4CjhZJzs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </td>
         <td>
-            
+            <iframe width="857" height="482" src="https://www.youtube.com/embed/KNdMRaHX8rk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </td>
     </tr>
 </table>  
@@ -1298,10 +1298,10 @@ Red robot is initialized with the physical goal of Flower and social goal of -0.
     
     <tr>
         <td>
-            
+            <iframe width="857" height="482" src="https://www.youtube.com/embed/tk-6InPfe0k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </td>
         <td>
-            
+            <iframe width="857" height="482" src="https://www.youtube.com/embed/medBnTQbWUA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </td>
     </tr>
 </table>  
@@ -1323,10 +1323,10 @@ Red robot is initialized with the physical goal of Flower and social goal of 0. 
     
     <tr>
         <td>
-            
+            <iframe width="857" height="482" src="https://www.youtube.com/embed/mv8OroLsROQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </td>
         <td>
-            
+            <iframe width="857" height="482" src="https://www.youtube.com/embed/WrNV2sn4Imk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </td>
     </tr>
 </table>  
@@ -1348,10 +1348,10 @@ Red robot is initialized with the physical goal of Flower and social goal of 0.5
     
     <tr>
         <td>
-            
+            <iframe width="857" height="482" src="https://www.youtube.com/embed/WnHsvDWByuk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </td>
         <td>
-            
+            <iframe width="857" height="482" src="https://www.youtube.com/embed/JgZuVOtGWNI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </td>
     </tr>
 </table>  
@@ -1373,10 +1373,10 @@ Red robot is initialized with the physical goal of Flower and social goal of 1. 
     
     <tr>
         <td>
-            
+            <iframe width="857" height="482" src="https://www.youtube.com/embed/kjcouy7yb6M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </td>
         <td>
-            
+            <iframe width="857" height="482" src="https://www.youtube.com/embed/uQXW0Y2meaQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </td>
     </tr>
 </table>  
@@ -1423,10 +1423,10 @@ Red robot is initialized with the physical goal of Flower and social goal of -2.
     
     <tr>
         <td>
-            
+            <iframe width="857" height="482" src="https://www.youtube.com/embed/BGnMBhP_MfU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </td>
         <td>
-            
+            <iframe width="857" height="482" src="https://www.youtube.com/embed/wWhD7VxdVRo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </td>
     </tr>
 </table>  
@@ -1473,10 +1473,10 @@ Red robot is initialized with the physical goal of Flower and social goal of -0.
     
     <tr>
         <td>
-            
+            <iframe width="857" height="482" src="https://www.youtube.com/embed/2JR9rCPgy90" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </td>
         <td>
-            
+            <iframe width="857" height="482" src="https://www.youtube.com/embed/P7tAW_EhTMc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </td>
     </tr>
 </table>  
@@ -1498,10 +1498,10 @@ Red robot is initialized with the physical goal of Flower and social goal of 0. 
     
     <tr>
         <td>
-            
+            <iframe width="857" height="482" src="https://www.youtube.com/embed/2rSZCXMyLiM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </td>
         <td>
-            
+            <iframe width="857" height="482" src="https://www.youtube.com/embed/TGcbv4QAEVQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </td>
     </tr>
 </table>  
@@ -1523,10 +1523,10 @@ Red robot is initialized with the physical goal of Flower and social goal of 0.5
     
     <tr>
         <td>
-            
+            <iframe width="857" height="482" src="https://www.youtube.com/embed/d4_pysA7-oE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </td>
         <td>
-            
+            <iframe width="857" height="482" src="https://www.youtube.com/embed/hshb6ZjnJyc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </td>
     </tr>
 </table>  
@@ -1548,10 +1548,10 @@ Red robot is initialized with the physical goal of Flower and social goal of 1. 
     
     <tr>
         <td>
-            
+            <iframe width="857" height="482" src="https://www.youtube.com/embed/_mn8MkODAYw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </td>
         <td>
-            
+            <iframe width="857" height="482" src="https://www.youtube.com/embed/erJ-efjvbGU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </td>
     </tr>
 </table>  
@@ -1573,10 +1573,10 @@ Red robot is initialized with the physical goal of Flower and social goal of 2. 
     
     <tr>
         <td>
-            
+            <iframe width="857" height="482" src="https://www.youtube.com/embed/TEmkhVLpm3k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </td>
         <td>
-            
+            <iframe width="857" height="482" src="https://www.youtube.com/embed/a1AOtARQ1Eg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </td>
     </tr>
 </table>  
@@ -1598,10 +1598,10 @@ Red robot is initialized with the physical goal of Flower and social goal of -2.
     
     <tr>
         <td>
-            
+            <iframe width="857" height="482" src="https://www.youtube.com/embed/EiKCjloNWVE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </td>
         <td>
-            
+            <iframe width="857" height="482" src="https://www.youtube.com/embed/KEGX9hAUrHc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </td>
     </tr>
 </table>  
@@ -1623,10 +1623,10 @@ Red robot is initialized with the physical goal of Flower and social goal of -1.
     
     <tr>
         <td>
-            
+            <iframe width="857" height="482" src="https://www.youtube.com/embed/8r2ZWFFn6KU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </td>
         <td>
-            
+            <iframe width="857" height="482" src="https://www.youtube.com/embed/_sc8U-zSuGM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </td>
     </tr>
 </table>  
@@ -1648,10 +1648,10 @@ Red robot is initialized with the physical goal of Flower and social goal of -0.
     
     <tr>
         <td>
-            
+            <iframe width="857" height="482" src="https://www.youtube.com/embed/y7RyJtGOaHs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </td>
         <td>
-            
+            <iframe width="857" height="482" src="https://www.youtube.com/embed/syr38Jq8Lm0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </td>
     </tr>
 </table>  
@@ -1673,10 +1673,10 @@ Red robot is initialized with the physical goal of Flower and social goal of 0. 
     
     <tr>
         <td>
-            
+            <iframe width="857" height="482" src="https://www.youtube.com/embed/QmgSFLwJqc0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </td>
         <td>
-            
+            <iframe width="857" height="482" src="https://www.youtube.com/embed/v0x-TbS_Se4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </td>
     </tr>
 </table>  
@@ -1698,10 +1698,10 @@ Red robot is initialized with the physical goal of Flower and social goal of 0.5
     
     <tr>
         <td>
-            
+            <iframe width="857" height="482" src="https://www.youtube.com/embed/z-JxAvdt86Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </td>
         <td>
-            
+            <iframe width="857" height="482" src="https://www.youtube.com/embed/z_Xc_mlJjc4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </td>
     </tr>
 </table>  
@@ -1723,10 +1723,10 @@ Red robot is initialized with the physical goal of Flower and social goal of 1. 
     
     <tr>
         <td>
-            
+            <iframe width="857" height="482" src="https://www.youtube.com/embed/l-MvjVETd6M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </td>
         <td>
-            
+            <iframe width="857" height="482" src="https://www.youtube.com/embed/Yu4oVtKSTr8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </td>
     </tr>
 </table>  
@@ -1748,10 +1748,10 @@ Red robot is initialized with the physical goal of Flower and social goal of 2. 
     
     <tr>
         <td>
-            
+            <iframe width="857" height="482" src="https://www.youtube.com/embed/aLNOBKvvjGw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </td>
         <td>
-            
+            <iframe width="857" height="482" src="https://www.youtube.com/embed/7bJGv9R0Bfs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </td>
     </tr>
 </table>  
@@ -1773,10 +1773,10 @@ Red robot is initialized with the physical goal of Flower and social goal of -2.
     
     <tr>
         <td>
-            
+            <iframe width="857" height="482" src="https://www.youtube.com/embed/-7x7UvoML7k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </td>
         <td>
-            
+            <iframe width="857" height="482" src="https://www.youtube.com/embed/x7XBX2YB3kc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </td>
     </tr>
 </table>  
@@ -1798,10 +1798,10 @@ Red robot is initialized with the physical goal of Flower and social goal of -1.
     
     <tr>
         <td>
-            
+            <iframe width="857" height="482" src="https://www.youtube.com/embed/mpLHHWcGPFs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </td>
         <td>
-            
+            <iframe width="908" height="511" src="https://www.youtube.com/embed/-2HQTW9pu_c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </td>
     </tr>
 </table>  
@@ -1823,10 +1823,10 @@ Red robot is initialized with the physical goal of Flower and social goal of -0.
     
     <tr>
         <td>
-            
+            <iframe width="857" height="482" src="https://www.youtube.com/embed/ETs9Q5w6Nbg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </td>
         <td>
-            
+            <iframe width="857" height="482" src="https://www.youtube.com/embed/5_feW1WZ5eI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </td>
     </tr>
 </table>  
@@ -1848,10 +1848,10 @@ Red robot is initialized with the physical goal of Flower and social goal of 0. 
     
     <tr>
         <td>
-            
+            <iframe width="857" height="482" src="https://www.youtube.com/embed/RvK665uFlxM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </td>
         <td>
-            
+            <iframe width="857" height="482" src="https://www.youtube.com/embed/-JTEkdfp5aE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </td>
     </tr>
 </table>  
@@ -1873,10 +1873,10 @@ Red robot is initialized with the physical goal of Flower and social goal of 0.5
     
     <tr>
         <td>
-            
+            <iframe width="857" height="482" src="https://www.youtube.com/embed/pzCyGuSBmXk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </td>
         <td>
-            
+            <iframe width="857" height="482" src="https://www.youtube.com/embed/24zyFVKSya0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </td>
     </tr>
 </table>  
@@ -1898,10 +1898,10 @@ Red robot is initialized with the physical goal of Flower and social goal of 1. 
     
     <tr>
         <td>
-            
+            <iframe width="857" height="482" src="https://www.youtube.com/embed/0mSwP4G4NYc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </td>
         <td>
-            
+            <iframe width="857" height="482" src="https://www.youtube.com/embed/VrE8t3YxjKY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </td>
     </tr>
 </table>  
@@ -1923,10 +1923,10 @@ Red robot is initialized with the physical goal of Flower and social goal of 2. 
     
     <tr>
         <td>
-            
+            <iframe width="857" height="482" src="https://www.youtube.com/embed/Mr5S80T_xjA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </td>
         <td>
-            
+            <iframe width="857" height="482" src="https://www.youtube.com/embed/CfBdWxR_Whw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </td>
     </tr>
 </table>  
@@ -1948,10 +1948,10 @@ Red robot is initialized with the physical goal of Tree and social goal of -2. Y
     
     <tr>
         <td>
-            
+            <iframe width="857" height="482" src="https://www.youtube.com/embed/fG2wZv9sNZg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </td>
         <td>
-            
+            <iframe width="857" height="482" src="https://www.youtube.com/embed/58WLLs0SbFE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </td>
     </tr>
 </table>  
@@ -1973,10 +1973,10 @@ Red robot is initialized with the physical goal of Tree and social goal of -1. Y
     
     <tr>
         <td>
-            
+            <iframe width="857" height="482" src="https://www.youtube.com/embed/3Zk1UnGNSHU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </td>
         <td>
-            
+            <iframe width="857" height="482" src="https://www.youtube.com/embed/rBKIRgBenwA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </td>
     </tr>
 </table>  
@@ -1998,10 +1998,10 @@ Red robot is initialized with the physical goal of Tree and social goal of -0.5.
     
     <tr>
         <td>
-            
+            <iframe width="857" height="482" src="https://www.youtube.com/embed/FygjVyysNHI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </td>
         <td>
-            
+            <iframe width="857" height="482" src="https://www.youtube.com/embed/yJUj6l0HuMc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </td>
     </tr>
 </table>  
@@ -2023,10 +2023,10 @@ Red robot is initialized with the physical goal of Tree and social goal of 0. Ye
     
     <tr>
         <td>
-            
+            <iframe width="857" height="482" src="https://www.youtube.com/embed/y5XRfTsRr7g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </td>
         <td>
-            
+            <iframe width="857" height="482" src="https://www.youtube.com/embed/IoHV2IoUkcA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </td>
     </tr>
 </table>  
@@ -2048,10 +2048,10 @@ Red robot is initialized with the physical goal of Tree and social goal of 0.5. 
     
     <tr>
         <td>
-            
+            <iframe width="857" height="482" src="https://www.youtube.com/embed/6qVfvo7pGKc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </td>
         <td>
-            
+            <iframe width="857" height="482" src="https://www.youtube.com/embed/gTIt_GLJEWk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </td>
     </tr>
 </table>  
@@ -2073,10 +2073,10 @@ Red robot is initialized with the physical goal of Tree and social goal of 1. Ye
     
     <tr>
         <td>
-            
+            <iframe width="857" height="482" src="https://www.youtube.com/embed/jgyJPbqOiTo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </td>
         <td>
-            
+            <iframe width="857" height="482" src="https://www.youtube.com/embed/pmsuXWNtqGQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </td>
     </tr>
 </table>  
@@ -2098,10 +2098,10 @@ Red robot is initialized with the physical goal of Tree and social goal of 2. Ye
     
     <tr>
         <td>
-            
+            <iframe width="857" height="482" src="https://www.youtube.com/embed/JAf7f--igHE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </td>
         <td>
-            
+            <iframe width="857" height="482" src="https://www.youtube.com/embed/xxGzuywhJlI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </td>
     </tr>
 </table>  
@@ -2123,10 +2123,10 @@ Red robot is initialized with the physical goal of Tree and social goal of -2. Y
     
     <tr>
         <td>
-            
+            <iframe width="857" height="482" src="https://www.youtube.com/embed/rqeFyCpvnd8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </td>
         <td>
-            
+            <iframe width="857" height="482" src="https://www.youtube.com/embed/K9v8vhXImHM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </td>
     </tr>
 </table>  
@@ -2148,10 +2148,10 @@ Red robot is initialized with the physical goal of Tree and social goal of -1. Y
     
     <tr>
         <td>
-            
+            <iframe width="857" height="482" src="https://www.youtube.com/embed/8FayVdw_DaU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </td>
         <td>
-            
+            <iframe width="857" height="482" src="https://www.youtube.com/embed/O0-gU53PQmU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </td>
     </tr>
 </table>  
@@ -2173,10 +2173,10 @@ Red robot is initialized with the physical goal of Tree and social goal of -0.5.
     
     <tr>
         <td>
-            
+            <iframe width="857" height="482" src="https://www.youtube.com/embed/vTro0JBPs-g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </td>
         <td>
-            
+            <iframe width="857" height="482" src="https://www.youtube.com/embed/RgRp-l0mk2E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </td>
     </tr>
 </table>  
@@ -2198,10 +2198,10 @@ Red robot is initialized with the physical goal of Tree and social goal of 0. Ye
     
     <tr>
         <td>
-            
+            <iframe width="857" height="482" src="https://www.youtube.com/embed/fA6j5IGOiFY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </td>
         <td>
-            
+            <iframe width="857" height="482" src="https://www.youtube.com/embed/mol421m9MS4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </td>
     </tr>
 </table>  
@@ -2223,10 +2223,10 @@ Red robot is initialized with the physical goal of Tree and social goal of 0.5. 
     
     <tr>
         <td>
-            
+            <iframe width="857" height="482" src="https://www.youtube.com/embed/9Nw1tFozpLg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </td>
         <td>
-            
+            <iframe width="857" height="482" src="https://www.youtube.com/embed/BXnCpPSfYA8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </td>
     </tr>
 </table>  
@@ -2248,10 +2248,10 @@ Red robot is initialized with the physical goal of Tree and social goal of 1. Ye
     
     <tr>
         <td>
-            
+            <iframe width="857" height="482" src="https://www.youtube.com/embed/AJA4OgAdUes" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </td>
         <td>
-            
+            <iframe width="857" height="482" src="https://www.youtube.com/embed/tOR86AgnkVs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </td>
     </tr>
 </table>  
@@ -2273,10 +2273,10 @@ Red robot is initialized with the physical goal of Tree and social goal of 2. Ye
     
     <tr>
         <td>
-            
+            <iframe width="857" height="482" src="https://www.youtube.com/embed/KqgjKNcZ4Mo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </td>
         <td>
-            
+            <iframe width="857" height="482" src="https://www.youtube.com/embed/y4545fGqA8E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </td>
     </tr>
 </table>  
@@ -2298,10 +2298,10 @@ Red robot is initialized with the physical goal of Tree and social goal of -2. Y
     
     <tr>
         <td>
-            
+            <iframe width="857" height="482" src="https://www.youtube.com/embed/dOcW1BpCt3M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </td>
         <td>
-            
+            <iframe width="857" height="482" src="https://www.youtube.com/embed/8vKurebCihE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </td>
     </tr>
 </table>  
@@ -2323,10 +2323,10 @@ Red robot is initialized with the physical goal of Tree and social goal of -1. Y
     
     <tr>
         <td>
-            
+            <iframe width="857" height="482" src="https://www.youtube.com/embed/5vP2uavWbec" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </td>
         <td>
-            
+            <iframe width="857" height="482" src="https://www.youtube.com/embed/e8yQTc1zndg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </td>
     </tr>
 </table>  
@@ -2348,10 +2348,10 @@ Red robot is initialized with the physical goal of Tree and social goal of -0.5.
     
     <tr>
         <td>
-            
+            <iframe width="857" height="482" src="https://www.youtube.com/embed/bIHW9sEf0tU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </td>
         <td>
-            
+            <iframe width="857" height="482" src="https://www.youtube.com/embed/4voCd6-KUgI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </td>
     </tr>
 </table>  
@@ -2373,10 +2373,10 @@ Red robot is initialized with the physical goal of Tree and social goal of 0. Ye
     
     <tr>
         <td>
-            
+            <iframe width="857" height="482" src="https://www.youtube.com/embed/wXfZa4zg_NA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </td>
         <td>
-            
+            <iframe width="857" height="482" src="https://www.youtube.com/embed/ZcKHRlJvnJo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </td>
     </tr>
 </table>  
@@ -2398,10 +2398,10 @@ Red robot is initialized with the physical goal of Tree and social goal of 0.5. 
     
     <tr>
         <td>
-            
+            <iframe width="857" height="482" src="https://www.youtube.com/embed/BTidyCdkWvk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </td>
         <td>
-            
+            <iframe width="857" height="482" src="https://www.youtube.com/embed/XtIKp3vSf_o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </td>
     </tr>
 </table>  
@@ -2423,10 +2423,10 @@ Red robot is initialized with the physical goal of Tree and social goal of 1. Ye
     
     <tr>
         <td>
-            
+            <iframe width="857" height="482" src="https://www.youtube.com/embed/GyVB9_cuOJQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </td>
         <td>
-            
+            <iframe width="857" height="482" src="https://www.youtube.com/embed/mJ7hjqPmYl8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </td>
     </tr>
 </table>  
@@ -2448,10 +2448,10 @@ Red robot is initialized with the physical goal of Tree and social goal of 2. Ye
     
     <tr>
         <td>
-            
+            <iframe width="857" height="482" src="https://www.youtube.com/embed/nlzZlFPxCjc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </td>
         <td>
-            
+            <iframe width="857" height="482" src="https://www.youtube.com/embed/dlk3VxWpth0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </td>
     </tr>
 </table>  
@@ -2473,10 +2473,10 @@ Red robot is initialized with the physical goal of Tree and social goal of -2. Y
     
     <tr>
         <td>
-            
+            <iframe width="857" height="482" src="https://www.youtube.com/embed/YcEtXJfe4uU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </td>
         <td>
-            
+            <iframe width="857" height="482" src="https://www.youtube.com/embed/MHZtokk1wXA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </td>
     </tr>
 </table>  
@@ -2498,10 +2498,10 @@ Red robot is initialized with the physical goal of Tree and social goal of -1. Y
     
     <tr>
         <td>
-            
+            <iframe width="857" height="482" src="https://www.youtube.com/embed/OQ6Cy9P9rjA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </td>
         <td>
-            
+            <iframe width="857" height="482" src="https://www.youtube.com/embed/KLb0wUG-0tQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </td>
     </tr>
 </table>  
@@ -2523,10 +2523,10 @@ Red robot is initialized with the physical goal of Tree and social goal of -0.5.
     
     <tr>
         <td>
-            
+            <iframe width="857" height="482" src="https://www.youtube.com/embed/x0suvhlMNMk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </td>
         <td>
-            
+            <iframe width="857" height="482" src="https://www.youtube.com/embed/kys2gpVzOhA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </td>
     </tr>
 </table>  
@@ -2548,10 +2548,10 @@ Red robot is initialized with the physical goal of Tree and social goal of 0. Ye
     
     <tr>
         <td>
-            
+            <iframe width="857" height="482" src="https://www.youtube.com/embed/XL1lnm1DmmA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </td>
         <td>
-            
+            <iframe width="857" height="482" src="https://www.youtube.com/embed/PhWqlJwmCj4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </td>
     </tr>
 </table>  
@@ -2573,10 +2573,10 @@ Red robot is initialized with the physical goal of Tree and social goal of 0.5. 
     
     <tr>
         <td>
-            
+            <iframe width="857" height="482" src="https://www.youtube.com/embed/DX2PhtyH4s8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </td>
         <td>
-            
+            <iframe width="857" height="482" src="https://www.youtube.com/embed/jqPSifquovI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </td>
     </tr>
 </table>  
@@ -2598,10 +2598,10 @@ Red robot is initialized with the physical goal of Tree and social goal of 1. Ye
     
     <tr>
         <td>
-            
+            <iframe width="908" height="511" src="https://www.youtube.com/embed/Rc-R9PBytJU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </td>
         <td>
-            
+            <iframe width="908" height="511" src="https://www.youtube.com/embed/9rlEPBLDwE8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </td>
     </tr>
 </table>  
@@ -2623,10 +2623,10 @@ Red robot is initialized with the physical goal of Tree and social goal of 2. Ye
     
     <tr>
         <td>
-            
+            <iframe width="908" height="511" src="https://www.youtube.com/embed/f9PbBxi8Qe0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </td>
         <td>
-            
+            <iframe width="908" height="511" src="https://www.youtube.com/embed/PhdwUa0Ri08" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </td>
     </tr>
 </table>  
@@ -2648,10 +2648,10 @@ Red robot is initialized with the physical goal of Tree and social goal of -2. Y
     
     <tr>
         <td>
-            
+            <iframe width="908" height="511" src="https://www.youtube.com/embed/fzoL-O9SrSc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </td>
         <td>
-            
+            <iframe width="908" height="511" src="https://www.youtube.com/embed/Kt1ICcjb2Ms" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </td>
     </tr>
 </table>  
@@ -2673,10 +2673,10 @@ Red robot is initialized with the physical goal of Tree and social goal of -1. Y
     
     <tr>
         <td>
-            
+            <iframe width="908" height="511" src="https://www.youtube.com/embed/AJ-mel9tckk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </td>
         <td>
-            
+            <iframe width="908" height="511" src="https://www.youtube.com/embed/6prfvGPOjnQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </td>
     </tr>
 </table>  
@@ -2698,10 +2698,10 @@ Red robot is initialized with the physical goal of Tree and social goal of -0.5.
     
     <tr>
         <td>
-            
+            <iframe width="908" height="511" src="https://www.youtube.com/embed/_itq0ItHQYM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </td>
         <td>
-            
+            <iframe width="908" height="511" src="https://www.youtube.com/embed/xIpghoWqReY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </td>
     </tr>
 </table>  
@@ -2723,10 +2723,10 @@ Red robot is initialized with the physical goal of Tree and social goal of 0. Ye
     
     <tr>
         <td>
-            
+            <iframe width="857" height="482" src="https://www.youtube.com/embed/RiqzyGhPOUs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </td>
         <td>
-            
+            <iframe width="857" height="482" src="https://www.youtube.com/embed/ZFdPFDkTu7s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </td>
     </tr>
 </table>  
@@ -2748,10 +2748,10 @@ Red robot is initialized with the physical goal of Tree and social goal of 0.5. 
     
     <tr>
         <td>
-            
+            <iframe width="857" height="482" src="https://www.youtube.com/embed/tq930oZCYZw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </td>
         <td>
-            
+            <iframe width="857" height="482" src="https://www.youtube.com/embed/R4ra73wfFgQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </td>
     </tr>
 </table>  
@@ -2773,10 +2773,10 @@ Red robot is initialized with the physical goal of Tree and social goal of 1. Ye
     
     <tr>
         <td>
-            
+            <iframe width="857" height="482" src="https://www.youtube.com/embed/Bv-7zc14Bc8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </td>
         <td>
-            
+            <iframe width="857" height="482" src="https://www.youtube.com/embed/yGrnuD3GgQQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </td>
     </tr>
 </table>  
@@ -2798,10 +2798,10 @@ Red robot is initialized with the physical goal of Tree and social goal of 2. Ye
     
     <tr>
         <td>
-            
+            <iframe width="857" height="482" src="https://www.youtube.com/embed/wpHVxyRrKFQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </td>
         <td>
-            
+            <iframe width="857" height="482" src="https://www.youtube.com/embed/3b7rJlZzaMk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </td>
     </tr>
 </table>  
@@ -2823,10 +2823,10 @@ Red robot is initialized with the physical goal of Tree and social goal of -2. Y
     
     <tr>
         <td>
-            
+            <iframe width="857" height="482" src="https://www.youtube.com/embed/mWJVHcccCzU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </td>
         <td>
-            
+            <iframe width="857" height="482" src="https://www.youtube.com/embed/f130PX675hc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </td>
     </tr>
 </table>  
@@ -2848,10 +2848,10 @@ Red robot is initialized with the physical goal of Tree and social goal of -1. Y
     
     <tr>
         <td>
-            
+            <iframe width="908" height="511" src="https://www.youtube.com/embed/rmVKVEB2sbQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </td>
         <td>
-            
+            <iframe width="908" height="511" src="https://www.youtube.com/embed/KZj-8XoRtNI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </td>
     </tr>
 </table>  
@@ -2873,10 +2873,10 @@ Red robot is initialized with the physical goal of Tree and social goal of -0.5.
     
     <tr>
         <td>
-            
+            <iframe width="908" height="511" src="https://www.youtube.com/embed/_vrif_0WUHA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </td>
         <td>
-            
+            <iframe width="908" height="511" src="https://www.youtube.com/embed/hXz6ctL86c4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </td>
     </tr>
 </table>  
@@ -2898,10 +2898,10 @@ Red robot is initialized with the physical goal of Tree and social goal of 0. Ye
     
     <tr>
         <td>
-            
+            <iframe width="908" height="511" src="https://www.youtube.com/embed/nk6kjbdswqM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </td>
         <td>
-            
+            <iframe width="908" height="511" src="https://www.youtube.com/embed/pD3FcMTyr8M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </td>
     </tr>
 </table>  
@@ -2923,10 +2923,10 @@ Red robot is initialized with the physical goal of Tree and social goal of 0.5. 
     
     <tr>
         <td>
-            
+            <iframe width="908" height="511" src="https://www.youtube.com/embed/Pt7d667Qj1I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </td>
         <td>
-            
+            <iframe width="908" height="511" src="https://www.youtube.com/embed/6hPh0MIFZRI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </td>
     </tr>
 </table>  
@@ -2948,10 +2948,10 @@ Red robot is initialized with the physical goal of Tree and social goal of 1. Ye
     
     <tr>
         <td>
-            
+            <iframe width="908" height="511" src="https://www.youtube.com/embed/h48IICgEasM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </td>
         <td>
-            
+            <iframe width="908" height="511" src="https://www.youtube.com/embed/Th9omeg9icw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </td>
     </tr>
 </table>  
@@ -2973,10 +2973,10 @@ Red robot is initialized with the physical goal of Tree and social goal of 2. Ye
     
     <tr>
         <td>
-            
+            <iframe width="857" height="482" src="https://www.youtube.com/embed/z4LWq0Qfdd0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </td>
         <td>
-            
+            <iframe width="857" height="482" src="https://www.youtube.com/embed/87JQqGk_RjI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </td>
     </tr>
 </table>  
@@ -2998,10 +2998,10 @@ Red robot is initialized with the physical goal of Tree and social goal of -2. Y
     
     <tr>
         <td>
-            
+            <iframe width="857" height="482" src="https://www.youtube.com/embed/hsQCCd_fSwI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </td>
         <td>
-            
+            <iframe width="857" height="482" src="https://www.youtube.com/embed/Aoa47-pVGuQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </td>
     </tr>
 </table>  
@@ -3023,10 +3023,10 @@ Red robot is initialized with the physical goal of Tree and social goal of -1. Y
     
     <tr>
         <td>
-            
+            <iframe width="857" height="482" src="https://www.youtube.com/embed/hskQ17b0GX0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </td>
         <td>
-            
+            <iframe width="857" height="482" src="https://www.youtube.com/embed/n82ZGV9tiX4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </td>
     </tr>
 </table>  
@@ -3048,10 +3048,10 @@ Red robot is initialized with the physical goal of Tree and social goal of -0.5.
     
     <tr>
         <td>
-            
+            <iframe width="857" height="482" src="https://www.youtube.com/embed/HdS9NbVJu1A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </td>
         <td>
-            
+            <iframe width="857" height="482" src="https://www.youtube.com/embed/Fp-V-yow6k4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </td>
     </tr>
 </table>  
@@ -3073,10 +3073,10 @@ Red robot is initialized with the physical goal of Tree and social goal of 0. Ye
     
     <tr>
         <td>
-            
+            <iframe width="857" height="482" src="https://www.youtube.com/embed/c4P3R1ff8i0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </td>
         <td>
-            
+            <iframe width="857" height="482" src="https://www.youtube.com/embed/AKOXZiTA2kg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </td>
     </tr>
 </table>  
@@ -3098,10 +3098,10 @@ Red robot is initialized with the physical goal of Tree and social goal of 0.5. 
     
     <tr>
         <td>
-            
+            <iframe width="857" height="482" src="https://www.youtube.com/embed/2f2R7Vrvb1Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </td>
         <td>
-            
+            <iframe width="857" height="482" src="https://www.youtube.com/embed/q9kbzOoieU0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </td>
     </tr>
 </table>  
@@ -3123,10 +3123,10 @@ Red robot is initialized with the physical goal of Tree and social goal of 1. Ye
     
     <tr>
         <td>
-            
+            <iframe width="857" height="482" src="https://www.youtube.com/embed/OeKFAJPUnkk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </td>
         <td>
-            
+            <iframe width="857" height="482" src="https://www.youtube.com/embed/hrAZdUPJHsA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </td>
     </tr>
 </table>  
@@ -3148,10 +3148,10 @@ Red robot is initialized with the physical goal of Tree and social goal of 2. Ye
     
     <tr>
         <td>
-            
+            <iframe width="857" height="482" src="https://www.youtube.com/embed/r0SkYE0zIbU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </td>
         <td>
-            
+            <iframe width="857" height="482" src="https://www.youtube.com/embed/RJXNwE3ROBg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </td>
     </tr>
 </table>  
