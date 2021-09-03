@@ -124,7 +124,7 @@
 	<div class="wrap">
 
 		<h1>Results</h1>
-		<p>For each of the experiment scenario we show the Yellow robot's estimation of the physical and social goal of the red robot at each time step.</p>
+		<p></p>
 
 	</div>
 
@@ -132,7 +132,51 @@
 
 <section class="single">
 
-	<p>Using S-MDP, at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.  The lines 
+	<h3 id="comparison-of-our-model-with-baselines">Comparison of our model with baselines</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">Goal</th>
+      <th style="text-align: center">Social MDP (ours )</th>
+      <th style="text-align: center">Inverse Planning</th>
+      <th>Cue-based</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">Social Goal</td>
+      <td style="text-align: center"><strong>0.83</strong></td>
+      <td style="text-align: center">0.76</td>
+      <td>0.19</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">Physical</td>
+      <td style="text-align: center"><strong>0.74</strong></td>
+      <td style="text-align: center">0.64</td>
+      <td>0.06</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Table 1: The coefficient of correlation with 95% confidence interval between human and machine judgements for all the 98 experiment scenarios (each scenario has agents having either the same or different physical goals along with one of 7 different scaling factors on each of their social goals (-2, -1, -0.5, 0, 0.5, 1, 2)). We provide two baselines (cue-based model and the inverse planning model) and our own approach. Social MDPs produce better alignment with ground truth than other models and do not require training like the cue-based model.</p>
+
+<hr />
+
+<h3 id="comparison-of-physical-and-social-goal-weights-between-human-estimates-and-our-model">Comparison of Physical and Social goal weights between human estimates and our model</h3>
+
+<div class="gallery" data-columns="4">
+    <img />
+    <img src="/images/index/weight-social-goals-v2.png" />
+    <img src="/images/index/weight-physical-goals-v2.png" />
+    <img />
+</div>
+<p><span style="font-size:medium;">Figure 4: Twelve human subjects, and our model, the Social MDP, watched and scored 196 videos at different snapshots. These videos consist of the 98 scenarios where robots reason at either level 1 or level 2 (presented to the users in randomized order). (left) Models and humans were asked to predict how social the agents were and the valence of the interaction (was it positive or negative). Non-social settings have a weight of 0, while adversarial settings have a social weight of -2, overwhelming the physical goal of any agent. Humans and machines predict similar social goals both in terms of value and magnitude. (right) Models and humans were asked to predict a weight factor on the physical goal, how much does this agent care about its physical goal. At 0, the physical goal is ignored. At 1, it is weighted equally with a social goal also set at 1. Human and model scores are again highly correlated. Our model is able to effectively generate trajectories that humans recognize as being social interactions. It is also able to predict the type of social interaction that humans believe occurred.</span></p>
+
+<hr />
+<h3 id="results-for-each-experiment-scenario">Results for each experiment scenario</h3>
+
+<p>For each of the experiment scenario we show the Yellow robot’s estimation of the physical and social goal of the red robot at each time step. Using S-MDP, at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.  The lines 
 <span style="color: red"> in red are Human scores</span>, <span style="color: blue"> in blue is our Social MDP scores</span>, <span style="color: green">in green is Inverse planning</span>, <span style="color: purple">in purple is the cue-based model</span>, and <strong>in dotted is the ground truth</strong>.</p>
 
 <h6 id="experiment-result-for-scenario-1">Experiment Result for Scenario 1</h6>

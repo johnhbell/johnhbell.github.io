@@ -1,10 +1,34 @@
 ---
 permalink: /results/
 title: Results
-subtitle: For each of the experiment scenario we show the Yellow robot's estimation of the physical and social goal of the red robot at each time step.
+subtitle: 
 ---
 
-Using S-MDP, at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.  The lines 
+### Comparison of our model with baselines
+
+|     Goal    | Social MDP (ours ) | Inverse Planning | Cue-based |
+|:-----------:|:------------------:|:----------------:|-----------|
+| Social Goal |        **0.83**        |       0.76       | 0.19      |
+|   Physical  |        **0.74**        |       0.64       | 0.06      |
+
+Table 1: The coefficient of correlation with 95% confidence interval between human and machine judgements for all the 98 experiment scenarios (each scenario has agents having either the same or different physical goals along with one of 7 different scaling factors on each of their social goals (-2, -1, -0.5, 0, 0.5, 1, 2)). We provide two baselines (cue-based model and the inverse planning model) and our own approach. Social MDPs produce better alignment with ground truth than other models and do not require training like the cue-based model.
+
+---
+
+### Comparison of Physical and Social goal weights between human estimates and our model
+
+<div class="gallery" data-columns="4">
+    <img>
+    <img src="/images/index/weight-social-goals-v2.png">
+    <img src="/images/index/weight-physical-goals-v2.png">
+    <img>
+</div>
+<span style="font-size:medium;">Figure 4: Twelve human subjects, and our model, the Social MDP, watched and scored 196 videos at different snapshots. These videos consist of the 98 scenarios where robots reason at either level 1 or level 2 (presented to the users in randomized order). (left) Models and humans were asked to predict how social the agents were and the valence of the interaction (was it positive or negative). Non-social settings have a weight of 0, while adversarial settings have a social weight of -2, overwhelming the physical goal of any agent. Humans and machines predict similar social goals both in terms of value and magnitude. (right) Models and humans were asked to predict a weight factor on the physical goal, how much does this agent care about its physical goal. At 0, the physical goal is ignored. At 1, it is weighted equally with a social goal also set at 1. Human and model scores are again highly correlated. Our model is able to effectively generate trajectories that humans recognize as being social interactions. It is also able to predict the type of social interaction that humans believe occurred.</span> 
+
+---
+### Results for each experiment scenario
+
+For each of the experiment scenario we show the Yellow robot's estimation of the physical and social goal of the red robot at each time step. Using S-MDP, at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.  The lines 
 <span style="color: red"> in red are Human scores</span>, <span style="color: blue"> in blue is our Social MDP scores</span>, <span style="color: green">in green is Inverse planning</span>, <span style="color: purple">in purple is the cue-based model</span>, and **in dotted is the ground truth**. 
 
 ###### Experiment Result for Scenario 1 ######
