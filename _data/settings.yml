@@ -16,10 +16,10 @@ menu_settings:
       url: '/#scenarios'
     - title: 'Results'
       url: '/#results'  
+    - title: 'Paper'
+      url: '/#paper'  
     - title: 'Code'
       url: '/#code'
-    - title: 'Paper'
-      url: '/#paper'
     
 footer_settings:
   logo_image: 

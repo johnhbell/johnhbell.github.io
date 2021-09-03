@@ -46,9 +46,10 @@ We apply the Social MDP framework to a multi-agent grid world which consists of 
 <span style="font-size:medium;">Twelve human subjects, and our model, the Social MDP, watched and scored 196 videos at different snapshots. These videos consist of the 98 scenarios where robots reason at either level 1 or level 2 (presented to the users in randomized order). (left) Models and humans were asked to predict how social the agents were and the valence of the interaction (was it positive or negative). Non-social settings have a weight of 0, while adversarial settings have a social weight of -2, overwhelming the physical goal of any agent. Humans and machines predict similar social goals both in terms of value and magnitude. (right) Models and humans were asked to predict a weight factor on the physical goal, how much does this agent care about its physical goal. At 0, the physical goal is ignored. At 1, it is weighted equally with a social goal also set at 1. Human and model scores are again highly correlated. Our model is able to effectively generate trajectories that humans recognize as being social interactions. It is also able to predict the type of social interaction that humans believe occurred.</span> 
 <p>Refer to the <a href="{{ item.url | relative_url }}/results">results</a> for all experimenal scenarios.</p>
 
+
+### Paper
+The paper is currently under review. The updated version of the paper can be found <a href="{{ item.url | relative_url }}/paper">here</a>. 
+
 ### Code
 
 Refer to the [S-MDP repository](https://github.com/Social-MDP/social-mdp-framework) for the codebase.
-
-### Paper
-The paper is currently under review and can be found at [OpenReview](https://openreview.net/forum?id=3HZLte8gMYS).
