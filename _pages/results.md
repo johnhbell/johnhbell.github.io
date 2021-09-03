@@ -4,7 +4,8 @@ title: Results
 subtitle: For each of the experiment scenario we show the Yellow robot's estimation of the physical and social goal of the red robot at each time step.
 ---
 
-Using S-MDP, at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.  The lines <span style="color: blue"> in blue is our Social MDP scores</span>, <span style="color: green">green in green is Inverse planning</span>, <span style="color: purple">purple in purple is the cue-based model</span>, and **in dotted is the ground truth**. 
+Using S-MDP, at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.  The lines 
+<span style="color: red"> in red are Human scores</span>, <span style="color: blue"> in blue is our Social MDP scores</span>, <span style="color: green">in green is Inverse planning</span>, <span style="color: purple">in purple is the cue-based model</span>, and **in dotted is the ground truth**. 
 
 ###### Experiment Result for Scenario 1 ######
 Red robot is initialized with the physical goal of Flower and social goal of -2. Yellow robot is initialized with the physical goal of Tree and social goal of -2. Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.
@@ -21,10 +22,10 @@ Red robot is initialized with the physical goal of Flower and social goal of -2.
     
     <tr>
         <td>
-            <img src="/images/results/physical_goals/p1.png"> 
+            <img src="/images/human_results/physical_goals/np1.png"> 
         </td>
         <td>
-            <img src="/images/results/social_goals/s1.png"> 
+            <img src="/images/human_results/social_goals/ns1.png"> 
         </td>
     </tr>
 </table>
@@ -46,10 +47,10 @@ Red robot is initialized with the physical goal of Flower and social goal of -1.
     
     <tr>
         <td>
-            <img src="/images/results/physical_goals/p2.png"> 
+            <img src="/images/human_results/physical_goals/np2.png"> 
         </td>
         <td>
-            <img src="/images/results/social_goals/s2.png"> 
+            <img src="/images/human_results/social_goals/ns2.png"> 
         </td>
     </tr>
 </table>
@@ -72,10 +73,10 @@ Red robot is initialized with the physical goal of Flower and social goal of -0.
     
     <tr>
         <td>
-            <img src="/images/results/physical_goals/p3.png"> 
+            <img src="/images/human_results/physical_goals/np3.png"> 
         </td>
         <td>
-            <img src="/images/results/social_goals/s3.png"> 
+            <img src="/images/human_results/social_goals/ns3.png"> 
         </td>
     </tr>
 </table> 
@@ -97,10 +98,10 @@ Red robot is initialized with the physical goal of Flower and social goal of 0. 
     
     <tr>
         <td>
-            <img src="/images/results/physical_goals/p4.png"> 
+            <img src="/images/human_results/physical_goals/np4.png"> 
         </td>
         <td>
-            <img src="/images/results/social_goals/s4.png"> 
+            <img src="/images/human_results/social_goals/ns4.png"> 
         </td>
     </tr>
 </table>   
@@ -122,10 +123,10 @@ Red robot is initialized with the physical goal of Flower and social goal of 0.5
     
     <tr>
         <td>
-            <img src="/images/results/physical_goals/p5.png"> 
+            <img src="/images/human_results/physical_goals/np5.png"> 
         </td>
         <td>
-            <img src="/images/results/social_goals/s5.png"> 
+            <img src="/images/human_results/social_goals/ns5.png"> 
         </td>
     </tr>
 </table>  
@@ -147,10 +148,10 @@ Red robot is initialized with the physical goal of Flower and social goal of 1. 
     
     <tr>
         <td>
-            <img src="/images/results/physical_goals/p6.png"> 
+            <img src="/images/human_results/physical_goals/np6.png"> 
         </td>
         <td>
-            <img src="/images/results/social_goals/s6.png"> 
+            <img src="/images/human_results/social_goals/ns6.png"> 
         </td>
     </tr>
 </table>  
@@ -172,10 +173,10 @@ Red robot is initialized with the physical goal of Flower and social goal of 2. 
     
     <tr>
         <td>
-            <img src="/images/results/physical_goals/p7.png"> 
+            <img src="/images/human_results/physical_goals/np7.png"> 
         </td>
         <td>
-            <img src="/images/results/social_goals/s7.png"> 
+            <img src="/images/human_results/social_goals/ns7.png"> 
         </td>
     </tr>
 </table>   
@@ -197,10 +198,10 @@ Red robot is initialized with the physical goal of Flower and social goal of -2.
     
     <tr>
         <td>
-            <img src="/images/results/physical_goals/p8.png"> 
+            <img src="/images/human_results/physical_goals/np8.png"> 
         </td>
         <td>
-            <img src="/images/results/social_goals/s8.png"> 
+            <img src="/images/human_results/social_goals/ns8.png"> 
         </td>
     </tr>
 </table> 
@@ -222,10 +223,10 @@ Red robot is initialized with the physical goal of Flower and social goal of -1.
     
     <tr>
         <td>
-            <img src="/images/results/physical_goals/p9.png"> 
+            <img src="/images/human_results/physical_goals/np9.png"> 
         </td>
         <td>
-            <img src="/images/results/social_goals/s9.png"> 
+            <img src="/images/human_results/social_goals/ns9.png"> 
         </td>
     </tr>
 </table>   
@@ -247,10 +248,10 @@ Red robot is initialized with the physical goal of Flower and social goal of -0.
     
     <tr>
         <td>
-            <img src="/images/results/physical_goals/p10.png"> 
+            <img src="/images/human_results/physical_goals/np10.png"> 
         </td>
         <td>
-            <img src="/images/results/social_goals/s10.png"> 
+            <img src="/images/human_results/social_goals/ns10.png"> 
         </td>
     </tr>
 </table> 
@@ -272,10 +273,10 @@ Red robot is initialized with the physical goal of Flower and social goal of 0. 
     
     <tr>
         <td>
-            <img src="/images/results/physical_goals/p11.png"> 
+            <img src="/images/human_results/physical_goals/np11.png"> 
         </td>
         <td>
-            <img src="/images/results/social_goals/s11.png"> 
+            <img src="/images/human_results/social_goals/ns11.png"> 
         </td>
     </tr>
 </table>   
@@ -297,10 +298,10 @@ Red robot is initialized with the physical goal of Flower and social goal of 0.5
     
     <tr>
         <td>
-            <img src="/images/results/physical_goals/p12.png"> 
+            <img src="/images/human_results/physical_goals/np12.png"> 
         </td>
         <td>
-            <img src="/images/results/social_goals/s12.png"> 
+            <img src="/images/human_results/social_goals/ns12.png"> 
         </td>
     </tr>
 </table>  
@@ -322,10 +323,10 @@ Red robot is initialized with the physical goal of Flower and social goal of 1. 
     
     <tr>
         <td>
-            <img src="/images/results/physical_goals/p13.png"> 
+            <img src="/images/human_results/physical_goals/np13.png"> 
         </td>
         <td>
-            <img src="/images/results/social_goals/s13.png"> 
+            <img src="/images/human_results/social_goals/ns13.png"> 
         </td>
     </tr>
 </table> 
@@ -347,10 +348,10 @@ Red robot is initialized with the physical goal of Flower and social goal of 2. 
     
     <tr>
         <td>
-            <img src="/images/results/physical_goals/p14.png"> 
+            <img src="/images/human_results/physical_goals/np14.png"> 
         </td>
         <td>
-            <img src="/images/results/social_goals/s14.png"> 
+            <img src="/images/human_results/social_goals/ns14.png"> 
         </td>
     </tr>
 </table> 
@@ -372,10 +373,10 @@ Red robot is initialized with the physical goal of Tree and social goal of -2. Y
     
     <tr>
         <td>
-            <img src="/images/results/physical_goals/p15.png"> 
+            <img src="/images/human_results/physical_goals/np15.png"> 
         </td>
         <td>
-            <img src="/images/results/social_goals/s15.png"> 
+            <img src="/images/human_results/social_goals/ns15.png"> 
         </td>
     </tr>
 </table>  
@@ -397,10 +398,10 @@ Red robot is initialized with the physical goal of Flower and social goal of -1.
     
     <tr>
         <td>
-            <img src="/images/results/physical_goals/p16.png"> 
+            <img src="/images/human_results/physical_goals/np16.png"> 
         </td>
         <td>
-            <img src="/images/results/social_goals/s16.png"> 
+            <img src="/images/human_results/social_goals/ns16.png"> 
         </td>
     </tr>
 </table> 
@@ -422,10 +423,10 @@ Red robot is initialized with the physical goal of Flower and social goal of -0.
     
     <tr>
         <td>
-            <img src="/images/results/physical_goals/p17.png"> 
+            <img src="/images/human_results/physical_goals/np17.png"> 
         </td>
         <td>
-            <img src="/images/results/social_goals/s17.png"> 
+            <img src="/images/human_results/social_goals/ns17.png"> 
         </td>
     </tr>
 </table>   
@@ -447,10 +448,10 @@ Red robot is initialized with the physical goal of Flower and social goal of 0. 
     
     <tr>
         <td>
-            <img src="/images/results/physical_goals/p18.png"> 
+            <img src="/images/human_results/physical_goals/np18.png"> 
         </td>
         <td>
-            <img src="/images/results/social_goals/s18.png"> 
+            <img src="/images/human_results/social_goals/ns18.png"> 
         </td>
     </tr>
 </table> 
@@ -472,10 +473,10 @@ Red robot is initialized with the physical goal of Flower and social goal of 0.5
     
     <tr>
         <td>
-            <img src="/images/results/physical_goals/p19.png"> 
+            <img src="/images/human_results/physical_goals/np19.png"> 
         </td>
         <td>
-            <img src="/images/results/social_goals/s19.png"> 
+            <img src="/images/human_results/social_goals/ns19.png"> 
         </td>
     </tr>
 </table>  
@@ -497,10 +498,10 @@ Red robot is initialized with the physical goal of Flower and social goal of 1. 
     
     <tr>
         <td>
-            <img src="/images/results/physical_goals/p20.png"> 
+            <img src="/images/human_results/physical_goals/np20.png"> 
         </td>
         <td>
-            <img src="/images/results/social_goals/s20.png"> 
+            <img src="/images/human_results/social_goals/ns20.png"> 
         </td>
     </tr>
 </table>   
@@ -522,10 +523,10 @@ Red robot is initialized with the physical goal of Flower and social goal of 2. 
     
     <tr>
         <td>
-            <img src="/images/results/physical_goals/p21.png"> 
+            <img src="/images/human_results/physical_goals/np21.png"> 
         </td>
         <td>
-            <img src="/images/results/social_goals/s21.png"> 
+            <img src="/images/human_results/social_goals/ns21.png"> 
         </td>
     </tr>
 </table> 
@@ -547,10 +548,10 @@ Red robot is initialized with the physical goal of Flower and social goal of -2.
     
     <tr>
         <td>
-            <img src="/images/results/physical_goals/p22.png"> 
+            <img src="/images/human_results/physical_goals/np22.png"> 
         </td>
         <td>
-            <img src="/images/results/social_goals/s22.png"> 
+            <img src="/images/human_results/social_goals/ns22.png"> 
         </td>
     </tr>
 </table> 
@@ -572,10 +573,10 @@ Red robot is initialized with the physical goal of Flower and social goal of -1.
     
     <tr>
         <td>
-            <img src="/images/results/physical_goals/p23.png"> 
+            <img src="/images/human_results/physical_goals/np23.png"> 
         </td>
         <td>
-            <img src="/images/results/social_goals/s23.png"> 
+            <img src="/images/human_results/social_goals/ns23.png"> 
         </td>
     </tr>
 </table>   
@@ -597,10 +598,10 @@ Red robot is initialized with the physical goal of Flower and social goal of -0.
     
     <tr>
         <td>
-            <img src="/images/results/physical_goals/p24.png"> 
+            <img src="/images/human_results/physical_goals/np24.png"> 
         </td>
         <td>
-            <img src="/images/results/social_goals/s24.png"> 
+            <img src="/images/human_results/social_goals/ns24.png"> 
         </td>
     </tr>
 </table> 
@@ -622,10 +623,10 @@ Red robot is initialized with the physical goal of Flower and social goal of 0. 
     
     <tr>
         <td>
-            <img src="/images/results/physical_goals/p25.png"> 
+            <img src="/images/human_results/physical_goals/np25.png"> 
         </td>
         <td>
-            <img src="/images/results/social_goals/s25.png"> 
+            <img src="/images/human_results/social_goals/ns25.png"> 
         </td>
     </tr>
 </table> 
@@ -647,10 +648,10 @@ Red robot is initialized with the physical goal of Flower and social goal of 0.5
     
     <tr>
         <td>
-            <img src="/images/results/physical_goals/p26.png"> 
+            <img src="/images/human_results/physical_goals/np26.png"> 
         </td>
         <td>
-            <img src="/images/results/social_goals/s26.png"> 
+            <img src="/images/human_results/social_goals/ns26.png"> 
         </td>
     </tr>
 </table> 
@@ -671,10 +672,10 @@ Red robot is initialized with the physical goal of Flower and social goal of 1. 
     
     <tr>
         <td>
-            <img src="/images/results/physical_goals/p27.png"> 
+            <img src="/images/human_results/physical_goals/np27.png"> 
         </td>
         <td>
-            <img src="/images/results/social_goals/s27.png"> 
+            <img src="/images/human_results/social_goals/ns27.png"> 
         </td>
     </tr>
 </table> 
@@ -695,10 +696,10 @@ Red robot is initialized with the physical goal of Flower and social goal of 2. 
     
     <tr>
         <td>
-            <img src="/images/results/physical_goals/p28.png"> 
+            <img src="/images/human_results/physical_goals/np28.png"> 
         </td>
         <td>
-            <img src="/images/results/social_goals/s28.png"> 
+            <img src="/images/human_results/social_goals/ns28.png"> 
         </td>
     </tr>
 </table> 
@@ -720,10 +721,10 @@ Red robot is initialized with the physical goal of Flower and social goal of -2.
     
     <tr>
         <td>
-            <img src="/images/results/physical_goals/p29.png"> 
+            <img src="/images/human_results/physical_goals/np29.png"> 
         </td>
         <td>
-            <img src="/images/results/social_goals/s29.png"> 
+            <img src="/images/human_results/social_goals/ns29.png"> 
         </td>
     </tr>
 </table>  
@@ -745,10 +746,10 @@ Red robot is initialized with the physical goal of Flower and social goal of -1.
     
     <tr>
         <td>
-            <img src="/images/results/physical_goals/p30.png"> 
+            <img src="/images/human_results/physical_goals/np30.png"> 
         </td>
         <td>
-            <img src="/images/results/social_goals/s30.png"> 
+            <img src="/images/human_results/social_goals/ns30.png"> 
         </td>
     </tr>
 </table> 
@@ -770,10 +771,10 @@ Red robot is initialized with the physical goal of Flower and social goal of -0.
     
     <tr>
         <td>
-            <img src="/images/results/physical_goals/p31.png"> 
+            <img src="/images/human_results/physical_goals/np31.png"> 
         </td>
         <td>
-            <img src="/images/results/social_goals/s31.png"> 
+            <img src="/images/human_results/social_goals/ns31.png"> 
         </td>
     </tr>
 </table>  
@@ -795,10 +796,10 @@ Red robot is initialized with the physical goal of Flower and social goal of 0. 
     
     <tr>
         <td>
-            <img src="/images/results/physical_goals/p32.png"> 
+            <img src="/images/human_results/physical_goals/np32.png"> 
         </td>
         <td>
-            <img src="/images/results/social_goals/s32.png"> 
+            <img src="/images/human_results/social_goals/ns32.png"> 
         </td>
     </tr>
 </table>  
@@ -820,10 +821,10 @@ Red robot is initialized with the physical goal of Flower and social goal of 0.5
     
     <tr>
         <td>
-            <img src="/images/results/physical_goals/p33.png"> 
+            <img src="/images/human_results/physical_goals/np33.png"> 
         </td>
         <td>
-            <img src="/images/results/social_goals/s33.png"> 
+            <img src="/images/human_results/social_goals/ns33.png"> 
         </td>
     </tr>
 </table>  
@@ -845,10 +846,10 @@ Red robot is initialized with the physical goal of Flower and social goal of 1. 
     
     <tr>
         <td>
-            <img src="/images/results/physical_goals/p34.png"> 
+            <img src="/images/human_results/physical_goals/np34.png"> 
         </td>
         <td>
-            <img src="/images/results/social_goals/s34.png"> 
+            <img src="/images/human_results/social_goals/ns34.png"> 
         </td>
     </tr>
 </table> 
@@ -869,10 +870,10 @@ Red robot is initialized with the physical goal of Flower and social goal of 2. 
     
     <tr>
         <td>
-            <img src="/images/results/physical_goals/p35.png"> 
+            <img src="/images/human_results/physical_goals/np35.png"> 
         </td>
         <td>
-            <img src="/images/results/social_goals/s35.png"> 
+            <img src="/images/human_results/social_goals/ns35.png"> 
         </td>
     </tr>
 </table> 
@@ -894,10 +895,10 @@ Red robot is initialized with the physical goal of Flower and social goal of -2.
     
     <tr>
         <td>
-            <img src="/images/results/physical_goals/p36.png"> 
+            <img src="/images/human_results/physical_goals/np36.png"> 
         </td>
         <td>
-            <img src="/images/results/social_goals/s36.png"> 
+            <img src="/images/human_results/social_goals/ns36.png"> 
         </td>
     </tr>
 </table> 
@@ -919,10 +920,10 @@ Red robot is initialized with the physical goal of Flower and social goal of -1.
     
     <tr>
         <td>
-            <img src="/images/results/physical_goals/p37.png"> 
+            <img src="/images/human_results/physical_goals/np37.png"> 
         </td>
         <td>
-            <img src="/images/results/social_goals/s37.png"> 
+            <img src="/images/human_results/social_goals/ns37.png"> 
         </td>
     </tr>
 </table>   
@@ -944,10 +945,10 @@ Red robot is initialized with the physical goal of Flower and social goal of -0.
     
     <tr>
         <td>
-            <img src="/images/results/physical_goals/p38.png"> 
+            <img src="/images/human_results/physical_goals/np38.png"> 
         </td>
         <td>
-            <img src="/images/results/social_goals/s38.png"> 
+            <img src="/images/human_results/social_goals/ns38.png"> 
         </td>
     </tr>
 </table> 
@@ -969,10 +970,10 @@ Red robot is initialized with the physical goal of Flower and social goal of 0. 
     
     <tr>
         <td>
-            <img src="/images/results/physical_goals/p39.png"> 
+            <img src="/images/human_results/physical_goals/np39.png"> 
         </td>
         <td>
-            <img src="/images/results/social_goals/s39.png"> 
+            <img src="/images/human_results/social_goals/ns39.png"> 
         </td>
     </tr>
 </table>  
@@ -994,10 +995,10 @@ Red robot is initialized with the physical goal of Flower and social goal of 0.5
     
     <tr>
         <td>
-            <img src="/images/results/physical_goals/p40.png"> 
+            <img src="/images/human_results/physical_goals/np40.png"> 
         </td>
         <td>
-            <img src="/images/results/social_goals/s40.png"> 
+            <img src="/images/human_results/social_goals/ns40.png"> 
         </td>
     </tr>
 </table>  
@@ -1019,10 +1020,10 @@ Red robot is initialized with the physical goal of Flower and social goal of 1. 
     
     <tr>
         <td>
-            <img src="/images/results/physical_goals/p41.png"> 
+            <img src="/images/human_results/physical_goals/np41.png"> 
         </td>
         <td>
-            <img src="/images/results/social_goals/s41.png"> 
+            <img src="/images/human_results/social_goals/ns41.png"> 
         </td>
     </tr>
 </table> 
@@ -1044,10 +1045,10 @@ Red robot is initialized with the physical goal of Flower and social goal of 2. 
     
     <tr>
         <td>
-            <img src="/images/results/physical_goals/p42.png"> 
+            <img src="/images/human_results/physical_goals/np42.png"> 
         </td>
         <td>
-            <img src="/images/results/social_goals/s42.png"> 
+            <img src="/images/human_results/social_goals/ns42.png"> 
         </td>
     </tr>
 </table>   
@@ -1069,10 +1070,10 @@ Red robot is initialized with the physical goal of Flower and social goal of -2.
     
     <tr>
         <td>
-            <img src="/images/results/physical_goals/p43.png"> 
+            <img src="/images/human_results/physical_goals/np43.png"> 
         </td>
         <td>
-            <img src="/images/results/social_goals/s43.png"> 
+            <img src="/images/human_results/social_goals/ns43.png"> 
         </td>
     </tr>
 </table> 
@@ -1094,10 +1095,10 @@ Red robot is initialized with the physical goal of Flower and social goal of -1.
     
     <tr>
         <td>
-            <img src="/images/results/physical_goals/p44.png"> 
+            <img src="/images/human_results/physical_goals/np44.png"> 
         </td>
         <td>
-            <img src="/images/results/social_goals/s44.png"> 
+            <img src="/images/human_results/social_goals/ns44.png"> 
         </td>
     </tr>
 </table>  
@@ -1119,10 +1120,10 @@ Red robot is initialized with the physical goal of Flower and social goal of -0.
     
     <tr>
         <td>
-            <img src="/images/results/physical_goals/p45.png"> 
+            <img src="/images/human_results/physical_goals/np45.png"> 
         </td>
         <td>
-            <img src="/images/results/social_goals/s45.png"> 
+            <img src="/images/human_results/social_goals/ns45.png"> 
         </td>
     </tr>
 </table> 
@@ -1143,10 +1144,10 @@ Red robot is initialized with the physical goal of Flower and social goal of 0. 
     
     <tr>
         <td>
-            <img src="/images/results/physical_goals/p46.png"> 
+            <img src="/images/human_results/physical_goals/np46.png"> 
         </td>
         <td>
-            <img src="/images/results/social_goals/s46.png"> 
+            <img src="/images/human_results/social_goals/ns46.png"> 
         </td>
     </tr>
 </table>   
@@ -1168,10 +1169,10 @@ Red robot is initialized with the physical goal of Flower and social goal of 0.5
     
     <tr>
         <td>
-            <img src="/images/results/physical_goals/p47.png"> 
+            <img src="/images/human_results/physical_goals/np47.png"> 
         </td>
         <td>
-            <img src="/images/results/social_goals/s47.png"> 
+            <img src="/images/human_results/social_goals/ns47.png"> 
         </td>
     </tr>
 </table> 
@@ -1193,10 +1194,10 @@ Red robot is initialized with the physical goal of Flower and social goal of 1. 
     
     <tr>
         <td>
-            <img src="/images/results/physical_goals/p48.png"> 
+            <img src="/images/human_results/physical_goals/np48.png"> 
         </td>
         <td>
-            <img src="/images/results/social_goals/s48.png"> 
+            <img src="/images/human_results/social_goals/ns48.png"> 
         </td>
     </tr>
 </table>   
@@ -1218,10 +1219,10 @@ Red robot is initialized with the physical goal of Flower and social goal of 2. 
     
     <tr>
         <td>
-            <img src="/images/results/physical_goals/p49.png"> 
+            <img src="/images/human_results/physical_goals/np49.png"> 
         </td>
         <td>
-            <img src="/images/results/social_goals/s49.png"> 
+            <img src="/images/human_results/social_goals/ns49.png"> 
         </td>
     </tr>
 </table>  
@@ -1243,10 +1244,10 @@ Red robot is initialized with the physical goal of Tree and social goal of -2. Y
     
     <tr>
         <td>
-            <img src="/images/results/physical_goals/p50.png"> 
+            <img src="/images/human_results/physical_goals/np50.png"> 
         </td>
         <td>
-            <img src="/images/results/social_goals/s50.png"> 
+            <img src="/images/human_results/social_goals/ns50.png"> 
         </td>
     </tr>
 </table> 
@@ -1267,10 +1268,10 @@ Red robot is initialized with the physical goal of Tree and social goal of -1. Y
     
     <tr>
         <td>
-            <img src="/images/results/physical_goals/p51.png"> 
+            <img src="/images/human_results/physical_goals/np51.png"> 
         </td>
         <td>
-            <img src="/images/results/social_goals/s51.png"> 
+            <img src="/images/human_results/social_goals/ns51.png"> 
         </td>
     </tr>
 </table>   
@@ -1292,10 +1293,10 @@ Red robot is initialized with the physical goal of Tree and social goal of -0.5.
     
     <tr>
         <td>
-            <img src="/images/results/physical_goals/p52.png"> 
+            <img src="/images/human_results/physical_goals/np52.png"> 
         </td>
         <td>
-            <img src="/images/results/social_goals/s52.png"> 
+            <img src="/images/human_results/social_goals/ns52.png"> 
         </td>
     </tr>
 </table>  
@@ -1317,10 +1318,10 @@ Red robot is initialized with the physical goal of Tree and social goal of 0. Ye
     
     <tr>
         <td>
-            <img src="/images/results/physical_goals/p53.png"> 
+            <img src="/images/human_results/physical_goals/np53.png"> 
         </td>
         <td>
-            <img src="/images/results/social_goals/s53.png"> 
+            <img src="/images/human_results/social_goals/ns53.png"> 
         </td>
     </tr>
 </table> 
@@ -1342,10 +1343,10 @@ Red robot is initialized with the physical goal of Tree and social goal of 0.5. 
     
     <tr>
         <td>
-            <img src="/images/results/physical_goals/p54.png"> 
+            <img src="/images/human_results/physical_goals/np54.png"> 
         </td>
         <td>
-            <img src="/images/results/social_goals/s54.png"> 
+            <img src="/images/human_results/social_goals/ns54.png"> 
         </td>
     </tr>
 </table> 
@@ -1367,10 +1368,10 @@ Red robot is initialized with the physical goal of Tree and social goal of 1. Ye
     
     <tr>
         <td>
-            <img src="/images/results/physical_goals/p55.png"> 
+            <img src="/images/human_results/physical_goals/np55.png"> 
         </td>
         <td>
-            <img src="/images/results/social_goals/s55.png"> 
+            <img src="/images/human_results/social_goals/ns55.png"> 
         </td>
     </tr>
 </table> 
@@ -1392,10 +1393,10 @@ Red robot is initialized with the physical goal of Tree and social goal of 2. Ye
     
     <tr>
         <td>
-            <img src="/images/results/physical_goals/p56.png"> 
+            <img src="/images/human_results/physical_goals/np56.png"> 
         </td>
         <td>
-            <img src="/images/results/social_goals/s56.png"> 
+            <img src="/images/human_results/social_goals/ns56.png"> 
         </td>
     </tr>
 </table>  
@@ -1417,10 +1418,10 @@ Red robot is initialized with the physical goal of Tree and social goal of -2. Y
     
     <tr>
         <td>
-            <img src="/images/results/physical_goals/p57.png"> 
+            <img src="/images/human_results/physical_goals/np57.png"> 
         </td>
         <td>
-            <img src="/images/results/social_goals/s57.png"> 
+            <img src="/images/human_results/social_goals/ns57.png"> 
         </td>
     </tr>
 </table> 
@@ -1442,10 +1443,10 @@ Red robot is initialized with the physical goal of Tree and social goal of -1. Y
     
     <tr>
         <td>
-            <img src="/images/results/physical_goals/p58.png"> 
+            <img src="/images/human_results/physical_goals/np58.png"> 
         </td>
         <td>
-            <img src="/images/results/social_goals/s58.png"> 
+            <img src="/images/human_results/social_goals/ns58.png"> 
         </td>
     </tr>
 </table> 
@@ -1467,10 +1468,10 @@ Red robot is initialized with the physical goal of Tree and social goal of -0.5.
     
     <tr>
         <td>
-            <img src="/images/results/physical_goals/p59.png"> 
+            <img src="/images/human_results/physical_goals/np59.png"> 
         </td>
         <td>
-            <img src="/images/results/social_goals/s59.png"> 
+            <img src="/images/human_results/social_goals/ns59.png"> 
         </td>
     </tr>
 </table> 
@@ -1492,10 +1493,10 @@ Red robot is initialized with the physical goal of Tree and social goal of 0. Ye
     
     <tr>
         <td>
-            <img src="/images/results/physical_goals/p60.png"> 
+            <img src="/images/human_results/physical_goals/np60.png"> 
         </td>
         <td>
-            <img src="/images/results/social_goals/s60.png"> 
+            <img src="/images/human_results/social_goals/ns60.png"> 
         </td>
     </tr>
 </table>  
@@ -1517,10 +1518,10 @@ Red robot is initialized with the physical goal of Tree and social goal of 0.5. 
     
     <tr>
         <td>
-            <img src="/images/results/physical_goals/p61.png"> 
+            <img src="/images/human_results/physical_goals/np61.png"> 
         </td>
         <td>
-            <img src="/images/results/social_goals/s61.png"> 
+            <img src="/images/human_results/social_goals/ns61.png"> 
         </td>
     </tr>
 </table>  
@@ -1542,10 +1543,10 @@ Red robot is initialized with the physical goal of Tree and social goal of 1. Ye
     
     <tr>
         <td>
-            <img src="/images/results/physical_goals/p62.png"> 
+            <img src="/images/human_results/physical_goals/np62.png"> 
         </td>
         <td>
-            <img src="/images/results/social_goals/s62.png"> 
+            <img src="/images/human_results/social_goals/ns62.png"> 
         </td>
     </tr>
 </table>   
@@ -1567,10 +1568,10 @@ Red robot is initialized with the physical goal of Tree and social goal of 2. Ye
     
     <tr>
         <td>
-            <img src="/images/results/physical_goals/p63.png"> 
+            <img src="/images/human_results/physical_goals/np63.png"> 
         </td>
         <td>
-            <img src="/images/results/social_goals/s63.png"> 
+            <img src="/images/human_results/social_goals/ns63.png"> 
         </td>
     </tr>
 </table>  
@@ -1592,10 +1593,10 @@ Red robot is initialized with the physical goal of Tree and social goal of -2. Y
     
     <tr>
         <td>
-            <img src="/images/results/physical_goals/p64.png"> 
+            <img src="/images/human_results/physical_goals/np64.png"> 
         </td>
         <td>
-            <img src="/images/results/social_goals/s64.png"> 
+            <img src="/images/human_results/social_goals/ns64.png"> 
         </td>
     </tr>
 </table> 
@@ -1617,10 +1618,10 @@ Red robot is initialized with the physical goal of Tree and social goal of -1. Y
     
     <tr>
         <td>
-            <img src="/images/results/physical_goals/p65.png"> 
+            <img src="/images/human_results/physical_goals/np65.png"> 
         </td>
         <td>
-            <img src="/images/results/social_goals/s65.png"> 
+            <img src="/images/human_results/social_goals/ns65.png"> 
         </td>
     </tr>
 </table>  
@@ -1642,10 +1643,10 @@ Red robot is initialized with the physical goal of Tree and social goal of -0.5.
     
     <tr>
         <td>
-            <img src="/images/results/physical_goals/p66.png"> 
+            <img src="/images/human_results/physical_goals/np66.png"> 
         </td>
         <td>
-            <img src="/images/results/social_goals/s66.png"> 
+            <img src="/images/human_results/social_goals/ns66.png"> 
         </td>
     </tr>
 </table> 
@@ -1667,10 +1668,10 @@ Red robot is initialized with the physical goal of Tree and social goal of 0. Ye
     
     <tr>
         <td>
-            <img src="/images/results/physical_goals/p67.png"> 
+            <img src="/images/human_results/physical_goals/np67.png"> 
         </td>
         <td>
-            <img src="/images/results/social_goals/s67.png"> 
+            <img src="/images/human_results/social_goals/ns67.png"> 
         </td>
     </tr>
 </table>  
@@ -1692,10 +1693,10 @@ Red robot is initialized with the physical goal of Tree and social goal of 0.5. 
     
     <tr>
         <td>
-            <img src="/images/results/physical_goals/p68.png"> 
+            <img src="/images/human_results/physical_goals/np68.png"> 
         </td>
         <td>
-            <img src="/images/results/social_goals/s68.png"> 
+            <img src="/images/human_results/social_goals/ns68.png"> 
         </td>
     </tr>
 </table> 
@@ -1717,10 +1718,10 @@ Red robot is initialized with the physical goal of Tree and social goal of 1. Ye
     
     <tr>
         <td>
-            <img src="/images/results/physical_goals/p69.png"> 
+            <img src="/images/human_results/physical_goals/np69.png"> 
         </td>
         <td>
-            <img src="/images/results/social_goals/s69.png"> 
+            <img src="/images/human_results/social_goals/ns69.png"> 
         </td>
     </tr>
 </table> 
@@ -1742,10 +1743,10 @@ Red robot is initialized with the physical goal of Tree and social goal of 2. Ye
     
     <tr>
         <td>
-            <img src="/images/results/physical_goals/p70.png"> 
+            <img src="/images/human_results/physical_goals/np70.png"> 
         </td>
         <td>
-            <img src="/images/results/social_goals/s70.png"> 
+            <img src="/images/human_results/social_goals/ns70.png"> 
         </td>
     </tr>
 </table>  
@@ -1767,10 +1768,10 @@ Red robot is initialized with the physical goal of Tree and social goal of -2. Y
     
     <tr>
         <td>
-            <img src="/images/results/physical_goals/p71.png"> 
+            <img src="/images/human_results/physical_goals/np71.png"> 
         </td>
         <td>
-            <img src="/images/results/social_goals/s71.png"> 
+            <img src="/images/human_results/social_goals/ns71.png"> 
         </td>
     </tr>
 </table>  
@@ -1792,10 +1793,10 @@ Red robot is initialized with the physical goal of Tree and social goal of -1. Y
     
     <tr>
         <td>
-            <img src="/images/results/physical_goals/p72.png"> 
+            <img src="/images/human_results/physical_goals/np72.png"> 
         </td>
         <td>
-            <img src="/images/results/social_goals/s72.png"> 
+            <img src="/images/human_results/social_goals/ns72.png"> 
         </td>
     </tr>
 </table>  
@@ -1817,10 +1818,10 @@ Red robot is initialized with the physical goal of Tree and social goal of -0.5.
     
     <tr>
         <td>
-            <img src="/images/results/physical_goals/p73.png"> 
+            <img src="/images/human_results/physical_goals/np73.png"> 
         </td>
         <td>
-            <img src="/images/results/social_goals/s73.png"> 
+            <img src="/images/human_results/social_goals/ns73.png"> 
         </td>
     </tr>
 </table> 
@@ -1842,10 +1843,10 @@ Red robot is initialized with the physical goal of Tree and social goal of 0. Ye
     
     <tr>
         <td>
-            <img src="/images/results/physical_goals/p74.png"> 
+            <img src="/images/human_results/physical_goals/np74.png"> 
         </td>
         <td>
-            <img src="/images/results/social_goals/s74.png"> 
+            <img src="/images/human_results/social_goals/ns74.png"> 
         </td>
     </tr>
 </table>  
@@ -1867,10 +1868,10 @@ Red robot is initialized with the physical goal of Tree and social goal of 0.5. 
     
     <tr>
         <td>
-            <img src="/images/results/physical_goals/p75.png"> 
+            <img src="/images/human_results/physical_goals/np75.png"> 
         </td>
         <td>
-            <img src="/images/results/social_goals/s75.png"> 
+            <img src="/images/human_results/social_goals/ns75.png"> 
         </td>
     </tr>
 </table>  
@@ -1892,10 +1893,10 @@ Red robot is initialized with the physical goal of Tree and social goal of 1. Ye
     
     <tr>
         <td>
-            <img src="/images/results/physical_goals/p76.png"> 
+            <img src="/images/human_results/physical_goals/np76.png"> 
         </td>
         <td>
-            <img src="/images/results/social_goals/s76.png"> 
+            <img src="/images/human_results/social_goals/ns76.png"> 
         </td>
     </tr>
 </table>  
@@ -1917,10 +1918,10 @@ Red robot is initialized with the physical goal of Tree and social goal of 2. Ye
     
     <tr>
         <td>
-            <img src="/images/results/physical_goals/p77.png"> 
+            <img src="/images/human_results/physical_goals/np77.png"> 
         </td>
         <td>
-            <img src="/images/results/social_goals/s77.png"> 
+            <img src="/images/human_results/social_goals/ns77.png"> 
         </td>
     </tr>
 </table>  
@@ -1942,10 +1943,10 @@ Red robot is initialized with the physical goal of Tree and social goal of -2. Y
     
     <tr>
         <td>
-            <img src="/images/results/physical_goals/p78.png"> 
+            <img src="/images/human_results/physical_goals/np78.png"> 
         </td>
         <td>
-            <img src="/images/results/social_goals/s78.png"> 
+            <img src="/images/human_results/social_goals/ns78.png"> 
         </td>
     </tr>
 </table>   
@@ -1967,10 +1968,10 @@ Red robot is initialized with the physical goal of Tree and social goal of -1. Y
     
     <tr>
         <td>
-            <img src="/images/results/physical_goals/p79.png"> 
+            <img src="/images/human_results/physical_goals/np79.png"> 
         </td>
         <td>
-            <img src="/images/results/social_goals/s79.png"> 
+            <img src="/images/human_results/social_goals/ns79.png"> 
         </td>
     </tr>
 </table>  
@@ -1992,10 +1993,10 @@ Red robot is initialized with the physical goal of Tree and social goal of -0.5.
     
     <tr>
         <td>
-            <img src="/images/results/physical_goals/p80.png"> 
+            <img src="/images/human_results/physical_goals/np80.png"> 
         </td>
         <td>
-            <img src="/images/results/social_goals/s80.png"> 
+            <img src="/images/human_results/social_goals/ns80.png"> 
         </td>
     </tr>
 </table> 
@@ -2017,10 +2018,10 @@ Red robot is initialized with the physical goal of Tree and social goal of 0. Ye
     
     <tr>
         <td>
-            <img src="/images/results/physical_goals/p81.png"> 
+            <img src="/images/human_results/physical_goals/np81.png"> 
         </td>
         <td>
-            <img src="/images/results/social_goals/s81.png"> 
+            <img src="/images/human_results/social_goals/ns81.png"> 
         </td>
     </tr>
 </table>  
@@ -2042,10 +2043,10 @@ Red robot is initialized with the physical goal of Tree and social goal of 0.5. 
     
     <tr>
         <td>
-            <img src="/images/results/physical_goals/p82.png"> 
+            <img src="/images/human_results/physical_goals/np82.png"> 
         </td>
         <td>
-            <img src="/images/results/social_goals/s82.png"> 
+            <img src="/images/human_results/social_goals/ns82.png"> 
         </td>
     </tr>
 </table>  
@@ -2067,10 +2068,10 @@ Red robot is initialized with the physical goal of Tree and social goal of 1. Ye
     
     <tr>
         <td>
-            <img src="/images/results/physical_goals/p83.png"> 
+            <img src="/images/human_results/physical_goals/np83.png"> 
         </td>
         <td>
-            <img src="/images/results/social_goals/s83.png"> 
+            <img src="/images/human_results/social_goals/ns83.png"> 
         </td>
     </tr>
 </table> 
@@ -2092,10 +2093,10 @@ Red robot is initialized with the physical goal of Tree and social goal of 2. Ye
     
     <tr>
         <td>
-            <img src="/images/results/physical_goals/p84.png"> 
+            <img src="/images/human_results/physical_goals/np84.png"> 
         </td>
         <td>
-            <img src="/images/results/social_goals/s84.png"> 
+            <img src="/images/human_results/social_goals/ns84.png"> 
         </td>
     </tr>
 </table>  
@@ -2117,10 +2118,10 @@ Red robot is initialized with the physical goal of Tree and social goal of -2. Y
     
     <tr>
         <td>
-            <img src="/images/results/physical_goals/p85.png"> 
+            <img src="/images/human_results/physical_goals/np85.png"> 
         </td>
         <td>
-            <img src="/images/results/social_goals/s85.png"> 
+            <img src="/images/human_results/social_goals/ns85.png"> 
         </td>
     </tr>
 </table> 
@@ -2142,10 +2143,10 @@ Red robot is initialized with the physical goal of Tree and social goal of -1. Y
     
     <tr>
         <td>
-            <img src="/images/results/physical_goals/p86.png"> 
+            <img src="/images/human_results/physical_goals/np86.png"> 
         </td>
         <td>
-            <img src="/images/results/social_goals/s86.png"> 
+            <img src="/images/human_results/social_goals/ns86.png"> 
         </td>
     </tr>
 </table> 
@@ -2167,10 +2168,10 @@ Red robot is initialized with the physical goal of Tree and social goal of -0.5.
     
     <tr>
         <td>
-            <img src="/images/results/physical_goals/p87.png"> 
+            <img src="/images/human_results/physical_goals/np87.png"> 
         </td>
         <td>
-            <img src="/images/results/social_goals/s87.png"> 
+            <img src="/images/human_results/social_goals/ns87.png"> 
         </td>
     </tr>
 </table> 
@@ -2192,10 +2193,10 @@ Red robot is initialized with the physical goal of Tree and social goal of 0. Ye
     
     <tr>
         <td>
-            <img src="/images/results/physical_goals/p88.png"> 
+            <img src="/images/human_results/physical_goals/np88.png"> 
         </td>
         <td>
-            <img src="/images/results/social_goals/s88.png"> 
+            <img src="/images/human_results/social_goals/ns88.png"> 
         </td>
     </tr>
 </table>   
@@ -2217,10 +2218,10 @@ Red robot is initialized with the physical goal of Tree and social goal of 0.5. 
     
     <tr>
         <td>
-            <img src="/images/results/physical_goals/p89.png"> 
+            <img src="/images/human_results/physical_goals/np89.png"> 
         </td>
         <td>
-            <img src="/images/results/social_goals/s89.png"> 
+            <img src="/images/human_results/social_goals/ns89.png"> 
         </td>
     </tr>
 </table> 
@@ -2242,10 +2243,10 @@ Red robot is initialized with the physical goal of Tree and social goal of 1. Ye
     
     <tr>
         <td>
-            <img src="/images/results/physical_goals/p90.png"> 
+            <img src="/images/human_results/physical_goals/np90.png"> 
         </td>
         <td>
-            <img src="/images/results/social_goals/s90.png"> 
+            <img src="/images/human_results/social_goals/ns90.png"> 
         </td>
     </tr>
 </table>  
@@ -2267,10 +2268,10 @@ Red robot is initialized with the physical goal of Tree and social goal of 2. Ye
     
     <tr>
         <td>
-            <img src="/images/results/physical_goals/p91.png"> 
+            <img src="/images/human_results/physical_goals/np91.png"> 
         </td>
         <td>
-            <img src="/images/results/social_goals/s91.png"> 
+            <img src="/images/human_results/social_goals/ns91.png"> 
         </td>
     </tr>
 </table>   
@@ -2292,10 +2293,10 @@ Red robot is initialized with the physical goal of Tree and social goal of -2. Y
     
     <tr>
         <td>
-            <img src="/images/results/physical_goals/p92.png"> 
+            <img src="/images/human_results/physical_goals/np92.png"> 
         </td>
         <td>
-            <img src="/images/results/social_goals/s92.png"> 
+            <img src="/images/human_results/social_goals/ns92.png"> 
         </td>
     </tr>
 </table> 
@@ -2317,10 +2318,10 @@ Red robot is initialized with the physical goal of Tree and social goal of -1. Y
     
     <tr>
         <td>
-            <img src="/images/results/physical_goals/p93.png"> 
+            <img src="/images/human_results/physical_goals/np93.png"> 
         </td>
         <td>
-            <img src="/images/results/social_goals/s93.png"> 
+            <img src="/images/human_results/social_goals/ns93.png"> 
         </td>
     </tr>
 </table> 
@@ -2342,10 +2343,10 @@ Red robot is initialized with the physical goal of Tree and social goal of -0.5.
     
     <tr>
         <td>
-            <img src="/images/results/physical_goals/p94.png"> 
+            <img src="/images/human_results/physical_goals/np94.png"> 
         </td>
         <td>
-            <img src="/images/results/social_goals/s94.png"> 
+            <img src="/images/human_results/social_goals/ns94.png"> 
         </td>
     </tr>
 </table> 
@@ -2367,10 +2368,10 @@ Red robot is initialized with the physical goal of Tree and social goal of 0. Ye
     
     <tr>
         <td>
-            <img src="/images/results/physical_goals/p95.png"> 
+            <img src="/images/human_results/physical_goals/np95.png"> 
         </td>
         <td>
-            <img src="/images/results/social_goals/s95.png"> 
+            <img src="/images/human_results/social_goals/ns95.png"> 
         </td>
     </tr>
 </table> 
@@ -2392,10 +2393,10 @@ Red robot is initialized with the physical goal of Tree and social goal of 0.5. 
     
     <tr>
         <td>
-            <img src="/images/results/physical_goals/p96.png"> 
+            <img src="/images/human_results/physical_goals/np96.png"> 
         </td>
         <td>
-            <img src="/images/results/social_goals/s96.png"> 
+            <img src="/images/human_results/social_goals/ns96.png"> 
         </td>
     </tr>
 </table> 
@@ -2417,10 +2418,10 @@ Red robot is initialized with the physical goal of Tree and social goal of 1. Ye
     
     <tr>
         <td>
-            <img src="/images/results/physical_goals/p97.png"> 
+            <img src="/images/human_results/physical_goals/np97.png"> 
         </td>
         <td>
-            <img src="/images/results/social_goals/s97.png"> 
+            <img src="/images/human_results/social_goals/ns97.png"> 
         </td>
     </tr>
 </table> 
@@ -2441,10 +2442,10 @@ Red robot is initialized with the physical goal of Tree and social goal of 2. Ye
     
     <tr>
         <td>
-            <img src="/images/results/physical_goals/p98.png"> 
+            <img src="/images/human_results/physical_goals/np98.png"> 
         </td>
         <td>
-            <img src="/images/results/social_goals/s98.png"> 
+            <img src="/images/human_results/social_goals/ns98.png"> 
         </td>
     </tr>
 </table> 
