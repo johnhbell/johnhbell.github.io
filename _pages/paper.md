@@ -1,6 +1,6 @@
 ---
 permalink: /paper/
-title: Final Version of the Paper
+title: Latest Version of the Paper
 subtitle: 
 ---
 
