@@ -20,6 +20,8 @@ menu_settings:
       url: '/#paper'  
     - title: 'Code'
       url: '/#code'
+    - title: 'Team'
+      url: '/#team'
     
 footer_settings:
   logo_image: 
