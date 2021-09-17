@@ -10,18 +10,18 @@ menu_settings:
   menu_items:
     - title: 'Overview'
       url: '/'
-    - title: 'Contributions'
-      url: '/#contributions'
     - title: 'Scenarios'
       url: '/#scenarios'
     - title: 'Results'
       url: '/#results'  
     - title: 'Paper'
-      url: '/#paper'  
+      url: '/paper'  
     - title: 'Code'
       url: '/#code'
     - title: 'Team'
-      url: '/#team'
+      url: '/team'
+    - title: 'Contact'
+      url: '/contact'
     
 footer_settings:
   logo_image: 

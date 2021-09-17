@@ -47,11 +47,6 @@ We apply the Social MDP framework to a multi-agent grid world which consists of 
 <p>Refer to the <a href="{{ item.url | relative_url }}/results">results</a> for all experimenal scenarios.</p>
 
 
-## Paper
-The latest version of the paper can be found <a href="{{ item.url | relative_url }}/paper">here</a>. 
-
 ## Code
 Refer to the [S-MDP repository](https://github.com/Social-MDP/social-mdp-framework) for the codebase.
 
-## Team
-The team members of this project can be found <a href="{{ item.url | relative_url }}/team">here</a>. 
