@@ -52,3 +52,6 @@ The latest version of the paper can be found <a href="{{ item.url | relative_url
 
 ## Code
 Refer to the [S-MDP repository](https://github.com/Social-MDP/social-mdp-framework) for the codebase.
+
+## Team
+The team members of this project can be found <a href="{{ item.url | relative_url }}/team">here</a>. 
