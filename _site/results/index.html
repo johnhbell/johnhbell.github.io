@@ -142,7 +142,7 @@
   <thead>
     <tr>
       <th style="text-align: center">Goal</th>
-      <th style="text-align: center">Social MDP (ours )</th>
+      <th style="text-align: center">Social MDP (ours)</th>
       <th style="text-align: center">Inverse Planning</th>
       <th>Cue-based</th>
     </tr>
@@ -163,7 +163,7 @@
   </tbody>
 </table>
 
-<p>Table 1: The coefficient of correlation with 95% confidence interval between human and machine judgements for all the 98 experiment scenarios (each scenario has agents having either the same or different physical goals along with one of 7 different scaling factors on each of their social goals (-2, -1, -0.5, 0, 0.5, 1, 2)). We provide two baselines (cue-based model and the inverse planning model) and our own approach. Social MDPs produce better alignment with ground truth than other models and do not require training like the cue-based model.</p>
+<p><span style="font-size:medium;">The coefficient of correlation with 95% confidence interval between human and machine judgements for all the 98 experiment scenarios (each scenario has agents having either the same or different physical goals along with one of 7 different scaling factors on each of their social goals (-2, -1, -0.5, 0, 0.5, 1, 2). We provide two baselines (cue-based model and the inverse planning model) and our own approach. Social MDPs produce better alignment with ground truth than other models and do not require training like the cue-based model.</span></p>
 
 <hr />
 
@@ -175,16 +175,15 @@
     <img src="/images/index/weight-physical-goals-v2.png" />
     <img />
 </div>
-<p><span style="font-size:medium;">Figure 4: Twelve human subjects, and our model, the Social MDP, watched and scored 196 videos at different snapshots. These videos consist of the 98 scenarios where robots reason at either level 1 or level 2 (presented to the users in randomized order). (left) Models and humans were asked to predict how social the agents were and the valence of the interaction (was it positive or negative). Non-social settings have a weight of 0, while adversarial settings have a social weight of -2, overwhelming the physical goal of any agent. Humans and machines predict similar social goals both in terms of value and magnitude. (right) Models and humans were asked to predict a weight factor on the physical goal, how much does this agent care about its physical goal. At 0, the physical goal is ignored. At 1, it is weighted equally with a social goal also set at 1. Human and model scores are again highly correlated. Our model is able to effectively generate trajectories that humans recognize as being social interactions. It is also able to predict the type of social interaction that humans believe occurred.</span></p>
+<p><span style="font-size:medium;">Twelve human subjects, and our model, the Social MDP, watched and scored 196 videos at different snapshots. These videos consist of the 98 scenarios where robots reason at either level 1 or level 2 (presented to the users in randomized order). (left) Models and humans were asked to predict how social the agents were and the valence of the interaction (was it positive or negative). Non-social settings have a weight of 0, while adversarial settings have a social weight of -2, overwhelming the Physical: *any agent. Humans and machines predict similar social goals both in terms of value and magnitude. (right) Models and humans were asked to predict a weight factor on the physical goal, how much does this agent care about its physical goal. At 0, the physical goal is ignored. At 1, it is weighted equally with a social goal also set at 1. Human and model scores are again highly correlated. Our model is able to effectively generate trajectories that humans recognize as being social interactions. It is also able to predict the type of social interaction that humans believe occurred.</span></p>
 
 <hr />
 <h3 id="results-for-each-experiment-scenario">Results for each experiment scenario</h3>
 
-<p>For each of the experiment scenario we show the Yellow robot’s estimation of the physical and social goal of the red robot at each time step. Using S-MDP, at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.  The lines 
-<span style="color: red"> in red are Human scores</span>, <span style="color: blue"> in blue is our Social MDP scores</span>, <span style="color: green">in green is Inverse planning</span>, <span style="color: purple">in purple is the cue-based model</span>, and <strong>in dotted is the ground truth</strong>.</p>
+<p>For each of the experiment scenario we show the Yellow robot’s estimation of the physical ;Social: <strong>the red robot at each time step using Social MDP. The lines <span style="color: red"> in red are Human scores</span>, <span style="color: blue"> in blue is our Social MDP scores</span>, <span style="color: green">in green is Inverse planning</span>, <span style="color: purple">in purple is the cue-based model</span>, and **in dotted is the ground truth</strong>.</p>
 
 <h6 id="experiment-result-for-scenario-1">Experiment Result for Scenario 1</h6>
-<p>Red robot is initialized with the physical goal of Flower and social goal of -2. Yellow robot is initialized with the physical goal of Tree and social goal of -2. Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Physical: <em>Flower</em>; Social: <strong>-2</strong> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Physical: <em>Tree</em>; Social: <strong>-2</strong></span></p>
 
 <table cellpadding="1">
     <tr>
@@ -209,7 +208,7 @@
 <hr />
 
 <h6 id="experiment-result-for-scenario-2">Experiment Result for Scenario 2</h6>
-<p>Red robot is initialized with the physical goal of Flower and social goal of -1. Yellow robot is initialized with the physical goal of Tree and social goal of -2. Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Physical: <em>Flower</em>; Social: <strong>-1</strong> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Physical: <em>Tree</em>; Social: <strong>-2</strong></span></p>
 
 <table cellpadding="1">
     <tr>
@@ -234,7 +233,7 @@
 <hr />
 
 <h6 id="experiment-result-for-scenario-3">Experiment Result for Scenario 3</h6>
-<p>Red robot is initialized with the physical goal of Flower and social goal of -0.5. Yellow robot is initialized with the physical goal of Tree and social goal of -2. Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Physical: <em>Flower</em>; Social: <strong>-0.5</strong> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Physical: <em>Tree</em>; Social: <strong>-2</strong></span></p>
 
 <table cellpadding="1">
     <tr>
@@ -259,7 +258,7 @@
 <hr />
 
 <h6 id="experiment-result-for-scenario-4">Experiment Result for Scenario 4</h6>
-<p>Red robot is initialized with the physical goal of Flower and social goal of 0. Yellow robot is initialized with the physical goal of Tree and social goal of -2. Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Physical: <em>Flower</em>; Social: <strong>0</strong> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Physical: <em>Tree</em>; Social: <strong>-2</strong></span></p>
 
 <table cellpadding="1">
     <tr>
@@ -284,7 +283,7 @@
 <hr />
 
 <h6 id="experiment-result-for-scenario-5">Experiment Result for Scenario 5</h6>
-<p>Red robot is initialized with the physical goal of Flower and social goal of 0.5. Yellow robot is initialized with the physical goal of Tree and social goal of -2. Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Physical: <em>Flower</em>; Social: <strong>0.5</strong> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Physical: <em>Tree</em>; Social: <strong>-2</strong></span></p>
 
 <table cellpadding="1">
     <tr>
@@ -309,7 +308,7 @@
 <hr />
 
 <h6 id="experiment-result-for-scenario-6">Experiment Result for Scenario 6</h6>
-<p>Red robot is initialized with the physical goal of Flower and social goal of 1. Yellow robot is initialized with the physical goal of Tree and social goal of -2. Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Physical: <em>Flower</em>; Social: <strong>1</strong> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Physical: <em>Tree</em>; Social: <strong>-2</strong></span></p>
 
 <table cellpadding="1">
     <tr>
@@ -334,7 +333,7 @@
 <hr />
 
 <h6 id="experiment-result-for-scenario-7">Experiment Result for Scenario 7</h6>
-<p>Red robot is initialized with the physical goal of Flower and social goal of 2. Yellow robot is initialized with the physical goal of Tree and social goal of -2. Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Physical: <em>Flower</em>; Social: <strong>2</strong> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Physical: <em>Tree</em>; Social: <strong>-2</strong></span></p>
 
 <table cellpadding="1">
     <tr>
@@ -359,7 +358,7 @@
 <hr />
 
 <h6 id="experiment-result-for-scenario-8">Experiment Result for Scenario 8</h6>
-<p>Red robot is initialized with the physical goal of Flower and social goal of -2. Yellow robot is initialized with the physical goal of Tree and social goal of -1. Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Physical: <em>Flower</em>; Social: <strong>-2</strong> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Physical: <em>Tree</em>; Social: <strong>-1</strong></span></p>
 
 <table cellpadding="1">
     <tr>
@@ -384,7 +383,7 @@
 <hr />
 
 <h6 id="experiment-result-for-scenario-9">Experiment Result for Scenario 9</h6>
-<p>Red robot is initialized with the physical goal of Flower and social goal of -1. Yellow robot is initialized with the physical goal of Tree and social goal of -1. Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Physical: <em>Flower</em>; Social: <strong>-1</strong> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Physical: <em>Tree</em>; Social: <strong>-1</strong></span></p>
 
 <table cellpadding="1">
     <tr>
@@ -409,7 +408,7 @@
 <hr />
 
 <h6 id="experiment-result-for-scenario-10">Experiment Result for Scenario 10</h6>
-<p>Red robot is initialized with the physical goal of Flower and social goal of -0.5. Yellow robot is initialized with the physical goal of Tree and social goal of -1. Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Physical: <em>Flower</em>; Social: <strong>-0.5</strong> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Physical: <em>Tree</em>; Social: <strong>-1</strong></span></p>
 
 <table cellpadding="1">
     <tr>
@@ -434,7 +433,7 @@
 <hr />
 
 <h6 id="experiment-result-for-scenario-11">Experiment Result for Scenario 11</h6>
-<p>Red robot is initialized with the physical goal of Flower and social goal of 0. Yellow robot is initialized with the physical goal of Tree and social goal of -1. Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Physical: <em>Flower</em>; Social: <strong>0</strong> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Physical: <em>Tree</em>; Social: <strong>-1</strong></span></p>
 
 <table cellpadding="1">
     <tr>
@@ -459,7 +458,7 @@
 <hr />
 
 <h6 id="experiment-result-for-scenario-12">Experiment Result for Scenario 12</h6>
-<p>Red robot is initialized with the physical goal of Flower and social goal of 0.5. Yellow robot is initialized with the physical goal of Tree and social goal of -1. Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Physical: <em>Flower</em>; Social: <strong>0.5</strong> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Physical: <em>Tree</em>; Social: <strong>-1</strong></span></p>
 
 <table cellpadding="1">
     <tr>
@@ -484,7 +483,7 @@
 <hr />
 
 <h6 id="experiment-result-for-scenario-13">Experiment Result for Scenario 13</h6>
-<p>Red robot is initialized with the physical goal of Flower and social goal of 1. Yellow robot is initialized with the physical goal of Tree and social goal of -1. Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Physical: <em>Flower</em>; Social: <strong>1</strong> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Physical: <em>Tree</em>; Social: <strong>-1</strong></span></p>
 
 <table cellpadding="1">
     <tr>
@@ -509,7 +508,7 @@
 <hr />
 
 <h6 id="experiment-result-for-scenario-14">Experiment Result for Scenario 14</h6>
-<p>Red robot is initialized with the physical goal of Flower and social goal of 2. Yellow robot is initialized with the physical goal of Tree and social goal of -1. Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Physical: <em>Flower</em>; Social: <strong>2</strong> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Physical: <em>Tree</em>; Social: <strong>-1</strong></span></p>
 
 <table cellpadding="1">
     <tr>
@@ -534,7 +533,7 @@
 <hr />
 
 <h6 id="experiment-result-for-scenario-15">Experiment Result for Scenario 15</h6>
-<p>Red robot is initialized with the physical goal of Tree and social goal of -2. Yellow robot is initialized with the physical goal of Flower and social goal of -0.5. Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Physical: <em>Tree</em>; Social: <strong>-2</strong> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Physical: <em>Flower</em>; Social: <strong>-0.5</strong></span></p>
 
 <table cellpadding="1">
     <tr>
@@ -559,7 +558,7 @@
 <hr />
 
 <h6 id="experiment-result-for-scenario-16">Experiment Result for Scenario 16</h6>
-<p>Red robot is initialized with the physical goal of Flower and social goal of -1. Yellow robot is initialized with the physical goal of Tree and social goal of -0.5. Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Physical: <em>Flower</em>; Social: <strong>-1</strong> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Physical: <em>Tree</em>; Social: <strong>-0.5</strong></span></p>
 
 <table cellpadding="1">
     <tr>
@@ -584,7 +583,7 @@
 <hr />
 
 <h6 id="experiment-result-for-scenario-17">Experiment Result for Scenario 17</h6>
-<p>Red robot is initialized with the physical goal of Flower and social goal of -0.5. Yellow robot is initialized with the physical goal of Tree and social goal of -0.5. Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Physical: <em>Flower</em>; Social: <strong>-0.5</strong> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Physical: <em>Tree</em>; Social: <strong>-0.5</strong></span></p>
 
 <table cellpadding="1">
     <tr>
@@ -609,7 +608,7 @@
 <hr />
 
 <h6 id="experiment-result-for-scenario-18">Experiment Result for Scenario 18</h6>
-<p>Red robot is initialized with the physical goal of Flower and social goal of 0. Yellow robot is initialized with the physical goal of Tree and social goal of -0.5. Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Physical: <em>Flower</em>; Social: <strong>0</strong> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Physical: <em>Tree</em>; Social: <strong>-0.5</strong></span></p>
 
 <table cellpadding="1">
     <tr>
@@ -634,7 +633,7 @@
 <hr />
 
 <h6 id="experiment-result-for-scenario-19">Experiment Result for Scenario 19</h6>
-<p>Red robot is initialized with the physical goal of Flower and social goal of 0.5. Yellow robot is initialized with the physical goal of Tree and social goal of -0.5. Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Physical: <em>Flower</em>; Social: <strong>0.5</strong> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Physical: <em>Tree</em>; Social: <strong>-0.5</strong></span></p>
 
 <table cellpadding="1">
     <tr>
@@ -659,7 +658,7 @@
 <hr />
 
 <h6 id="experiment-result-for-scenario-20">Experiment Result for Scenario 20</h6>
-<p>Red robot is initialized with the physical goal of Flower and social goal of 1. Yellow robot is initialized with the physical goal of Tree and social goal of -0.5. Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Physical: <em>Flower</em>; Social: <strong>1</strong> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Physical: <em>Tree</em>; Social: <strong>-0.5</strong></span></p>
 
 <table cellpadding="1">
     <tr>
@@ -684,7 +683,7 @@
 <hr />
 
 <h6 id="experiment-result-for-scenario-21">Experiment Result for Scenario 21</h6>
-<p>Red robot is initialized with the physical goal of Flower and social goal of 2. Yellow robot is initialized with the physical goal of Tree and social goal of -0.5. Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Physical: <em>Flower</em>; Social: <strong>2</strong> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Physical: <em>Tree</em>; Social: <strong>-0.5</strong></span></p>
 
 <table cellpadding="1">
     <tr>
@@ -709,7 +708,7 @@
 <hr />
 
 <h6 id="experiment-result-for-scenario-22">Experiment Result for Scenario 22</h6>
-<p>Red robot is initialized with the physical goal of Flower and social goal of -2. Yellow robot is initialized with the physical goal of Tree and social goal of 0. Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Physical: <em>Flower</em>; Social: <strong>-2</strong> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Physical: <em>Tree</em>; Social: <strong>0</strong></span></p>
 
 <table cellpadding="1">
     <tr>
@@ -734,7 +733,7 @@
 <hr />
 
 <h6 id="experiment-result-for-scenario-23">Experiment Result for Scenario 23</h6>
-<p>Red robot is initialized with the physical goal of Flower and social goal of -1. Yellow robot is initialized with the physical goal of Tree and social goal of 0. Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Physical: <em>Flower</em>; Social: <strong>-1</strong> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Physical: <em>Tree</em>; Social: <strong>0</strong></span></p>
 
 <table cellpadding="1">
     <tr>
@@ -759,7 +758,7 @@
 <hr />
 
 <h6 id="experiment-result-for-scenario-24">Experiment Result for Scenario 24</h6>
-<p>Red robot is initialized with the physical goal of Flower and social goal of -0.5. Yellow robot is initialized with the physical goal of Tree and social goal of 0. Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Physical: <em>Flower</em>; Social: <strong>-0.5</strong> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Physical: <em>Tree</em>; Social: <strong>0</strong></span></p>
 
 <table cellpadding="1">
     <tr>
@@ -784,7 +783,7 @@
 <hr />
 
 <h6 id="experiment-result-for-scenario-25">Experiment Result for Scenario 25</h6>
-<p>Red robot is initialized with the physical goal of Flower and social goal of 0. Yellow robot is initialized with the physical goal of Tree and social goal of 0. Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Physical: <em>Flower</em>; Social: <strong>0</strong> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Physical: <em>Tree</em>; Social: <strong>0</strong></span></p>
 
 <table cellpadding="1">
     <tr>
@@ -809,7 +808,7 @@
 <hr />
 
 <h6 id="experiment-result-for-scenario-26">Experiment Result for Scenario 26</h6>
-<p>Red robot is initialized with the physical goal of Flower and social goal of 0.5. Yellow robot is initialized with the physical goal of Tree and social goal of 0. Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Physical: <em>Flower</em>; Social: <strong>0.5</strong> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Physical: <em>Tree</em>; Social: <strong>0</strong></span></p>
 
 <table cellpadding="1">
     <tr>
@@ -833,7 +832,7 @@
 <hr />
 
 <h6 id="experiment-result-for-scenario-27">Experiment Result for Scenario 27</h6>
-<p>Red robot is initialized with the physical goal of Flower and social goal of 1. Yellow robot is initialized with the physical goal of Tree and social goal of 0. Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Physical: <em>Flower</em>; Social: <strong>1</strong> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Physical: <em>Tree</em>; Social: <strong>0</strong></span></p>
 
 <table cellpadding="1">
     <tr>
@@ -857,7 +856,7 @@
 <hr />
 
 <h6 id="experiment-result-for-scenario-28">Experiment Result for Scenario 28</h6>
-<p>Red robot is initialized with the physical goal of Flower and social goal of 2. Yellow robot is initialized with the physical goal of Tree and social goal of 0. Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Physical: <em>Flower</em>; Social: <strong>2</strong> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Physical: <em>Tree</em>; Social: <strong>0</strong></span></p>
 
 <table cellpadding="1">
     <tr>
@@ -882,7 +881,7 @@
 <hr />
 
 <h6 id="experiment-result-for-scenario-29">Experiment Result for Scenario 29</h6>
-<p>Red robot is initialized with the physical goal of Flower and social goal of -2. Yellow robot is initialized with the physical goal of Tree and social goal of 0.5. Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Physical: <em>Flower</em>; Social: <strong>-2</strong> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Physical: <em>Tree</em>; Social: <strong>0.5</strong></span></p>
 
 <table cellpadding="1">
     <tr>
@@ -907,7 +906,7 @@
 <hr />
 
 <h6 id="experiment-result-for-scenario-30">Experiment Result for Scenario 30</h6>
-<p>Red robot is initialized with the physical goal of Flower and social goal of -1. Yellow robot is initialized with the physical goal of Tree and social goal of 0.5. Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Physical: <em>Flower</em>; Social: <strong>-1</strong> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Physical: <em>Tree</em>; Social: <strong>0.5</strong></span></p>
 
 <table cellpadding="1">
     <tr>
@@ -932,7 +931,7 @@
 <hr />
 
 <h6 id="experiment-result-for-scenario-31">Experiment Result for Scenario 31</h6>
-<p>Red robot is initialized with the physical goal of Flower and social goal of -0.5. Yellow robot is initialized with the physical goal of Tree and social goal of 0.5. Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Physical: <em>Flower</em>; Social: <strong>-0.5</strong> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Physical: <em>Tree</em>; Social: <strong>0.5</strong></span></p>
 
 <table cellpadding="1">
     <tr>
@@ -957,7 +956,7 @@
 <hr />
 
 <h6 id="experiment-result-for-scenario-32">Experiment Result for Scenario 32</h6>
-<p>Red robot is initialized with the physical goal of Flower and social goal of 0. Yellow robot is initialized with the physical goal of Tree and social goal of 0.5. Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Physical: <em>Flower</em>; Social: <strong>0</strong> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Physical: <em>Tree</em>; Social: <strong>0.5</strong></span></p>
 
 <table cellpadding="1">
     <tr>
@@ -982,7 +981,7 @@
 <hr />
 
 <h6 id="experiment-result-for-scenario-33">Experiment Result for Scenario 33</h6>
-<p>Red robot is initialized with the physical goal of Flower and social goal of 0.5. Yellow robot is initialized with the physical goal of Tree and social goal of 0.5. Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Physical: <em>Flower</em>; Social: <strong>0.5</strong> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Physical: <em>Tree</em>; Social: <strong>0.5</strong></span></p>
 
 <table cellpadding="1">
     <tr>
@@ -1007,7 +1006,7 @@
 <hr />
 
 <h6 id="experiment-result-for-scenario-34">Experiment Result for Scenario 34</h6>
-<p>Red robot is initialized with the physical goal of Flower and social goal of 1. Yellow robot is initialized with the physical goal of Tree and social goal of 0.5. Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Physical: <em>Flower</em>; Social: <strong>1</strong> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Physical: <em>Tree</em>; Social: <strong>0.5</strong></span></p>
 
 <table cellpadding="1">
     <tr>
@@ -1031,7 +1030,7 @@
 <hr />
 
 <h6 id="experiment-result-for-scenario-35">Experiment Result for Scenario 35</h6>
-<p>Red robot is initialized with the physical goal of Flower and social goal of 2. Yellow robot is initialized with the physical goal of Tree and social goal of 0.5. Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Physical: <em>Flower</em>; Social: <strong>2</strong> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Physical: <em>Tree</em>; Social: <strong>0.5</strong></span></p>
 
 <table cellpadding="1">
     <tr>
@@ -1056,7 +1055,7 @@
 <hr />
 
 <h6 id="experiment-result-for-scenario-36">Experiment Result for Scenario 36</h6>
-<p>Red robot is initialized with the physical goal of Flower and social goal of -2. Yellow robot is initialized with the physical goal of Tree and social goal of 1. Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Physical: <em>Flower</em>; Social: <strong>-2</strong> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Physical: <em>Tree</em>; Social: <strong>1</strong></span></p>
 
 <table cellpadding="1">
     <tr>
@@ -1081,7 +1080,7 @@
 <hr />
 
 <h6 id="experiment-result-for-scenario-37">Experiment Result for Scenario 37</h6>
-<p>Red robot is initialized with the physical goal of Flower and social goal of -1. Yellow robot is initialized with the physical goal of Tree and social goal of 1. Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Physical: <em>Flower</em>; Social: <strong>-1</strong> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Physical: <em>Tree</em>; Social: <strong>1</strong></span></p>
 
 <table cellpadding="1">
     <tr>
@@ -1106,7 +1105,7 @@
 <hr />
 
 <h6 id="experiment-result-for-scenario-38">Experiment Result for Scenario 38</h6>
-<p>Red robot is initialized with the physical goal of Flower and social goal of -0.5. Yellow robot is initialized with the physical goal of Tree and social goal of 1. Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Physical: <em>Flower</em>; Social: <strong>-0.5</strong> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Physical: <em>Tree</em>; Social: <strong>1</strong></span></p>
 
 <table cellpadding="1">
     <tr>
@@ -1131,7 +1130,7 @@
 <hr />
 
 <h6 id="experiment-result-for-scenario-39">Experiment Result for Scenario 39</h6>
-<p>Red robot is initialized with the physical goal of Flower and social goal of 0. Yellow robot is initialized with the physical goal of Tree and social goal of 1. Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Physical: <em>Flower</em>; Social: <strong>0</strong> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Physical: <em>Tree</em>; Social: <strong>1</strong></span></p>
 
 <table cellpadding="1">
     <tr>
@@ -1156,7 +1155,7 @@
 <hr />
 
 <h6 id="experiment-result-for-scenario-40">Experiment Result for Scenario 40</h6>
-<p>Red robot is initialized with the physical goal of Flower and social goal of 0.5. Yellow robot is initialized with the physical goal of Tree and social goal of 1. Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Physical: <em>Flower</em>; Social: <strong>0.5</strong> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Physical: <em>Tree</em>; Social: <strong>1</strong></span></p>
 
 <table cellpadding="1">
     <tr>
@@ -1181,7 +1180,7 @@
 <hr />
 
 <h6 id="experiment-result-for-scenario-41">Experiment Result for Scenario 41</h6>
-<p>Red robot is initialized with the physical goal of Flower and social goal of 1. Yellow robot is initialized with the physical goal of Tree and social goal of 1. Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Physical: <em>Flower</em>; Social: <strong>1</strong> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Physical: <em>Tree</em>; Social: <strong>1</strong></span></p>
 
 <table cellpadding="1">
     <tr>
@@ -1206,7 +1205,7 @@
 <hr />
 
 <h6 id="experiment-result-for-scenario-42">Experiment Result for Scenario 42</h6>
-<p>Red robot is initialized with the physical goal of Flower and social goal of 2. Yellow robot is initialized with the physical goal of Tree and social goal of 1. Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Physical: <em>Flower</em>; Social: <strong>2</strong> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Physical: <em>Tree</em>; Social: <strong>1</strong></span></p>
 
 <table cellpadding="1">
     <tr>
@@ -1231,7 +1230,7 @@
 <hr />
 
 <h6 id="experiment-result-for-scenario-43">Experiment Result for Scenario 43</h6>
-<p>Red robot is initialized with the physical goal of Flower and social goal of -2. Yellow robot is initialized with the physical goal of Tree and social goal of 2. Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Physical: <em>Flower</em>; Social: <strong>-2</strong> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Physical: <em>Tree</em>; Social: <strong>2</strong></span></p>
 
 <table cellpadding="1">
     <tr>
@@ -1256,7 +1255,7 @@
 <hr />
 
 <h6 id="experiment-result-for-scenario-44">Experiment Result for Scenario 44</h6>
-<p>Red robot is initialized with the physical goal of Flower and social goal of -1. Yellow robot is initialized with the physical goal of Tree and social goal of 2. Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Physical: <em>Flower</em>; Social: <strong>-1</strong> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Physical: <em>Tree</em>; Social: <strong>2</strong></span></p>
 
 <table cellpadding="1">
     <tr>
@@ -1281,7 +1280,7 @@
 <hr />
 
 <h6 id="experiment-result-for-scenario-45">Experiment Result for Scenario 45</h6>
-<p>Red robot is initialized with the physical goal of Flower and social goal of -0.5. Yellow robot is initialized with the physical goal of Tree and social goal of 2. Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Physical: <em>Flower</em>; Social: <strong>-0.5</strong> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Physical: <em>Tree</em>; Social: <strong>2</strong></span></p>
 
 <table cellpadding="1">
     <tr>
@@ -1305,7 +1304,7 @@
 <hr />
 
 <h6 id="experiment-result-for-scenario-46">Experiment Result for Scenario 46</h6>
-<p>Red robot is initialized with the physical goal of Flower and social goal of 0. Yellow robot is initialized with the physical goal of Tree and social goal of 2. Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Physical: <em>Flower</em>; Social: <strong>0</strong> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Physical: <em>Tree</em>; Social: <strong>2</strong></span></p>
 
 <table cellpadding="1">
     <tr>
@@ -1330,7 +1329,7 @@
 <hr />
 
 <h6 id="experiment-result-for-scenario-47">Experiment Result for Scenario 47</h6>
-<p>Red robot is initialized with the physical goal of Flower and social goal of 0.5. Yellow robot is initialized with the physical goal of Tree and social goal of 2. Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Physical: <em>Flower</em>; Social: <strong>0.5</strong> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Physical: <em>Tree</em>; Social: <strong>2</strong></span></p>
 
 <table cellpadding="1">
     <tr>
@@ -1355,7 +1354,7 @@
 <hr />
 
 <h6 id="experiment-result-for-scenario-48">Experiment Result for Scenario 48</h6>
-<p>Red robot is initialized with the physical goal of Flower and social goal of 1. Yellow robot is initialized with the physical goal of Tree and social goal of 2. Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Physical: <em>Flower</em>; Social: <strong>1</strong> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Physical: <em>Tree</em>; Social: <strong>2</strong></span></p>
 
 <table cellpadding="1">
     <tr>
@@ -1380,7 +1379,7 @@
 <hr />
 
 <h6 id="experiment-result-for-scenario-49">Experiment Result for Scenario 49</h6>
-<p>Red robot is initialized with the physical goal of Flower and social goal of 2. Yellow robot is initialized with the physical goal of Tree and social goal of 2. Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Physical: <em>Flower</em>; Social: <strong>2</strong> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Physical: <em>Tree</em>; Social: <strong>2</strong></span></p>
 
 <table cellpadding="1">
     <tr>
@@ -1405,7 +1404,7 @@
 <hr />
 
 <h6 id="experiment-result-for-scenario-50">Experiment Result for Scenario 50</h6>
-<p>Red robot is initialized with the physical goal of Tree and social goal of -2. Yellow robot is initialized with the physical goal of Tree and social goal of -2. Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Physical: <em>Tree</em>; Social: <strong>-2</strong> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Physical: <em>Tree</em>; Social: <strong>-2</strong></span></p>
 
 <table cellpadding="1">
     <tr>
@@ -1429,7 +1428,7 @@
 <hr />
 
 <h6 id="experiment-result-for-scenario-51">Experiment Result for Scenario 51</h6>
-<p>Red robot is initialized with the physical goal of Tree and social goal of -1. Yellow robot is initialized with the physical goal of Tree and social goal of -2. Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Physical: <em>Tree</em>; Social: <strong>-1</strong> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Physical: <em>Tree</em>; Social: <strong>-2</strong></span></p>
 
 <table cellpadding="1">
     <tr>
@@ -1454,7 +1453,7 @@
 <hr />
 
 <h6 id="experiment-result-for-scenario-52">Experiment Result for Scenario 52</h6>
-<p>Red robot is initialized with the physical goal of Tree and social goal of -0.5. Yellow robot is initialized with the physical goal of Tree and social goal of -2. Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Physical: <em>Tree</em>; Social: <strong>-0.5</strong> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Physical: <em>Tree</em>; Social: <strong>-2</strong></span></p>
 
 <table cellpadding="1">
     <tr>
@@ -1479,7 +1478,7 @@
 <hr />
 
 <h6 id="experiment-result-for-scenario-53">Experiment Result for Scenario 53</h6>
-<p>Red robot is initialized with the physical goal of Tree and social goal of 0. Yellow robot is initialized with the physical goal of Tree and social goal of -2. Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Physical: <em>Tree</em>; Social: <strong>0</strong> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Physical: <em>Tree</em>; Social: <strong>-2</strong></span></p>
 
 <table cellpadding="1">
     <tr>
@@ -1504,7 +1503,7 @@
 <hr />
 
 <h6 id="experiment-result-for-scenario-54">Experiment Result for Scenario 54</h6>
-<p>Red robot is initialized with the physical goal of Tree and social goal of 0.5. Yellow robot is initialized with the physical goal of Tree and social goal of -2. Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Physical: <em>Tree</em>; Social: <strong>0.5</strong> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Physical: <em>Tree</em>; Social: <strong>-2</strong></span></p>
 
 <table cellpadding="1">
     <tr>
@@ -1529,7 +1528,7 @@
 <hr />
 
 <h6 id="experiment-result-for-scenario-55">Experiment Result for Scenario 55</h6>
-<p>Red robot is initialized with the physical goal of Tree and social goal of 1. Yellow robot is initialized with the physical goal of Tree and social goal of -2. Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Physical: <em>Tree</em>; Social: <strong>1</strong> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Physical: <em>Tree</em>; Social: <strong>-2</strong></span></p>
 
 <table cellpadding="1">
     <tr>
@@ -1554,7 +1553,7 @@
 <hr />
 
 <h6 id="experiment-result-for-scenario-56">Experiment Result for Scenario 56</h6>
-<p>Red robot is initialized with the physical goal of Tree and social goal of 2. Yellow robot is initialized with the physical goal of Tree and social goal of -2. Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Physical: <em>Tree</em>; Social: <strong>2</strong> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Physical: <em>Tree</em>; Social: <strong>-2</strong></span></p>
 
 <table cellpadding="1">
     <tr>
@@ -1579,7 +1578,7 @@
 <hr />
 
 <h6 id="experiment-result-for-scenario-57">Experiment Result for Scenario 57</h6>
-<p>Red robot is initialized with the physical goal of Tree and social goal of -2. Yellow robot is initialized with the physical goal of Tree and social goal of -1. Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Physical: <em>Tree</em>; Social: <strong>-2</strong> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Physical: <em>Tree</em>; Social: <strong>-1</strong></span></p>
 
 <table cellpadding="1">
     <tr>
@@ -1604,7 +1603,7 @@
 <hr />
 
 <h6 id="experiment-result-for-scenario-58">Experiment Result for Scenario 58</h6>
-<p>Red robot is initialized with the physical goal of Tree and social goal of -1. Yellow robot is initialized with the physical goal of Tree and social goal of -1. Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Physical: <em>Tree</em>; Social: <strong>-1</strong> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Physical: <em>Tree</em>; Social: <strong>-1</strong></span></p>
 
 <table cellpadding="1">
     <tr>
@@ -1629,7 +1628,7 @@
 <hr />
 
 <h6 id="experiment-result-for-scenario-59">Experiment Result for Scenario 59</h6>
-<p>Red robot is initialized with the physical goal of Tree and social goal of -0.5. Yellow robot is initialized with the physical goal of Tree and social goal of -1. Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Physical: <em>Tree</em>; Social: <strong>-0.5</strong> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Physical: <em>Tree</em>; Social: <strong>-1</strong></span></p>
 
 <table cellpadding="1">
     <tr>
@@ -1654,7 +1653,7 @@
 <hr />
 
 <h6 id="experiment-result-for-scenario-60">Experiment Result for Scenario 60</h6>
-<p>Red robot is initialized with the physical goal of Tree and social goal of 0. Yellow robot is initialized with the physical goal of Tree and social goal of -1. Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Physical: <em>Tree</em>; Social: <strong>0</strong> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Physical: <em>Tree</em>; Social: <strong>-1</strong></span></p>
 
 <table cellpadding="1">
     <tr>
@@ -1679,7 +1678,7 @@
 <hr />
 
 <h6 id="experiment-result-for-scenario-61">Experiment Result for Scenario 61</h6>
-<p>Red robot is initialized with the physical goal of Tree and social goal of 0.5. Yellow robot is initialized with the physical goal of Tree and social goal of -1. Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Physical: <em>Tree</em>; Social: <strong>0.5</strong> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Physical: <em>Tree</em>; Social: <strong>-1</strong></span></p>
 
 <table cellpadding="1">
     <tr>
@@ -1704,7 +1703,7 @@
 <hr />
 
 <h6 id="experiment-result-for-scenario-62">Experiment Result for Scenario 62</h6>
-<p>Red robot is initialized with the physical goal of Tree and social goal of 1. Yellow robot is initialized with the physical goal of Tree and social goal of -1. Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Physical: <em>Tree</em>; Social: <strong>1</strong> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Physical: <em>Tree</em>; Social: <strong>-1</strong></span></p>
 
 <table cellpadding="1">
     <tr>
@@ -1729,7 +1728,7 @@
 <hr />
 
 <h6 id="experiment-result-for-scenario-63">Experiment Result for Scenario 63</h6>
-<p>Red robot is initialized with the physical goal of Tree and social goal of 2. Yellow robot is initialized with the physical goal of Tree and social goal of -1. Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Physical: <em>Tree</em>; Social: <strong>2</strong> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Physical: <em>Tree</em>; Social: <strong>-1</strong></span></p>
 
 <table cellpadding="1">
     <tr>
@@ -1754,7 +1753,7 @@
 <hr />
 
 <h6 id="experiment-result-for-scenario-64">Experiment Result for Scenario 64</h6>
-<p>Red robot is initialized with the physical goal of Tree and social goal of -2. Yellow robot is initialized with the physical goal of Tree and social goal of -0.5. Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Physical: <em>Tree</em>; Social: <strong>-2</strong> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Physical: <em>Tree</em>; Social: <strong>-0.5</strong></span></p>
 
 <table cellpadding="1">
     <tr>
@@ -1779,7 +1778,7 @@
 <hr />
 
 <h6 id="experiment-result-for-scenario-65">Experiment Result for Scenario 65</h6>
-<p>Red robot is initialized with the physical goal of Tree and social goal of -1. Yellow robot is initialized with the physical goal of Tree and social goal of -0.5. Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Physical: <em>Tree</em>; Social: <strong>-1</strong> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Physical: <em>Tree</em>; Social: <strong>-0.5</strong></span></p>
 
 <table cellpadding="1">
     <tr>
@@ -1804,7 +1803,7 @@
 <hr />
 
 <h6 id="experiment-result-for-scenario-66">Experiment Result for Scenario 66</h6>
-<p>Red robot is initialized with the physical goal of Tree and social goal of -0.5. Yellow robot is initialized with the physical goal of Tree and social goal of -0.5. Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Physical: <em>Tree</em>; Social: <strong>-0.5</strong> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Physical: <em>Tree</em>; Social: <strong>-0.5</strong></span></p>
 
 <table cellpadding="1">
     <tr>
@@ -1829,7 +1828,7 @@
 <hr />
 
 <h6 id="experiment-result-for-scenario-67">Experiment Result for Scenario 67</h6>
-<p>Red robot is initialized with the physical goal of Tree and social goal of 0. Yellow robot is initialized with the physical goal of Tree and social goal of -0.5. Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Physical: <em>Tree</em>; Social: <strong>0</strong> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Physical: <em>Tree</em>; Social: <strong>-0.5</strong></span></p>
 
 <table cellpadding="1">
     <tr>
@@ -1854,7 +1853,7 @@
 <hr />
 
 <h6 id="experiment-result-for-scenario-68">Experiment Result for Scenario 68</h6>
-<p>Red robot is initialized with the physical goal of Tree and social goal of 0.5. Yellow robot is initialized with the physical goal of Tree and social goal of -0.5. Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Physical: <em>Tree</em>; Social: <strong>0.5</strong> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Physical: <em>Tree</em>; Social: <strong>-0.5</strong></span></p>
 
 <table cellpadding="1">
     <tr>
@@ -1879,7 +1878,7 @@
 <hr />
 
 <h6 id="experiment-result-for-scenario-69">Experiment Result for Scenario 69</h6>
-<p>Red robot is initialized with the physical goal of Tree and social goal of 1. Yellow robot is initialized with the physical goal of Tree and social goal of -0.5. Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Physical: <em>Tree</em>; Social: <strong>1</strong> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Physical: <em>Tree</em>; Social: <strong>-0.5</strong></span></p>
 
 <table cellpadding="1">
     <tr>
@@ -1904,7 +1903,7 @@
 <hr />
 
 <h6 id="experiment-result-for-scenario-70">Experiment Result for Scenario 70</h6>
-<p>Red robot is initialized with the physical goal of Tree and social goal of 2. Yellow robot is initialized with the physical goal of Tree and social goal of -0.5. Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Physical: <em>Tree</em>; Social: <strong>2</strong> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Physical: <em>Tree</em>; Social: <strong>-0.5</strong></span></p>
 
 <table cellpadding="1">
     <tr>
@@ -1929,7 +1928,7 @@
 <hr />
 
 <h6 id="experiment-result-for-scenario-71">Experiment Result for Scenario 71</h6>
-<p>Red robot is initialized with the physical goal of Tree and social goal of -2. Yellow robot is initialized with the physical goal of Tree and social goal of 0. Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Physical: <em>Tree</em>; Social: <strong>-2</strong> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Physical: <em>Tree</em>; Social: <strong>0</strong></span></p>
 
 <table cellpadding="1">
     <tr>
@@ -1954,7 +1953,7 @@
 <hr />
 
 <h6 id="experiment-result-for-scenario-72">Experiment Result for Scenario 72</h6>
-<p>Red robot is initialized with the physical goal of Tree and social goal of -1. Yellow robot is initialized with the physical goal of Tree and social goal of 0. Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Physical: <em>Tree</em>; Social: <strong>-1</strong> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Physical: <em>Tree</em>; Social: <strong>0</strong></span></p>
 
 <table cellpadding="1">
     <tr>
@@ -1979,7 +1978,7 @@
 <hr />
 
 <h6 id="experiment-result-for-scenario-73">Experiment Result for Scenario 73</h6>
-<p>Red robot is initialized with the physical goal of Tree and social goal of -0.5. Yellow robot is initialized with the physical goal of Tree and social goal of 0. Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Physical: <em>Tree</em>; Social: <strong>-0.5</strong> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Physical: <em>Tree</em>; Social: <strong>0</strong></span></p>
 
 <table cellpadding="1">
     <tr>
@@ -2004,7 +2003,7 @@
 <hr />
 
 <h6 id="experiment-result-for-scenario-74">Experiment Result for Scenario 74</h6>
-<p>Red robot is initialized with the physical goal of Tree and social goal of 0. Yellow robot is initialized with the physical goal of Tree and social goal of 0. Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Physical: <em>Tree</em>; Social: <strong>0</strong> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Physical: <em>Tree</em>; Social: <strong>0</strong></span></p>
 
 <table cellpadding="1">
     <tr>
@@ -2029,7 +2028,7 @@
 <hr />
 
 <h6 id="experiment-result-for-scenario-75">Experiment Result for Scenario 75</h6>
-<p>Red robot is initialized with the physical goal of Tree and social goal of 0.5. Yellow robot is initialized with the physical goal of Tree and social goal of 0. Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Physical: <em>Tree</em>; Social: <strong>0.5</strong> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Physical: <em>Tree</em>; Social: <strong>0</strong></span></p>
 
 <table cellpadding="1">
     <tr>
@@ -2054,7 +2053,7 @@
 <hr />
 
 <h6 id="experiment-result-for-scenario-76">Experiment Result for Scenario 76</h6>
-<p>Red robot is initialized with the physical goal of Tree and social goal of 1. Yellow robot is initialized with the physical goal of Tree and social goal of 0. Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Physical: <em>Tree</em>; Social: <strong>1</strong> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Physical: <em>Tree</em>; Social: <strong>0</strong></span></p>
 
 <table cellpadding="1">
     <tr>
@@ -2079,7 +2078,7 @@
 <hr />
 
 <h6 id="experiment-result-for-scenario-77">Experiment Result for Scenario 77</h6>
-<p>Red robot is initialized with the physical goal of Tree and social goal of 2. Yellow robot is initialized with the physical goal of Tree and social goal of 0. Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Physical: <em>Tree</em>; Social: <strong>2</strong> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Physical: <em>Tree</em>; Social: <strong>0</strong></span></p>
 
 <table cellpadding="1">
     <tr>
@@ -2104,7 +2103,7 @@
 <hr />
 
 <h6 id="experiment-result-for-scenario-78">Experiment Result for Scenario 78</h6>
-<p>Red robot is initialized with the physical goal of Tree and social goal of -2. Yellow robot is initialized with the physical goal of Tree and social goal of 0.5. Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Physical: <em>Tree</em>; Social: <strong>-2</strong> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Physical: <em>Tree</em>; Social: <strong>0.5</strong></span></p>
 
 <table cellpadding="1">
     <tr>
@@ -2129,7 +2128,7 @@
 <hr />
 
 <h6 id="experiment-result-for-scenario-79">Experiment Result for Scenario 79</h6>
-<p>Red robot is initialized with the physical goal of Tree and social goal of -1. Yellow robot is initialized with the physical goal of Tree and social goal of 0.5. Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Physical: <em>Tree</em>; Social: <strong>-1</strong> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Physical: <em>Tree</em>; Social: <strong>0.5</strong></span></p>
 
 <table cellpadding="1">
     <tr>
@@ -2154,7 +2153,7 @@
 <hr />
 
 <h6 id="experiment-result-for-scenario-80">Experiment Result for Scenario 80</h6>
-<p>Red robot is initialized with the physical goal of Tree and social goal of -0.5. Yellow robot is initialized with the physical goal of Tree and social goal of 0.5. Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Physical: <em>Tree</em>; Social: <strong>-0.5</strong> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Physical: <em>Tree</em>; Social: <strong>0.5</strong></span></p>
 
 <table cellpadding="1">
     <tr>
@@ -2179,7 +2178,7 @@
 <hr />
 
 <h6 id="experiment-result-for-scenario-81">Experiment Result for Scenario 81</h6>
-<p>Red robot is initialized with the physical goal of Tree and social goal of 0. Yellow robot is initialized with the physical goal of Tree and social goal of 0.5. Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Physical: <em>Tree</em>; Social: <strong>0</strong> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Physical: <em>Tree</em>; Social: <strong>0.5</strong></span></p>
 
 <table cellpadding="1">
     <tr>
@@ -2204,7 +2203,7 @@
 <hr />
 
 <h6 id="experiment-result-for-scenario-82">Experiment Result for Scenario 82</h6>
-<p>Red robot is initialized with the physical goal of Tree and social goal of 0.5. Yellow robot is initialized with the physical goal of Tree and social goal of 0.5. Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Physical: <em>Tree</em>; Social: <strong>0.5</strong> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Physical: <em>Tree</em>; Social: <strong>0.5</strong></span></p>
 
 <table cellpadding="1">
     <tr>
@@ -2229,7 +2228,7 @@
 <hr />
 
 <h6 id="experiment-result-for-scenario-83">Experiment Result for Scenario 83</h6>
-<p>Red robot is initialized with the physical goal of Tree and social goal of 1. Yellow robot is initialized with the physical goal of Tree and social goal of 0.5. Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Physical: <em>Tree</em>; Social: <strong>1</strong> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Physical: <em>Tree</em>; Social: <strong>0.5</strong></span></p>
 
 <table cellpadding="1">
     <tr>
@@ -2254,7 +2253,7 @@
 <hr />
 
 <h6 id="experiment-result-for-scenario-84">Experiment Result for Scenario 84</h6>
-<p>Red robot is initialized with the physical goal of Tree and social goal of 2. Yellow robot is initialized with the physical goal of Tree and social goal of 0.5. Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Physical: <em>Tree</em>; Social: <strong>2</strong> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Physical: <em>Tree</em>; Social: <strong>0.5</strong></span></p>
 
 <table cellpadding="1">
     <tr>
@@ -2279,7 +2278,7 @@
 <hr />
 
 <h6 id="experiment-result-for-scenario-85">Experiment Result for Scenario 85</h6>
-<p>Red robot is initialized with the physical goal of Tree and social goal of -2. Yellow robot is initialized with the physical goal of Tree and social goal of 1. Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Physical: <em>Tree</em>; Social: <strong>-2</strong> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Physical: <em>Tree</em>; Social: <strong>1</strong></span></p>
 
 <table cellpadding="1">
     <tr>
@@ -2304,7 +2303,7 @@
 <hr />
 
 <h6 id="experiment-result-for-scenario-86">Experiment Result for Scenario 86</h6>
-<p>Red robot is initialized with the physical goal of Tree and social goal of -1. Yellow robot is initialized with the physical goal of Tree and social goal of 1. Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Physical: <em>Tree</em>; Social: <strong>-1</strong> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Physical: <em>Tree</em>; Social: <strong>1</strong></span></p>
 
 <table cellpadding="1">
     <tr>
@@ -2329,7 +2328,7 @@
 <hr />
 
 <h6 id="experiment-result-for-scenario-87">Experiment Result for Scenario 87</h6>
-<p>Red robot is initialized with the physical goal of Tree and social goal of -0.5. Yellow robot is initialized with the physical goal of Tree and social goal of 1. Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Physical: <em>Tree</em>; Social: <strong>-0.5</strong> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Physical: <em>Tree</em>; Social: <strong>1</strong></span></p>
 
 <table cellpadding="1">
     <tr>
@@ -2354,7 +2353,7 @@
 <hr />
 
 <h6 id="experiment-result-for-scenario-88">Experiment Result for Scenario 88</h6>
-<p>Red robot is initialized with the physical goal of Tree and social goal of 0. Yellow robot is initialized with the physical goal of Tree and social goal of 1. Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Physical: <em>Tree</em>; Social: <strong>0</strong> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Physical: <em>Tree</em>; Social: <strong>1</strong></span></p>
 
 <table cellpadding="1">
     <tr>
@@ -2379,7 +2378,7 @@
 <hr />
 
 <h6 id="experiment-result-for-scenario-89">Experiment Result for Scenario 89</h6>
-<p>Red robot is initialized with the physical goal of Tree and social goal of 0.5. Yellow robot is initialized with the physical goal of Tree and social goal of 1. Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Physical: <em>Tree</em>; Social: <strong>0.5</strong> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Physical: <em>Tree</em>; Social: <strong>1</strong></span></p>
 
 <table cellpadding="1">
     <tr>
@@ -2404,7 +2403,7 @@
 <hr />
 
 <h6 id="experiment-result-for-scenario-90">Experiment Result for Scenario 90</h6>
-<p>Red robot is initialized with the physical goal of Tree and social goal of 1. Yellow robot is initialized with the physical goal of Tree and social goal of 1. Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Physical: <em>Tree</em>; Social: <strong>1</strong> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Physical: <em>Tree</em>; Social: <strong>1</strong></span></p>
 
 <table cellpadding="1">
     <tr>
@@ -2429,7 +2428,7 @@
 <hr />
 
 <h6 id="experiment-result-for-scenario-91">Experiment Result for Scenario 91</h6>
-<p>Red robot is initialized with the physical goal of Tree and social goal of 2. Yellow robot is initialized with the physical goal of Tree and social goal of 1. Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Physical: <em>Tree</em>; Social: <strong>2</strong> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Physical: <em>Tree</em>; Social: <strong>1</strong></span></p>
 
 <table cellpadding="1">
     <tr>
@@ -2454,7 +2453,7 @@
 <hr />
 
 <h6 id="experiment-result-for-scenario-92">Experiment Result for Scenario 92</h6>
-<p>Red robot is initialized with the physical goal of Tree and social goal of -2. Yellow robot is initialized with the physical goal of Tree and social goal of 2. Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Physical: <em>Tree</em>; Social: <strong>-2</strong> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Physical: <em>Tree</em>; Social: <strong>2</strong></span></p>
 
 <table cellpadding="1">
     <tr>
@@ -2479,7 +2478,7 @@
 <hr />
 
 <h6 id="experiment-result-for-scenario-93">Experiment Result for Scenario 93</h6>
-<p>Red robot is initialized with the physical goal of Tree and social goal of -1. Yellow robot is initialized with the physical goal of Tree and social goal of 2. Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Physical: <em>Tree</em>; Social: <strong>-1</strong> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Physical: <em>Tree</em>; Social: <strong>2</strong></span></p>
 
 <table cellpadding="1">
     <tr>
@@ -2504,7 +2503,7 @@
 <hr />
 
 <h6 id="experiment-result-for-scenario-94">Experiment Result for Scenario 94</h6>
-<p>Red robot is initialized with the physical goal of Tree and social goal of -0.5. Yellow robot is initialized with the physical goal of Tree and social goal of 2. Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Physical: <em>Tree</em>; Social: <strong>-0.5</strong> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Physical: <em>Tree</em>; Social: <strong>2</strong></span></p>
 
 <table cellpadding="1">
     <tr>
@@ -2529,7 +2528,7 @@
 <hr />
 
 <h6 id="experiment-result-for-scenario-95">Experiment Result for Scenario 95</h6>
-<p>Red robot is initialized with the physical goal of Tree and social goal of 0. Yellow robot is initialized with the physical goal of Tree and social goal of 2. Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Physical: <em>Tree</em>; Social: <strong>0</strong> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Physical: <em>Tree</em>; Social: <strong>2</strong></span></p>
 
 <table cellpadding="1">
     <tr>
@@ -2554,7 +2553,7 @@
 <hr />
 
 <h6 id="experiment-result-for-scenario-96">Experiment Result for Scenario 96</h6>
-<p>Red robot is initialized with the physical goal of Tree and social goal of 0.5. Yellow robot is initialized with the physical goal of Tree and social goal of 2. Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Physical: <em>Tree</em>; Social: <strong>0.5</strong> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Physical: <em>Tree</em>; Social: <strong>2</strong></span></p>
 
 <table cellpadding="1">
     <tr>
@@ -2579,7 +2578,7 @@
 <hr />
 
 <h6 id="experiment-result-for-scenario-97">Experiment Result for Scenario 97</h6>
-<p>Red robot is initialized with the physical goal of Tree and social goal of 1. Yellow robot is initialized with the physical goal of Tree and social goal of 2. Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Physical: <em>Tree</em>; Social: <strong>1</strong> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Physical: <em>Tree</em>; Social: <strong>2</strong></span></p>
 
 <table cellpadding="1">
     <tr>
@@ -2603,7 +2602,7 @@
 <hr />
 
 <h6 id="experiment-result-for-scenario-98">Experiment Result for Scenario 98</h6>
-<p>Red robot is initialized with the physical goal of Tree and social goal of 2. Yellow robot is initialized with the physical goal of Tree and social goal of 2. Using S-MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot at each time step.</p>
+<p><span style="font-size:medium;"><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Physical: <em>Tree</em>; Social: <strong>2</strong> <br /><font color="orange">Yellow robot's goals&nbsp;</font> Physical: <em>Tree</em>; Social: <strong>2</strong></span></p>
 
 <table cellpadding="1">
     <tr>
