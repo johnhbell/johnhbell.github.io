@@ -25,7 +25,7 @@ We apply the Social MDP framework to a multi-agent grid world which consists of 
         </td>
     </tr>
 </table>
-<span style="font-size:medium;"><b>Example Demonstration </b><br/><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Social:**2** Physical:*Flower* <br/><font color="orange">Yellow robot's goals&nbsp;</font> Social:**0** Physical:*Tree* <br/>Using Social MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot, and takes optimal actions in order to reach its goal.</span>
+<span style="font-size:medium;"><b>Example Demonstration </b><br/><font color="red">Red robot's goals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font> Physical: *Flower*; Social:**2**  <br/><font color="orange">Yellow robot's goals&nbsp;</font> Physical: *Tree*; Social:**0** <br/>Using Social MDP at different levels of reasoning, Yellow robot estimates the physical and social goal of the red robot, and takes optimal actions in order to reach its goal.</span>
 
                  
 ## Results
