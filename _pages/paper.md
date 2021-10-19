@@ -17,6 +17,6 @@ url={https://openreview.net/forum?id=3HZLte8gMYS}
 }
 ```
 
-<object data="/paper/S-MDP-CoRL-Paper-Latest-Version-v1.1.pdf" type="application/pdf" width="100%" height="100%"> 
+<object data="/paper/Social_MDP_CoRL_Full_Paper.pdf" type="application/pdf" width="100%" height="100%"> 
 </object>
 
