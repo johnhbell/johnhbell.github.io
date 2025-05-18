@@ -1,18 +1,18 @@
 ---
 layout: index
-title: 'Social Interactions as Recursive MDPs'
-subtitle: 'Humans are adept at inferring social interactions during the interactions with each other. There is a need for robots to reason the basic social interactions such as helping or hindering as they perform joint actions together. We introduce an extension to MDPs, Social MDPs, which learns to reason about the physical and social goal of the other agent. Social MDPs allow specifying reward functions in terms of the estimated reward functions of other agents, modeling interactions such as <i>helping or hindering</i> another agent (by maximizing or minimizing the other agent reward) while balancing this with the actual physical goals of each agent. We present the results of zero-shot social inferences among robots in 2D grid environment and human estimates about their social interactions.'
+title: 'Robotic Strap'
+subtitle: 'Robotic Strap is blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah'
 ---
 
-## Scenarios
-We apply the Social MDP framework to a multi-agent grid world which consists of two agents, a yellow robot and red robot. Robots can have a social goal of helping or hindering to different degrees. Each scenario has robots having either the same goal or different physical goals and one of 7 different scaling factors on each of their social goals (-2, -1, -0.5, 0, 0.5, 1, 2). The higher number indicates that the social goal is weighted much more than the physical goal, and an agent wants to maximize the other agent's goal. Similarly for the lower number, except that an agent wants to minimize another agent's goal. See <a href="{{ item.url | relative_url }}/scenarios">all scenarios</a> for the list of all experimental scenarios.
+## Header 1
+We do blah blah blah blah blah blah blah blah blah blah blah blah blah blah
 <table cellpadding="1">
     <tr>
         <td style="width:50%; text-align:center">
-            <b>Level 1</b>
+            <b>Test 1</b>
         </td>
         <td style="width:50%; text-align:center">
-            <b>Level 2</b>
+            <b>Test 2</b>
         </td>
     </tr>
     
