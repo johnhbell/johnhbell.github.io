@@ -1,5 +1,5 @@
 ---
-permalink: /yoyo/
+permalink: /yoyo
 title: 'Mass-Manufactured Yo-Yo "00ink" (MIT 2.008 Design and Manufacturing II Team Project)'
 ---
 

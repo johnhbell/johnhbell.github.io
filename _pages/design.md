@@ -1,5 +1,5 @@
 ---
-permalink: /design/
+permalink: /design
 title: Engineering Design
 subtitle: Non-research engineering projects
 ---
