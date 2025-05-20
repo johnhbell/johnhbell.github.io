@@ -3,52 +3,48 @@ permalink: /artwork
 title: 'Artwork'
 ---
 
-# Waterjet Aluminum Press-Fit Sculpture Series
+## Waterjet Aluminum Press-Fit Sculpture Series
 
-## Eagle
+### Eagle
 
-![](./media/Artwork/image1.png){width="6.5in"
-height="4.652777777777778in"}
+<img src="/media/Artwork/image1.png" style="width: 65vw;" />
 
-![](./media/Artwork/image2.png){width="6.5in"
-height="2.011111111111111in"}
+<img src="/media/Artwork/image2.png" style="width: 65vw;" />
 
-![](./media/Artwork/image3.png){width="6.5in"
-height="3.857638888888889in"}
+<img src="/media/Artwork/image3.png" style="width: 65vw;" />
 
-![](./media/Artwork/image4.png){width="6.5in"
-height="3.857638888888889in"}
+<img src="/media/Artwork/image4.png" style="width: 65vw;" />
 
-## Rowboat
+### Rowboat
 
-![](./media/Artwork/image5.png){width="6.5in"
-height="4.797916666666667in"}
+<img src="/media/Artwork/image5.png" style="width: 65vw;" />
 
-![](./media/Artwork/image6.png){width="3.0in"
-height="2.4523884514435697in"}
+<img src="/media/Artwork/image6.png" style="width: 30vw;" />
 
-![](./media/Artwork/image7.png){width="6.5in" height="1.0125in"}
+<img src="/media/Artwork/image7.png" style="width: 65vw;" />
 
-# 3D Design for Investment Casting
+## 3D Design for Investment Casting
 
-![](./media/Artwork/image8.png){width="2.9506561679790027in"
-height="2.5in"}![](./media/Artwork/image9.png){width="2.524718941382327in"
-height="2.5in"}
+<div class="gallery" data-columns="4">
+    <img>
+    <img src="/media/Artwork/image8.png" style="width: 29vw;" />
+    <img src="/media/Artwork/image9.png" style="width: 25vw;" />
+    <img>
+</div>
 
-![](./media/Artwork/image10.png){width="3.0in"
-height="2.397669510061242in"}
+<img src="/media/Artwork/image10.png" style="width: 30vw;" />
 
-# Graphic Design
+## Graphic Design
 
-![](./media/Artwork/image11.png){width="6.5in"
-height="5.186111111111111in"}
+<img src="/media/Artwork/image11.png" style="width: 65vw;" />
 
-![](./media/Artwork/image12.png){width="6.5in"
-height="3.295138888888889in"}
+<img src="/media/Artwork/image12.png" style="width: 65vw;" />
 
-![](./media/Artwork/image13.png){width="0.48742016622922135in"
-height="2.0in"}![](./media/Artwork/image14.png){width="1.5694542869641295in"
-height="2.0in"}
+<div class="gallery" data-columns="4">
+    <img>
+    <img src="/media/Artwork/image13.png" style="width: 5vw;" />
+    <img src="/media/Artwork/image14.png" style="width: 15vw;" />
+    <img>
+</div>
 
-![](./media/Artwork/image15.png){width="6.5in"
-height="4.948611111111111in"}
+<img src="/media/Artwork/image15.png" style="width: 65vw;" />
