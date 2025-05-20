@@ -13,7 +13,7 @@ subtitle: Non-research engineering projects
 ![](./media/Design/image2.png){width="4.0in"
 height="3.002133639545057in"}
 
-### [Mass-Manufactured Yo-Yo](/design/yoyo)
+### [Mass-Manufactured Yo-Yo](/yoyo)
 
 ![](./media/Design/image3.png){width="4.0in"
 height="3.2072648731408573in"}
