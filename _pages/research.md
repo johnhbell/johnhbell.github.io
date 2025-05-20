@@ -4,24 +4,24 @@ title: Research
 subtitle: 
 ---
 
-## Modeling Human Sit-to-Stand Dynamics using Koopman Operator Theory
+### Modeling Human Sit-to-Stand Dynamics using Koopman Operator Theory
 
 ![](/media/Research/image1.png){width="3.0in"
 height="2.1093755468066493in"}
 
 publication under review (portfolio entry coming soon)
 
-## Dual-Motor Actuator Design for Human Support
+### [Dual-Motor Actuator Design for Human Support](/research/DMA/)
 
 ![](/media/Research/image2.png){width="5.0in"
 height="1.7073173665791777in"}
 
-## Human Mental State Estimation at the Start of Sit-to-Stand
+### [Human Mental State Estimation at the Start of Sit-to-Stand](/research/cooperativeness/)
 
 ![](/media/Research/image3.png){width="2.0in"
 height="2.7072069116360455in"}
 
-## Power Grid Stability and Liquid Metal Recapillarity (Undergraduate Research)
+### [Power Grid Stability and Liquid Metal Recapillarity (Undergraduate Research)](/research/undergrad/)
 
 ![](/media/Research/image4.png){width="2.08917104111986in"
 height="2.0in"}

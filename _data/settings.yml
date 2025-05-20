@@ -8,20 +8,16 @@ header_settings:
 
 menu_settings:
   menu_items:
-    - title: 'Overview'
+    - title: 'Home'
       url: '/'
-    - title: 'Scenarios'
-      url: '/scenarios'
     - title: 'Research'
       url: '/research'
-    - title: 'Results'
-      url: '/results'  
-    - title: 'Paper'
-      url: '/paper'  
-    - title: 'Code'
-      url: '/#code'
-    - title: 'Team'
-      url: '/team'
+    - title: 'Publications'
+      url: '/publications'  
+    - title: 'Engineering Design'
+      url: '/design'  
+    - title: 'Artwork'
+      url: '/artwork'
     - title: 'Contact'
       url: '/contact'
     
