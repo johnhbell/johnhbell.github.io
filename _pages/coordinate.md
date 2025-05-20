@@ -60,7 +60,7 @@ however, we were able to fix all of these issues for the next revision.
 
 <img src="/media/Coordinate/image4.png" style="width: 24vw;" />
 
-<img src="/media/Coordinate/image5.png" style="width: 56vw;" />
+<img src="/media/Coordinate/image5.png" style="width: 35vw;" />
 
 ## Final Electronic Design 
 
@@ -84,7 +84,7 @@ The Search Module (shown exploded at bottom right) and its PCB were much
 simpler, and were focused on interpreting a point-of-interest marking
 button press and funneling GPS information to its low-power XBee.
 
-<img src="/media/Coordinate/image6.png" style="width: 56vw;" />
+<img src="/media/Coordinate/image6.png" style="width: 30vw;" />
 
 <div class="gallery" data-columns="4">
     <img>

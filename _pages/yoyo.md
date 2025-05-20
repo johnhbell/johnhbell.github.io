@@ -18,8 +18,7 @@ optimized and ran the thermoforming operations, as well as designed a
 masking system for painting the interior side of the coin shapes in the
 window.
 
-![](./media/YoYo/image1.png){width="5.0in"
-height="4.009081364829396in"}
+<img src="/media/YoYo/image1.png" style="width: 50vw;" />
 
 ## Thermoforming 
 
@@ -43,16 +42,15 @@ tab/notch set between the window and the outer pig shell piece.
 In addition to design for the thermoformed part and its mold, I worked
 to optimize the thermoforming process parameters.
 
-![](./media/YoYo/image2.png){width="3.0753051181102364in"
-height="2.5in"}![](./media/YoYo/image3.png){width="2.8572375328083988in"
-height="2.5in"}
+<div class="gallery" data-columns="4">
+    <img>
+    <img src="/media/YoYo/image2.png" style="width: 31vw;" />
+    <img src="/media/YoYo/image3.png" style="width: 29vw;" />
+    <img>
+</div>
 
-![](./media/YoYo/image4.png){width="2.4487784339457566in"
-height="2.5in"}
+<img src="/media/YoYo/image4.png" style="width: 25vw;" />
 
-![](./media/YoYo/image5.png){width="4.829721128608924in"
-height="4.0in"}
+<img src="/media/YoYo/image5.png" style="width: 48vw;" />
 
-![A blueprint of a diagram AI-generated content may be
-incorrect.](./media/YoYo/image6.png){width="6.5in"
-height="4.20625in"}
+<img src="/media/YoYo/image6.png" style="width: 65vw;" />
