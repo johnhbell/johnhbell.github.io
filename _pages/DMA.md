@@ -178,7 +178,7 @@ Force Control Mode Demo Video:
 
 <video  class="video-js" style="
     display: block;
-    width: 65%;
+    width: 55%;
     height: auto;
     margin: 0 auto;
     border: 1px solid rgba(0,0,0,0.1);
