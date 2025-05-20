@@ -1,7 +1,6 @@
 ---
-permalink: /research/cooperativeness/
-title: Human Mental State Estimation at the Start of Sit-to-Stand
-subtitle: Key Skills: Experimental Design, State Estimation
+permalink: /cooperativeness
+title: 'Human Mental State Estimation at the Start of Sit-to-Stand'
 ---
 
 *Key Skills: Experimental Design, State Estimation*

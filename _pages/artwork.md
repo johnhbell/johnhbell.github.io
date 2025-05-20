@@ -1,7 +1,6 @@
 ---
-permalink: /artwork/
-title: Artwork
-subtitle: 
+permalink: /artwork
+title: 'Artwork'
 ---
 
 # Waterjet Aluminum Press-Fit Sculpture Series

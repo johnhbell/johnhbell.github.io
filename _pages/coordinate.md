@@ -1,7 +1,6 @@
 ---
-permalink: /design/coordinate/
-title: Mobile Radio Networking Grid "Coordinate" (MIT 2.009 The Product Engineering Process Team Project)
-subtitle: Key Skills: Team leadership, Multidisciplinary inter-team coordination, User-centered design, PCB electronic design, radio networking design
+permalink: /coordinate
+title: 'Mobile Radio Networking Grid "Coordinate" (MIT 2.009 The Product Engineering Process Team Project)'
 ---
 
 *Key Skills: Team leadership, Multidisciplinary inter-team coordination,

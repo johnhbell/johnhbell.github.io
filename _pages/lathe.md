@@ -1,7 +1,6 @@
 ---
-permalink: /design/lathe/
-title: Instrumented Lathe (MIT 2.720 Elements of Machine Design Team Project)
-subtitle: Key Skills: Mechanical Design, Design for Manufacturing, FEA, Sensor Electronic Design
+permalink: /lathe
+title: 'Instrumented Lathe (MIT 2.720 Elements of Machine Design Team Project)'
 ---
 
 *Key Skills: Mechanical Design, Design for Manufacturing, FEA, Sensor

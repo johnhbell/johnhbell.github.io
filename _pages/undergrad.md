@@ -1,7 +1,6 @@
 ---
-permalink: /research/undergrad/
-title: Power Grid Stability and Liquid Metal Recapillarity (Undergraduate Research)
-subtitle: 
+permalink: /undergrad
+title: 'Power Grid Stability and Liquid Metal Recapillarity (Undergraduate Research)'
 ---
 
 ## Power Grid Stability

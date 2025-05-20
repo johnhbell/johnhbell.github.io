@@ -1,7 +1,6 @@
 ---
-permalink: /design/rover/
-title: RASC-AL RoboOps 2015 Rover (Extracurricular Team Project)
-subtitle: Key Skills: Design for Manufacturing (focus on waterjet and welding), Team Leadership
+permalink: /rover
+title: 'RASC-AL RoboOps 2015 Rover (Extracurricular Team Project)'
 ---
 
 *Key Skills: Design for Manufacturing (focus on waterjet and welding),
