@@ -6,8 +6,7 @@ title: 'Mobile Radio Networking Grid "Coordinate" (MIT 2.009 The Product Enginee
 *Key Skills: Team leadership, Multidisciplinary inter-team coordination,
 User-centered design, PCB electronic design, radio networking design*
 
-![](./media/Coordinate/image1.png){width="4.0in"
-height="4.334615048118986in"}
+<img src="/media/Coordinate/image1.png" style="width: 40vw;" />
 
 The main purpose of this system is to serve as a technological aide to
 search-and-rescue workers in tracking their positions as they perform
@@ -40,9 +39,12 @@ this stage, we were able to create a rudimentary system of two "Scout"
 devices which communicated back their GPS positions to a "Queen" device
 at base via a direct radio link.
 
-![](./media/Coordinate/image2.png){width="3.0751596675415573in"
-height="3.5in"}![](./media/Coordinate/image3.png){width="2.861311242344707in"
-height="3.5in"}
+<div class="gallery" data-columns="4">
+    <img>
+    <img src="/media/Coordinate/image2.png" style="width: 35vw;" />
+    <img src="/media/Coordinate/image3.png" style="width: 35vw;" />
+    <img>
+</div>
 
 ## Assembly Review Stage 
 
@@ -56,11 +58,9 @@ right, and its layout is shown below.) This first revision of the PCB
 has several critical power flow issues that caused it to not work;
 however, we were able to fix all of these issues for the next revision.
 
-![](./media/Coordinate/image4.png){width="2.395997375328084in"
-height="3.0in"}
+<img src="/media/Coordinate/image4.png" style="width: 24vw;" />
 
-![](./media/Coordinate/image5.png){width="5.565906605424322in"
-height="3.0in"}
+<img src="/media/Coordinate/image5.png" style="width: 56vw;" />
 
 ## Final Electronic Design 
 
@@ -84,9 +84,11 @@ The Search Module (shown exploded at bottom right) and its PCB were much
 simpler, and were focused on interpreting a point-of-interest marking
 button press and funneling GPS information to its low-power XBee.
 
-![](./media/Coordinate/image6.png){width="5.534027777777778in"
-height="4.153472222222222in"}
+<img src="/media/Coordinate/image6.png" style="width: 56vw;" />
 
-![](./media/Coordinate/image7.png){width="2.044560367454068in"
-height="3.0in"}![](./media/Coordinate/image8.png){width="3.693367235345582in"
-height="3.0in"}
+<div class="gallery" data-columns="4">
+    <img>
+    <img src="/media/Coordinate/image7.png" style="width: 20vw;" />
+    <img src="/media/Coordinate/image8.png" style="width: 37vw;" />
+    <img>
+</div>
