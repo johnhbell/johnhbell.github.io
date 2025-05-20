@@ -18,8 +18,7 @@ as well as design a new component, a pitch-control mechanism for the
 robot\'s HD camera. These pieces were all cut from sheet aluminum using
 a waterjet, and permanently joined using TIG welding.
 
-![](./media/Rover/image1.png){width="6.5in"
-height="5.788194444444445in"}
+<img src="/media/Rover/image1.png" style="width: 65vw;" />
 
 ## Frame 
 
@@ -31,8 +30,7 @@ One of the main challenges we resolved was ensuring free motion of our
 wheels' passive averaging system, which ensured that four wheels were on
 the ground under almost all operating conditions.
 
-![](./media/Rover/image2.png){width="5.0in"
-height="3.067283464566929in"}
+<img src="/media/Rover/image2.png" style="width: 50vw;" />
 
 ## Claw 
 
@@ -46,13 +44,19 @@ as they approached the edges of the hand. This helped prevent rocks from
 slipping out of the hand once grasped. Our final improvement was to
 improve to a high-quality Dynamixel servomotor.
 
-![](./media/Rover/image3.jpeg){width="3.0in"
-height="2.3677854330708663in"}![](./media/Rover/image4.jpeg){width="3.0in"
-height="2.249679571303587in"}
+<div class="gallery" data-columns="4">
+    <img>
+    <img src="/media/Rover/image3.jpeg" style="width: 30vw;" />
+    <img src="/media/Rover/image4.jpeg" style="width: 20vw;" />
+    <img>
+</div>
 
-![](./media/Rover/image5.png){width="2.729468503937008in"
-height="4.0in"}![](./media/Rover/image6.png){width="2.9089337270341207in"
-height="4.0in"}
+<div class="gallery" data-columns="4">
+    <img>
+    <img src="/media/Rover/image5.jpeg" style="width: 27vw;" />
+    <img src="/media/Rover/image6.jpeg" style="width: 29vw;" />
+    <img>
+</div>
 
 ## Arm Mount 
 
@@ -66,8 +70,7 @@ particular importance to me as a designer, as its tabbed interlock
 system (reinforced with TIG welding) became the basis for my press-fit
 aluminum sculpture technique.
 
-![](./media/Rover/image7.png){width="5.0in"
-height="4.08724300087489in"}
+<img src="/media/Rover/image7.png" style="width: 50vw;" />
 
 ## Camera Mount 
 
@@ -78,5 +81,4 @@ this camera on the field, I designed a four-bar linkage system to stably
 control the camera's pitch, in-creasing the range of available scenery
 to analyze.
 
-![](./media/Rover/image8.png){width="5.0in"
-height="4.015657261592301in"}
+<img src="/media/Rover/image8.png" style="width: 50vw;" />
