@@ -6,19 +6,19 @@ subtitle: Non-research engineering projects
 
 ### [Instrumented Lathe](/lathe)
 
-![](./media/Design/image1.jpeg){width="4.0in" height="3.0in"}
+<img src="/media/Design/image1.jpeg" style="width: 25vw;" />
+
 
 ### [Mobile Radio Networking Grid](/coordinate)
 
-![](./media/Design/image2.png){width="4.0in"
-height="3.002133639545057in"}
+<img src="/media/Design/image2.png" style="width: 20vw;" />
+
 
 ### [Mass-Manufactured Yo-Yo](/yoyo)
 
-![](./media/Design/image3.png){width="4.0in"
-height="3.2072648731408573in"}
+<img src="/media/Design/image3.png" style="width: 20vw;" />
+
 
 ### [RASC-AL RoboOps 2015 Rover](/rover)
 
-![](./media/Design/image4.png){width="4.0in"
-height="3.561966316710411in"}
+<img src="/media/Design/image4.png" style="width: 20vw;" />

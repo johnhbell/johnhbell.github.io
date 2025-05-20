@@ -26,6 +26,6 @@ publication under review (portfolio entry coming soon)
 <div class="gallery" data-columns="4">
     <img>
     <img src="/media/Research/image4.png" style="width: 15vw;" />
-    <img src="/media/Research/image5.png" style="width: 15vw;" />
+    <img src="/media/Research/image5.png" style="width: 10vw;" />
     <img>
 </div>
