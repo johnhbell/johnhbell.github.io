@@ -23,12 +23,9 @@ publication under review (portfolio entry coming soon)
 
 ### [Power Grid Stability and Liquid Metal Recapillarity (Undergraduate Research)](/undergrad)
 
-<div class="row">
-  <div class="column">
+<div class="gallery" data-columns="4">
+    <img>
     <img src="/media/Research/image4.png" style="width: 15vw;" />
-  </div>
-  <div class="column">
     <img src="/media/Research/image5.png" style="width: 15vw;" />
-  </div>
+    <img>
 </div>
-
