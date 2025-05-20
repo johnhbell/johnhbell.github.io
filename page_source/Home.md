@@ -1,8 +1,5 @@
----
-layout: index
----
-
-![](./media/Home/image1.jpeg)I am recently earned my Ph.D. in
+![](./media/Home/image1.jpeg){width="3.0in"
+height="2.9993055555555554in"}I am recently earned my Ph.D. in
 Mechanical Engineering, with a Minor in Applied Mathematics, from MIT,
 working with Professor H. Harry Asada at the d'Arbeloff Laboratory. I
 previously earned my S.M. and S.B. from MIT as well, with my S.M. work
@@ -18,5 +15,4 @@ collaborator, having demonstrated effectiveness in leading
 multidisciplinary teams\[L,L\] and in teaching complex engineering
 concepts\[L\].
 
-[Google Scholar](https://scholar.google.com/citations?user=qO-KEPQAAAAJ) \| [LinkedIn](https://www.linkedin.com/in/jhbell4/) \| [Email](mailto:jhbell@mit.edu)
-
+Google Scholar \| LinkedIn \| Email
