@@ -12,7 +12,7 @@ menu_settings:
       url: '/'
     - title: 'Research'
       url: '/research'
-      sub_menu:
+      subfolderitems:
         - title: 'Modeling Human Sit-to-Stand Dynamics using Koopman Operator Theory'
           url: '/research'
         - title: 'Dual-Motor Actuator Design for Human Support'
@@ -25,7 +25,7 @@ menu_settings:
       url: '/publications'  
     - title: 'Engineering Design'
       url: '/design'
-      sub_menu:
+      subfolderitems:
         - title: 'Instrumented Lathe'
           url: '/design/lathe'
         - title: 'Mobile Radio Networking Grid'
