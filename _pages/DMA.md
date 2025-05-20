@@ -28,29 +28,23 @@ implemented and tested experimentally.
 
 Conceptual Diagram:
 
-![](./media/DMA/image1.png){width="5.0in"
-height="1.7073173665791777in"}
+<img src="/media/DMA/image1.png" style="width: 65vw;" />
 
 Bench Prototype:
 
-![](./media/DMA/image2.png){width="5.0in"
-height="2.7352569991251094in"}
+<img src="/media/DMA/image2.png" style="width: 65vw;" />
 
 Torque-Speed Characteristic of Dual-Motor Actuator, demonstrating
 high-torque, low-speed vs. high-speed, low-torque modes of operation:
 
-![](./media/DMA/image3.png){width="4.0in"
-height="2.6860925196850394in"}
+<img src="/media/DMA/image3.png" style="width: 30vw;" />
 
-[Citation:]{.underline}
+<u>Citation:</u>
 
 **J. Bell** and H. H. Asada, \"Design and Time-Optimal Control of a
 High-Speed High-Torque Dual-Motor Actuator,\" *2020 American Control
 Conference (ACC)*, Denver, CO, USA, 2020, pp. 1017-1024, doi:
 10.23919/ACC45564.2020.9147873.
-
-[\
-]{.underline}
 
 ## Optimizing Gear Ratios for Dual-Motor Actuators in a Human Support Context
 
@@ -74,29 +68,26 @@ reconfiguration.
 
 Conceptual Illustration of Multi-Modal Actuator Requirements:
 
-![](./media/DMA/image4.png){width="5.0in"
-height="4.173404418197725in"}
+<img src="/media/DMA/image4.png" style="width: 55vw;" />
 
 Core optimization task:
 
-![](./media/DMA/image5.png){width="6.5in"
-height="3.036111111111111in"}
+<img src="/media/DMA/image5.png" style="width: 65vw;" />
 
-Physical prototype for demonstration:
+Physical prototype for demonstration, with corresponding mechanical model:
 
-![](./media/DMA/image6.png){width="2.3722222222222222in"
-height="3.5506944444444444in"}
+<img src="/media/DMA/image6.png" style="width: 55vw;" />
+
 
 In the optimal gear ratio arrangement, the different tasks' trajectories
 are closely bounded by the torque-speed characteristic (here shown for
-the hip joint dual-motor actuator:
+the hip joint dual-motor actuator):
 
-![](./media/DMA/image7.png){width="5.0472222222222225in"
-height="4.860416666666667in"}
+<img src="/media/DMA/image7.png" style="width: 50vw;" />
 
 \[Video\]
 
-[Citation:]{.underline}
+<u>Citation:</u>
 
 **J. Bell**, E. Kamienski, S. Teshigawara, H. Itagaki and H. H. Asada,
 \"Gear Ratio Optimization of a Multifunctional Walker Robot Using
@@ -123,15 +114,21 @@ to achieve different aspects of the task:
 
 Conceptual Diagrams of Mechanism and Two-Motor Control Strategy:
 
-![](./media/DMA/image8.png){width="3.25in"
-height="1.6988221784776902in"}![](./media/DMA/image9.png){width="3.0in"
-height="1.4698567366579178in"}
+<div class="gallery" data-columns="4">
+    <img>
+    <img src="/media/DMA/image8.png" style="width: 30vw;" />
+    <img src="/media/DMA/image9.png" style="width: 30vw;" />
+    <img>
+</div>
 
 Cartoon Illustration and CAD Model of Actual Mechanical Design:
 
-![](./media/DMA/image10.png){width="4.0in"
-height="2.607264873140857in"}![](./media/DMA/image11.png){width="2.0266283902012248in"
-height="2.5in"}
+<div class="gallery" data-columns="4">
+    <img>
+    <img src="/media/DMA/image10.png" style="width: 40vw;" />
+    <img src="/media/DMA/image11.png" style="width: 25vw;" />
+    <img>
+</div>
 
 A key challenge was designing a rotational spring which could transfer
 enough torque to hold a person, while also being of sufficiently low
@@ -142,9 +139,12 @@ parallel springs to create a heavy-duty rotational spring. To minimize
 weight, FEA was used to determine the minimum thickness of plates
 constituent to the design.
 
-![](./media/DMA/image12.jpg){width="3.0in"
-height="2.6380522747156605in"}![](./media/DMA/image13.png){width="3.4in"
-height="1.5764949693788277in"}
+<div class="gallery" data-columns="4">
+    <img>
+    <img src="/media/DMA/image12.jpg" style="width: 30vw;" />
+    <img src="/media/DMA/image13.png" style="width: 34vw;" />
+    <img>
+</div>
 
 Two control modes were developed for this actuator: force control mode
 and position control mode. These were implemented using a Raspberry Pi
@@ -153,13 +153,13 @@ velocity commands to an ODrive motor controller.
 
 Force Control Mode Diagram:
 
+<img src="/media/DMA/image14.png" style="width: 65vw;" />
 ![](./media/DMA/image14.png){width="6.5in"
 height="3.873611111111111in"}
 
 Position Control Mode Diagram:
 
-![](./media/DMA/image15.png){width="6.5in"
-height="3.328472222222222in"}
+<img src="/media/DMA/image15.png" style="width: 65vw;" />
 
 Force Control Mode Demo Video:
 
