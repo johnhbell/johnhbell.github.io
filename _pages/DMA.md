@@ -85,7 +85,22 @@ the hip joint dual-motor actuator):
 
 <img src="/media/DMA/image7.png" style="width: 50vw;" />
 
-\[Video\]
+Video:
+
+<video  class="video-js" style="
+    display: block;
+    width: 65%;
+    height: auto;
+    margin: 0 auto;
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 12px;
+    background: white;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);" 
+  controls 
+  playsinline
+  preload="metadata">
+  <source src="/media/DMA/Bell_IROS-Video.mp4" type="video/mp4">
+</video>
 
 <u>Citation:</u>
 
@@ -163,4 +178,17 @@ Position Control Mode Diagram:
 
 Force Control Mode Demo Video:
 
-\[Video\]
+<video  class="video-js" style="
+    display: block;
+    width: 65%;
+    height: auto;
+    margin: 0 auto;
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 12px;
+    background: white;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);" 
+  controls 
+  playsinline
+  preload="metadata">
+  <source src="/media/DMA/Force_Control_Video.mp4" type="video/mp4">
+</video>
