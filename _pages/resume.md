@@ -1,6 +1,6 @@
 ---
 permalink: /resume
-title: 'Resume'
+title: 'Résumé'
 ---
 
 <div style="margin-left: auto; margin-right: auto; margin-top: 20px; max-width: 60%">

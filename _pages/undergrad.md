@@ -26,7 +26,7 @@ the joint distribution of power deviation and frequency deviation:
 P. Vorobev, D. M. Greenwood, **J. H. Bell**, J. W. Bialek, P. C. Taylor
 and K. Turitsyn, \"Deadbands, Droop, and Inertia Impact on Power System
 Frequency Distribution,\" in *IEEE Transactions on Power Systems*, vol.
-34, no. 4, pp. 3098-3108, July 2019, doi: 10.1109/TPWRS.2019.2895547.
+34, no. 4, pp. 3098-3108, July 2019, doi: [10.1109/TPWRS.2019.2895547](https://doi.org/10.1109/TPWRS.2019.2895547).
 
 ## Liquid Metal Recapillarity
 
@@ -61,4 +61,4 @@ Velocity-Current Density Proportionality Characterization, and local imperfectio
 
 Khan M. R., **Bell J.**, Dickey M. D. (2016). Localized Instabilities of
 Liquid Metal Films via In-Plane Recapillarity. *Adv. Mater.
-Interfaces*, 3: 1600546. doi: 10.1002/admi.201600546
+Interfaces*, 3: 1600546. doi: [10.1002/admi.201600546](https://doi.org/10.1002/admi.201600546)

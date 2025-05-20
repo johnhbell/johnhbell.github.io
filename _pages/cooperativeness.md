@@ -63,4 +63,4 @@ observed behavior.
 Cooperativeness for Guiding an Elderly Person in Sit-to-Stand
 Assistance,\" *2022 International Conference on Robotics and Automation
 (ICRA)*, Philadelphia, PA, USA, 2022, pp. 6465-6471, doi:
-10.1109/ICRA46639.2022.9812422.
+[10.1109/ICRA46639.2022.9812422](https://doi.org/10.1109/ICRA46639.2022.9812422).

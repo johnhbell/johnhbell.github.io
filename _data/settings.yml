@@ -18,7 +18,7 @@ menu_settings:
       url: '/design'
     - title: 'Artwork'
       url: '/artwork'
-    - title: 'Resume'
+    - title: 'Résumé'
       url: '/resume'
     
 footer_settings:
