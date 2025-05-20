@@ -14,15 +14,14 @@ controlled by governors possessing a deadband.
 Illustration of deadband: power deviations by the governor in response
 to frequency changes
 
-![](./media/Undergrad/image1.png){width="4.0in" height="2.4in"}
+<img src="/media/Undergrad/image1.png" style="width: 24vw;" />
 
 Probability density function created using Fokker-Planck analysis, of
 the joint distribution of power deviation and frequency deviation:
 
-![](./media/Undergrad/image2.png){width="4.0in"
-height="3.829268372703412in"}
+<img src="/media/Undergrad/image2.png" style="width: 40vw;" />
 
-[Citation:]{.underline}
+<u>Citation:</u>
 
 P. Vorobev, D. M. Greenwood, **J. H. Bell**, J. W. Bialek, P. C. Taylor
 and K. Turitsyn, \"Deadbands, Droop, and Inertia Impact on Power System
@@ -47,21 +46,18 @@ velocity and estimate current density.
 
 Diagram of Method and Example of Formed Liquid Metal Sheet:
 
-![](./media/Undergrad/image3.png){width="3.2395833333333335in"
-height="4.104166666666667in"}
+<img src="/media/Undergrad/image3.png" style="width: 32vw;" />
 
 Illustration of Method and of Experiments to Characterize Retreat
 Characteristics:
 
-![](./media/Undergrad/image4.png){width="6.5in"
-height="6.957323928258968in"}
+<img src="/media/Undergrad/image4.png" style="width: 65vw;" />
 
-Velocity-Current Density Proportionality Characterization:
+Velocity-Current Density Proportionality Characterization, and local imperfections in the interface:
 
-![](./media/Undergrad/image5.png){width="5.0in"
-height="4.181454505686789in"}
+<img src="/media/Undergrad/image5.png" style="width: 50vw;" />
 
-[Citation:]{.underline}
+<u>Citation:</u>
 
 Khan M. R., **Bell J.**, Dickey M. D. (2016). Localized Instabilities of
 Liquid Metal Films via In-Plane Recapillarity. *Adv. Mater.

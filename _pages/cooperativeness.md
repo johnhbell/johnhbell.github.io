@@ -53,7 +53,7 @@ We utilized an Extended Kalman Filter built using a rudimentary bilinear
 model of human response in order to estimate cooperativeness from
 observed behavior.
 
-<img src="/media/Cooperativeness/image7.png" style="width: 65vw;" />
+<img src="/media/Cooperativeness/image7.png" style="width: 45vw;" />
 
 <img src="/media/Cooperativeness/image8.png" style="width: 65vw;" />
 
