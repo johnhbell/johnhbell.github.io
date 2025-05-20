@@ -1,3 +1,3 @@
-# social-mdp.github.io
+# johnhbell.github.io
 
-Website for Social MDP.
+Personal Website for John H Bell, PhD.
