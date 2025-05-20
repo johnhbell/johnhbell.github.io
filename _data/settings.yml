@@ -18,8 +18,8 @@ menu_settings:
       url: '/design'
     - title: 'Artwork'
       url: '/artwork'
-    - title: 'Contact'
-      url: '/contact'
+    - title: 'Resume'
+      url: '/resume'
     
 footer_settings:
   logo_image: 

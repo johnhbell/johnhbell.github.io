@@ -53,8 +53,8 @@ improve to a high-quality Dynamixel servomotor.
 
 <div class="gallery" data-columns="4">
     <img>
-    <img src="/media/Rover/image5.jpeg" style="width: 27vw;" />
-    <img src="/media/Rover/image6.jpeg" style="width: 29vw;" />
+    <img src="/media/Rover/image5.png" style="width: 27vw;" />
+    <img src="/media/Rover/image6.png" style="width: 29vw;" />
     <img>
 </div>
 
