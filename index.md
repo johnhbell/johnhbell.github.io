@@ -1,7 +1,7 @@
 ---
 layout: index
 ---
-<img src="./media/Home/image1.jpeg" style="width: 55vw; min-width: 330px;" />
+<img src="./media/Home/image1.jpeg" style="width: 45vw;" />
 
 I am recently earned my Ph.D. in
 Mechanical Engineering, with a Minor in Applied Mathematics, from MIT,
