@@ -169,8 +169,6 @@ velocity commands to an ODrive motor controller.
 Force Control Mode Diagram:
 
 <img src="/media/DMA/image14.png" style="width: 65vw;" />
-![](./media/DMA/image14.png){width="6.5in"
-height="3.873611111111111in"}
 
 Position Control Mode Diagram:
 

@@ -29,14 +29,12 @@ cooperativeness state.
 This work aims to enable automated estimation of human cooperativeness
 with robotic assistance for supporting sit-to-stand:
 
-![](./media/Cooperativeness/image3.png){width="6.5in"
-height="2.670117016622922in"}
+<img src="media/Cooperativeness/image3.png" style="width: 65vw;" />
 
 We defined "cooperativeness" in terms of a person's response to an
 applied cue:
 
-![](./media/Cooperativeness/image4.png){width="6.5in"
-height="3.2569028871391077in"}
+<img src="/media/Cooperativeness/image4.png" style="width: 65vw;" />
 
 We performed human subject experiments with young, healthy subjects. In
 each experiment, the subject was randomly requested to act either
@@ -44,19 +42,20 @@ cooperative, unresponsive, or uncooperative. A randomly determined set
 of force and verbal cues were applied by a human experimenter, and the
 human subject's motion was measured as a response.
 
-![](./media/Cooperativeness/image5.png){width="3.2314009186351704in"
-height="2.5in"}![](./media/Cooperativeness/image6.png){width="2.729041994750656in"
-height="2.5in"}
+<div class="gallery" data-columns="4">
+    <img>
+    <img src="/media/Cooperativeness/image5.png" style="width: 32vw;" />
+    <img src="/media/Cooperativeness/image5.png" style="width: 27vw;" />
+    <img>
+</div>
 
 We utilized an Extended Kalman Filter built using a rudimentary bilinear
 model of human response in order to estimate cooperativeness from
 observed behavior.
 
-![](./media/Cooperativeness/image7.png){width="6.5in"
-height="2.8819444444444446in"}
+<img src="/media/Cooperativeness/image7.png" style="width: 65vw;" />
 
-![](./media/Cooperativeness/image8.png){width="6.5in"
-height="3.025in"}
+<img src="/media/Cooperativeness/image8.png" style="width: 65vw;" />
 
 <u>Citation:</u>
 
