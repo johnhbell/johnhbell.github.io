@@ -1,13 +1,14 @@
 ---
 layout: index
 ---
+<img src="./media/Home/image1.jpeg" style="width: 55vw; min-width: 330px;" />
 
-![](./media/Home/image1.jpeg)I am recently earned my Ph.D. in
+I am recently earned my Ph.D. in
 Mechanical Engineering, with a Minor in Applied Mathematics, from MIT,
-working with Professor H. Harry Asada at the d'Arbeloff Laboratory. I
+working with Professor H. Harry Asada at the [d'Arbeloff Laboratory](https://darbelofflab.mit.edu/). I
 previously earned my S.M. and S.B. from MIT as well, with my S.M. work
 done with Prof. Asada in the d'Arbeloff Lab, and my S.B. work done with
-Professor Marija Ilić and Chris Smith at MIT Lincoln Laboratory.
+Professor Marija Ilić and Chris Smith at [MIT Lincoln Laboratory](https://www.ll.mit.edu/r-d/homeland-protection/energy-systems).
 
 I am a roboticist and mechanical engineer with expertise in dynamic
 systems modeling\[L\], advanced actuator design\[L\], and real-time
