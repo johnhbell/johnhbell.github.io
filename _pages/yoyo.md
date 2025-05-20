@@ -1,5 +1,5 @@
 ---
-permalink: /yoyo/
+permalink: /design/yoyo/
 title: Mass-Manufactured Yo-Yo "00ink" (MIT 2.008 Design and Manufacturing II Team Project)
 subtitle: Key Skills: Design for Manufacturing (focus on thermoforming)
 ---
