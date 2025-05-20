@@ -1,6 +1,6 @@
 ---
 permalink: /yoyo/
-title: Mass-Manufactured Yo-Yo \"00ink\" (MIT 2.008 Design and Manufacturing II Team Project)
+title: 'Mass-Manufactured Yo-Yo "00ink" (MIT 2.008 Design and Manufacturing II Team Project)'
 ---
 
 *Key Skills: Design for Manufacturing (focus on thermoforming)*
