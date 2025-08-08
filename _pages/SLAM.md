@@ -26,27 +26,27 @@ input:focus-visible + label { outline: 2px solid rgba(242,120,75,0.95); border-r
 
 <div class="tabset1 table-wrap" style="width:70%;margin:2rem auto 0 auto;">
     <input type="radio" name="tabset1" id="tab1-1" aria-controls="ac">
-    <label for="tab1-1">Iteration 3 (Fall 2024)</label>
+    <label for="tab1-1">Iteration 1 (Fall 2021)</label>
     <input type="radio" name="tabset1" id="tab2-1" aria-controls="lcnoap">
     <label for="tab2-1">Iteration 2 (Fall 2022)</label>
     <input type="radio" name="tabset1" id="tab3-1" aria-controls="lc" checked>
-    <label for="tab3-1">Iteration 1 (Fall 2021)</label>
+    <label for="tab3-1">Iteration 3 (Fall 2024)</label>
     <div class="tab-panel1s">
         <section id="marzen" class="tab-panel1" style="margin:0">
             <div style="margin-left: auto; margin-right: auto; margin-top: 20px; max-width: 60%">
-            <iframe src="/media/SLAM/iteration_3/Project-2-SLAM-Fall-2024_V3-1.pdf" type="application/pdf" width="100%" height="1000px"> 
+            <iframe src="media/SLAM/iteration_1/Project-2-SLAM-Fall-2021_V2.pdf" type="application/pdf" width="100%" height="1000px"> 
             </iframe>
             </div>
         </section>
         <section id="rauchbier" class="tab-panel1" style="margin:0">
             <div style="margin-left: auto; margin-right: auto; margin-top: 20px; max-width: 60%">
-            <iframe src="media/SLAM/iteration_2/Project-2-SLAM-Fall-2022_V4.pdf" type="application/pdf" width="100%" height="1000px"> 
+            <iframe src="/media/SLAM/iteration_2/Project-2-SLAM-Fall-2022_V4.pdf" type="application/pdf" width="100%" height="1000px"> 
             </iframe>
             </div>
         </section>
         <section id="dunkles" class="tab-panel1" style="margin:0">
             <div style="margin-left: auto; margin-right: auto; margin-top: 20px; max-width: 60%">
-            <iframe src="media/SLAM/iteration_1/Project-2-SLAM-Fall-2021_V2.pdf" type="application/pdf" width="100%" height="1000px"> 
+            <iframe src="/media/SLAM/iteration_3/Project-2-SLAM-Fall-2024_V3-1.pdf" type="application/pdf" width="100%" height="1000px"> 
             </iframe>
             </div>
         </section>

@@ -16,6 +16,8 @@ menu_settings:
       url: '/publications'  
     - title: 'Engineering Design'
       url: '/design'
+    - title: 'Educational Design'
+      url: '/SLAM'
     - title: 'Artwork'
       url: '/artwork'
     - title: 'Résumé'
