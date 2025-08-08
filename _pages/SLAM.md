@@ -7,6 +7,42 @@ subtitle: 'The user study had 13 participants (8 male, 5 female) aged 18-35 year
 <script src="https://vjs.zencdn.net/8.0.4/video.min.js"></script>
 
 <style>
+/* Dropdown Container */
+.tabset-dropdown {
+  width: 70%;
+  margin: 2rem auto 0 auto;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+/* Style the select */
+.tabset-dropdown select {
+  padding: 10px 15px;
+  font-size: 1rem;
+  font-weight: 600;
+  border: 2px solid black;
+  background-color: white;
+  cursor: pointer;
+  margin-bottom: 1rem;
+  color: rgba(242,120,75,0.95);
+}
+
+/* Hide all panels by default */
+.tabset-dropdown .tab-panel1 {
+  display: none;
+  padding: 30px 0;
+  border-top: 2px solid black;
+  width: 88%;
+  margin: 0 auto;
+}
+
+/* Show the selected panel */
+.tabset-dropdown:has(select[value="panel1"]) .panel1,
+.tabset-dropdown:has(select[value="panel2"]) .panel2,
+.tabset-dropdown:has(select[value="panel3"]) .panel3 {
+  display: block;
+}
+
 .tabset1 > input[type="radio"] { position: absolute; left: -200vw; }
 .tabset1 .tab-panel1 { display: none; }
 .tabset1 > input:first-child:checked ~ .tab-panel1s > .tab-panel1:first-child,
@@ -36,6 +72,25 @@ input:focus-visible + label { outline: 2px solid rgba(242,120,75,0.95); border-r
             <div style="margin-left: auto; margin-right: auto; margin-top: 20px; max-width: 60%">
             <iframe src="media/SLAM/iteration_1/Project-2-SLAM-Fall-2021_V2.pdf" type="application/pdf" width="100%" height="1000px"> 
             </iframe>
+            </div>
+            <div class="tabset-dropdown">
+            <label for="tab-selector" style="display:block; margin-bottom: 0.5rem; font-weight: bold;">
+                Choose a file to view:
+            </label>
+            <select id="tab-selector">
+                <option value="panel1" selected>Option A</option>
+                <option value="panel2">Option B</option>
+                <option value="panel3">Option C</option>
+            </select>
+            <div class="tab-panel1 panel1">
+                Text option a
+            </div>
+            <div class="tab-panel1 panel2">
+                Text option b
+            </div>
+            <div class="tab-panel1 panel3">
+                Text option c
+            </div>
             </div>
         </section>
         <section id="rauchbier" class="tab-panel1" style="margin:0">
