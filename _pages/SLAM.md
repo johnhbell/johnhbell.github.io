@@ -60,7 +60,7 @@ input:focus-visible + label { outline: 2px solid rgba(242,120,75,0.95); border-r
 .tabset1 > label:hover, .tabset1 > input:focus + label, .tabset1 > input:checked + label { color: rgba(242,120,75,0.95); }
 .tabset1 > label:hover::after, .tabset1 > input:focus + label::after, .tabset1 > input:checked + label::after { background: rgba(242,120,75,0.95); }
 .tabset1 > input:checked + label { border-color: black; border-width: 2px; border-bottom: 1px solid #fff; margin-bottom: -1px; }
-tab-panel1 { padding: 30px 0; border-top: 2px solid black; width: 88%; margin: 0 auto; }
+.tab-panel1 { padding: 30px 0; border-top: 2px solid black; width: 88%; margin: 0 auto; }
 </style>
 
 <div class="tabset1 table-wrap" style="width:70%;margin:2rem auto 0 auto;">
