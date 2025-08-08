@@ -8,7 +8,7 @@ subtitle: 'The user study had 13 participants (8 male, 5 female) aged 18-35 year
 
 <style>
 /* Container styles */
-.tabset-dropdown {
+.dropdown-set {
   width: 70%;
   margin: 2rem auto 0 auto;
   text-align: center;
@@ -16,7 +16,7 @@ subtitle: 'The user study had 13 participants (8 male, 5 female) aged 18-35 year
 }
 
 /* Style the dropdown */
-.tabset-dropdown select {
+.dropdown-set select {
   padding: 10px 15px;
   font-size: 1rem;
   font-weight: 600;
@@ -28,7 +28,7 @@ subtitle: 'The user study had 13 participants (8 male, 5 female) aged 18-35 year
 }
 
 /* Panel styles */
-.tab-panel1 {
+.dropdown-panel {
   display: none;
   padding: 30px 0;
   border-top: 2px solid black;
@@ -36,12 +36,12 @@ subtitle: 'The user study had 13 participants (8 male, 5 female) aged 18-35 year
   margin: 0 auto;
 }
 
-.tab-panel1.active {
+.dropdown-panel.active {
   display: block;
 }
 
 /* Responsive image styling */
-.tab-panel1 img {
+.dropdown-panel img {
   max-width: 100%;
   height: auto;
 }
@@ -60,7 +60,7 @@ input:focus-visible + label { outline: 2px solid rgba(242,120,75,0.95); border-r
 .tabset1 > label:hover, .tabset1 > input:focus + label, .tabset1 > input:checked + label { color: rgba(242,120,75,0.95); }
 .tabset1 > label:hover::after, .tabset1 > input:focus + label::after, .tabset1 > input:checked + label::after { background: rgba(242,120,75,0.95); }
 .tabset1 > input:checked + label { border-color: black; border-width: 2px; border-bottom: 1px solid #fff; margin-bottom: -1px; }
-/*.tab-panel1 { padding: 30px 0; border-top: 2px solid black; width: 88%; margin: 0 auto; }*/
+tab-panel1 { padding: 30px 0; border-top: 2px solid black; width: 88%; margin: 0 auto; }
 </style>
 
 <div class="tabset1 table-wrap" style="width:70%;margin:2rem auto 0 auto;">
@@ -76,7 +76,7 @@ input:focus-visible + label { outline: 2px solid rgba(242,120,75,0.95); border-r
             <iframe src="media/SLAM/iteration_1/Project-2-SLAM-Fall-2021_V2.pdf" type="application/pdf" width="100%" height="1000px"> 
             </iframe>
             </div>
-            <div class="tabset-dropdown">
+            <div class="dropdown-set">
             <label for="tab-selector" style="display:block; margin-bottom: 0.5rem; font-weight: bold;">
                 Choose a view:
             </label>
@@ -85,13 +85,13 @@ input:focus-visible + label { outline: 2px solid rgba(242,120,75,0.95); border-r
                 <option value="panel2">Option B</option>
                 <option value="panel3">Option C</option>
             </select>
-            <div id="panel1" class="tab-panel1">
+            <div id="panel1" class="dropdown-panel active">
                 Test text A
             </div>
-            <div id="panel2" class="tab-panel1">
+            <div id="panel2" class="dropdown-panel">
                 Test text B
             </div>
-            <div id="panel3" class="tab-panel1 active">
+            <div id="panel3" class="dropdown-panel">
                 Test text C
             </div>
             </div>
@@ -113,7 +113,7 @@ input:focus-visible + label { outline: 2px solid rgba(242,120,75,0.95); border-r
 
 <script>
   const selector = document.getElementById('tab-selector');
-  const panels = document.querySelectorAll('.tab-panel1');
+  const panels = document.querySelectorAll('.dropdown-panel');
 
   function showPanel(id) {
     panels.forEach(panel => {
