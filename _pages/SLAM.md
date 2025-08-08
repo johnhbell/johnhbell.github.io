@@ -7,7 +7,7 @@ subtitle: 'The user study had 13 participants (8 male, 5 female) aged 18-35 year
 <script src="https://vjs.zencdn.net/8.0.4/video.min.js"></script>
 
 <style>
-/* Dropdown Container */
+/* Container styles */
 .tabset-dropdown {
   width: 70%;
   margin: 2rem auto 0 auto;
@@ -15,7 +15,7 @@ subtitle: 'The user study had 13 participants (8 male, 5 female) aged 18-35 year
   font-family: sans-serif;
 }
 
-/* Style the select */
+/* Style the dropdown */
 .tabset-dropdown select {
   padding: 10px 15px;
   font-size: 1rem;
@@ -27,8 +27,8 @@ subtitle: 'The user study had 13 participants (8 male, 5 female) aged 18-35 year
   color: rgba(242,120,75,0.95);
 }
 
-/* Hide all panels by default */
-.tabset-dropdown .tab-panel1 {
+/* Panel styles */
+.tab-panel1 {
   display: none;
   padding: 30px 0;
   border-top: 2px solid black;
@@ -36,11 +36,14 @@ subtitle: 'The user study had 13 participants (8 male, 5 female) aged 18-35 year
   margin: 0 auto;
 }
 
-/* Show the selected panel */
-.tabset-dropdown:has(select[value="panel1"]) .panel1,
-.tabset-dropdown:has(select[value="panel2"]) .panel2,
-.tabset-dropdown:has(select[value="panel3"]) .panel3 {
+.tab-panel1.active {
   display: block;
+}
+
+/* Responsive image styling */
+.tab-panel1 img {
+  max-width: 100%;
+  height: auto;
 }
 
 .tabset1 > input[type="radio"] { position: absolute; left: -200vw; }
@@ -57,7 +60,7 @@ input:focus-visible + label { outline: 2px solid rgba(242,120,75,0.95); border-r
 .tabset1 > label:hover, .tabset1 > input:focus + label, .tabset1 > input:checked + label { color: rgba(242,120,75,0.95); }
 .tabset1 > label:hover::after, .tabset1 > input:focus + label::after, .tabset1 > input:checked + label::after { background: rgba(242,120,75,0.95); }
 .tabset1 > input:checked + label { border-color: black; border-width: 2px; border-bottom: 1px solid #fff; margin-bottom: -1px; }
-.tab-panel1 { padding: 30px 0; border-top: 2px solid black; width: 88%; margin: 0 auto; }
+/*.tab-panel1 { padding: 30px 0; border-top: 2px solid black; width: 88%; margin: 0 auto; }*/
 </style>
 
 <div class="tabset1 table-wrap" style="width:70%;margin:2rem auto 0 auto;">
@@ -75,21 +78,21 @@ input:focus-visible + label { outline: 2px solid rgba(242,120,75,0.95); border-r
             </div>
             <div class="tabset-dropdown">
             <label for="tab-selector" style="display:block; margin-bottom: 0.5rem; font-weight: bold;">
-                Choose a file to view:
+                Choose a view:
             </label>
             <select id="tab-selector">
                 <option value="panel1" selected>Option A</option>
                 <option value="panel2">Option B</option>
                 <option value="panel3">Option C</option>
             </select>
-            <div class="tab-panel1 panel1">
-                Text option a
+            <div id="panel1" class="tab-panel1">
+                Test text A
             </div>
-            <div class="tab-panel1 panel2">
-                Text option b
+            <div id="panel2" class="tab-panel1">
+                Test text B
             </div>
-            <div class="tab-panel1 panel3">
-                Text option c
+            <div id="panel3" class="tab-panel1 active">
+                Test text C
             </div>
             </div>
         </section>
@@ -107,3 +110,21 @@ input:focus-visible + label { outline: 2px solid rgba(242,120,75,0.95); border-r
         </section>
     </div>
 </div>
+
+<script>
+  const selector = document.getElementById('tab-selector');
+  const panels = document.querySelectorAll('.tab-panel1');
+
+  function showPanel(id) {
+    panels.forEach(panel => {
+      panel.classList.toggle('active', panel.id === id);
+    });
+  }
+
+  selector.addEventListener('change', () => {
+    showPanel(selector.value);
+  });
+
+  // Initialize on load
+  showPanel(selector.value);
+</script>
