@@ -11,7 +11,7 @@ subtitle: 'The user study had 13 participants (8 male, 5 female) aged 18-35 year
       href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/default.min.css">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/matlab.min.js"></script>
-<script>hljs.highlightAll();</script>
+<!--<script>hljs.highlightAll();</script>-->
 
 <style>
 /* Container styles */
@@ -147,9 +147,9 @@ input:focus-visible + label { outline: 2px solid rgba(242,120,75,0.95); border-r
             </select>
             <div id="panel3-1" class="dropdown-panel active">
                 <!-- Container for code display and download -->
-                <div style="margin: 2rem auto; max-width: 60%; font-family: sans-serif;">
+                <div style="margin: 2rem auto; max-width: 100%; font-family: sans-serif;">
                 <!-- Code block with syntax highlighting -->
-                <pre><code id="it3_example_1_display" class="matlab" style="max-height: 600px; overflow: auto; border: 1px solid #ccc; padding: 1rem; background: #f8f8f8;">Loading code...</code></pre>
+                <pre><code id="it3_example_1_display" class="language-matlab" style="max-height: 600px; overflow: auto; border: 1px solid #ccc; padding: 1rem; background: #f8f8f8;">Loading code...</code></pre>
                 </div>
             </div>
             <div id="panel3-2" class="dropdown-panel">
