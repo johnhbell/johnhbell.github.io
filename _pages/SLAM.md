@@ -71,48 +71,91 @@ input:focus-visible + label { outline: 2px solid rgba(242,120,75,0.95); border-r
     <input type="radio" name="tabset1" id="tab3-1" aria-controls="lc" checked>
     <label for="tab3-1">Iteration 3 (Fall 2024)</label>
     <div class="tab-panel1s">
-        <section id="marzen" class="tab-panel1" style="margin:0">
+        <!-- Iteration 1 -->
+        <section id="iteration1" class="tab-panel1" style="margin:0">
             <div style="margin-left: auto; margin-right: auto; margin-top: 20px; max-width: 60%">
             <iframe src="media/SLAM/iteration_1/Project-2-SLAM-Fall-2021_V2.pdf" type="application/pdf" width="100%" height="1000px"> 
             </iframe>
             </div>
             <div class="dropdown-set">
-            <label for="tab-selector" style="display:block; margin-bottom: 0.5rem; font-weight: bold;">
+            <label for="dd-selector-it1" style="display:block; margin-bottom: 0.5rem; font-weight: bold;">
                 Choose a view:
             </label>
-            <select id="tab-selector">
-                <option value="panel1" selected>Option A</option>
-                <option value="panel2">Option B</option>
-                <option value="panel3">Option C</option>
+            <select id="dd-selector-it1">
+                <option value="panel1-1" selected>Option A</option>
+                <option value="panel1-2">Option B</option>
+                <option value="panel1-3">Option C</option>
             </select>
-            <div id="panel1" class="dropdown-panel active">
+            <div id="panel1-1" class="dropdown-panel active">
                 Test text A
             </div>
-            <div id="panel2" class="dropdown-panel">
+            <div id="panel1-2" class="dropdown-panel">
                 Test text B
             </div>
-            <div id="panel3" class="dropdown-panel">
+            <div id="panel1-3" class="dropdown-panel">
                 Test text C
             </div>
             </div>
         </section>
-        <section id="rauchbier" class="tab-panel1" style="margin:0">
+        <!-- Iteration 2 -->
+        <section id="iteration2" class="tab-panel1" style="margin:0">
             <div style="margin-left: auto; margin-right: auto; margin-top: 20px; max-width: 60%">
             <iframe src="/media/SLAM/iteration_2/Project-2-SLAM-Fall-2022_V4.pdf" type="application/pdf" width="100%" height="1000px"> 
             </iframe>
             </div>
+            <div class="dropdown-set">
+            <label for="dd-selector-it2" style="display:block; margin-bottom: 0.5rem; font-weight: bold;">
+                Choose a view:
+            </label>
+            <select id="dd-selector-it2">
+                <option value="panel2-1" selected>Option A</option>
+                <option value="panel2-2">Option B</option>
+                <option value="panel2-3">Option C</option>
+            </select>
+            <div id="panel2-1" class="dropdown-panel active">
+                Test text A
+            </div>
+            <div id="panel2-2" class="dropdown-panel">
+                Test text B
+            </div>
+            <div id="panel2-3" class="dropdown-panel">
+                Test text C
+            </div>
+            </div>
         </section>
-        <section id="dunkles" class="tab-panel1" style="margin:0">
+        <!-- Iteration 3 -->
+        <section id="iteration3" class="tab-panel1" style="margin:0">
             <div style="margin-left: auto; margin-right: auto; margin-top: 20px; max-width: 60%">
             <iframe src="/media/SLAM/iteration_3/Project-2-SLAM-Fall-2024_V3-1.pdf" type="application/pdf" width="100%" height="1000px"> 
             </iframe>
+            </div>
+            <div class="dropdown-set">
+            <label for="dd-selector-it3" style="display:block; margin-bottom: 0.5rem; font-weight: bold;">
+                Choose a view:
+            </label>
+            <select id="dd-selector-it3">
+                <option value="panel3-1" selected>Option A</option>
+                <option value="panel3-2">Option B</option>
+                <option value="panel3-3">Option C</option>
+            </select>
+            <div id="panel3-1" class="dropdown-panel active">
+                Test text A
+            </div>
+            <div id="panel3-2" class="dropdown-panel">
+                Test text B
+            </div>
+            <div id="panel3-3" class="dropdown-panel">
+                Test text C
+            </div>
             </div>
         </section>
     </div>
 </div>
 
 <script>
-  const selector = document.getElementById('tab-selector');
+  const it1_selector = document.getElementById('dd-selector-it1');
+  const it2_selector = document.getElementById('dd-selector-it2');
+  const it3_selector = document.getElementById('dd-selector-it3');
   const panels = document.querySelectorAll('.dropdown-panel');
 
   function showPanel(id) {
@@ -121,10 +164,18 @@ input:focus-visible + label { outline: 2px solid rgba(242,120,75,0.95); border-r
     });
   }
 
-  selector.addEventListener('change', () => {
-    showPanel(selector.value);
+  it1_selector.addEventListener('change', () => {
+    showPanel(it1_selector.value);
+  });
+  it2_selector.addEventListener('change', () => {
+    showPanel(it2_selector.value);
+  });
+  it3_selector.addEventListener('change', () => {
+    showPanel(it3_selector.value);
   });
 
   // Initialize on load
-  showPanel(selector.value);
+  showPanel(it1_selector.value);
+  showPanel(it2_selector.value);
+  showPanel(it3_selector.value);
 </script>
