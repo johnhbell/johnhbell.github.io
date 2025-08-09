@@ -140,24 +140,15 @@ input:focus-visible + label { outline: 2px solid rgba(242,120,75,0.95); border-r
                 Choose a view:
             </label>
             <select id="dd-selector-it3">
-                <option value="panel3-1" selected>Option A</option>
+                <option value="panel3-1" selected>example_1.m</option>
                 <option value="panel3-2">Option B</option>
                 <option value="panel3-3">Option C</option>
             </select>
             <div id="panel3-1" class="dropdown-panel active">
                 <!-- Container for code display and download -->
                 <div style="margin: 2rem auto; max-width: 60%; font-family: sans-serif;">
-                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5rem;">
-                    <h3 style="margin: 0;">example_1.m</h3>
-                    <a href="/media/SLAM/iteration_3/code/example_1.m" download 
-                    style="padding: 6px 12px; background-color: rgba(242,120,75,0.95); color: white; text-decoration: none; border-radius: 4px;">
-                    ⬇ Download .m file
-                    </a>
-                </div>
                 <!-- Code block with syntax highlighting -->
-                <pre><code id="it3_example_1_display" class="matlab" style="max-height: 600px; overflow: auto; border: 1px solid #ccc; padding: 1rem; background: #f8f8f8;">
-                Loading code...
-                </code></pre>
+                <pre><code id="it3_example_1_display" class="matlab" style="max-height: 600px; overflow: auto; border: 1px solid #ccc; padding: 1rem; background: #f8f8f8;">Loading code...</code></pre>
                 </div>
             </div>
             <div id="panel3-2" class="dropdown-panel">
