@@ -10,6 +10,7 @@ subtitle: 'The user study had 13 participants (8 male, 5 female) aged 18-35 year
 <link rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/default.min.css">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/matlab.min.js"></script>
 <script>hljs.highlightAll();</script>
 
 <style>
