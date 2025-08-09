@@ -153,10 +153,9 @@ input:focus-visible + label { outline: 2px solid rgba(242,120,75,0.95); border-r
 </div>
 
 <script>
-  const it1_selector = document.getElementById('dd-selector-it1');
-  const it2_selector = document.getElementById('dd-selector-it2');
-  const it3_selector = document.getElementById('dd-selector-it3');
-  const panels = document.querySelectorAll('.dropdown-panel');
+function setupDropdown(selectId) {
+  const selector = document.getElementById(selectId);
+  const panels = Array.from(selector.parentElement.querySelectorAll('.dropdown-panel'));
 
   function showPanel(id) {
     panels.forEach(panel => {
@@ -164,18 +163,16 @@ input:focus-visible + label { outline: 2px solid rgba(242,120,75,0.95); border-r
     });
   }
 
-  it1_selector.addEventListener('change', () => {
-    showPanel(it1_selector.value);
-  });
-  it2_selector.addEventListener('change', () => {
-    showPanel(it2_selector.value);
-  });
-  it3_selector.addEventListener('change', () => {
-    showPanel(it3_selector.value);
+  selector.addEventListener('change', () => {
+    showPanel(selector.value);
   });
 
-  // Initialize on load
-  showPanel(it1_selector.value);
-  showPanel(it2_selector.value);
-  showPanel(it3_selector.value);
+  // Initialize this dropdown on load
+  showPanel(selector.value);
+}
+
+// Set up each dropdown independently
+setupDropdown('dd-selector-it1');
+setupDropdown('dd-selector-it2');
+setupDropdown('dd-selector-it3');
 </script>
