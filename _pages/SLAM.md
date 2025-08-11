@@ -87,32 +87,32 @@ pre, code {
     <div class="tab-panel1s">
         <!-- Iteration 1 -->
         <section id="iteration1" class="tab-panel1" style="margin:0">
-            <div style="margin-left: auto; margin-right: auto; margin-top: 20px; max-width: 60%">
+            <div style="margin-left: auto; margin-right: auto; margin-top: 20px; max-width: 80%">
             <iframe src="media/SLAM/iteration_1/Project-2-SLAM-Fall-2021_V2.pdf" type="application/pdf" width="100%" height="1000px"> 
             </iframe>
             </div>
             <select id="iteration1Dropdown"></select>
-            <div class="content-display" id="iteration1Content"></div>
+            <div class="content-display" id="iteration1Content" style="margin-left: auto; margin-right: auto; margin-top: 20px; max-width: 80%"></div>
             <pre><code id="iteration1Code" class=""></code></pre>
         </section>
         <!-- Iteration 2 -->
         <section id="iteration2" class="tab-panel1" style="margin:0">
-            <div style="margin-left: auto; margin-right: auto; margin-top: 20px; max-width: 60%">
+            <div style="margin-left: auto; margin-right: auto; margin-top: 20px; max-width: 80%">
             <iframe src="/media/SLAM/iteration_2/Project-2-SLAM-Fall-2022_V4.pdf" type="application/pdf" width="100%" height="1000px"> 
             </iframe>
             </div>
             <select id="iteration2Dropdown"></select>
-            <div class="content-display" id="iteration2Content"></div>
+            <div class="content-display" id="iteration2Content" style="margin-left: auto; margin-right: auto; margin-top: 20px; max-width: 80%"></div>
             <pre><code id="iteration2Code" class=""></code></pre>
         </section>
         <!-- Iteration 3 -->
         <section id="iteration3" class="tab-panel1" style="margin:0">
-            <div style="margin-left: auto; margin-right: auto; margin-top: 20px; max-width: 60%">
+            <div style="margin-left: auto; margin-right: auto; margin-top: 20px; max-width: 80%">
             <iframe src="/media/SLAM/iteration_3/Project-2-SLAM-Fall-2024_V3-1.pdf" type="application/pdf" width="100%" height="1000px"> 
             </iframe>
             </div>
             <select id="iteration3Dropdown"></select>
-            <div class="content-display" id="iteration3Content"></div>
+            <div class="content-display" id="iteration3Content" style="margin-left: auto; margin-right: auto; margin-top: 20px; max-width: 80%"></div>
             <pre><code id="iteration3Code" class=""></code></pre>
         </section>
     </div>
@@ -191,7 +191,7 @@ const filesConfig = {
 function detectLanguageFromExtension(filename) {
   const ext = filename.split('.').pop().toLowerCase();
   const map = {
-    'm': 'matlab',
+    'm': 'language-matlab',
     'txt': 'plaintext',
     'js': 'javascript',
     'py': 'python',
