@@ -90,6 +90,7 @@ pre, code {
             <iframe src="media/SLAM/iteration_1/Project-2-SLAM-Fall-2021_V2.pdf" type="application/pdf" width="100%" height="1000px"> 
             </iframe>
             </div>
+            <h3>File Folder Included with Assignment:</h3>
             <div style="margin-left: auto; margin-right: auto; margin-top: 20px; max-width: 80%">
             <select id="iteration1Dropdown"></select>
             <div class="content-display" id="iteration1Content"></div>
@@ -102,6 +103,7 @@ pre, code {
             <iframe src="/media/SLAM/iteration_2/Project-2-SLAM-Fall-2022_V4.pdf" type="application/pdf" width="100%" height="1000px"> 
             </iframe>
             </div>
+            <h3>File Folder Included with Assignment:</h3>
             <div style="margin-left: auto; margin-right: auto; margin-top: 20px; max-width: 80%">
             <select id="iteration2Dropdown"></select>
             <div class="content-display" id="iteration2Content"></div>
@@ -114,6 +116,7 @@ pre, code {
             <iframe src="/media/SLAM/iteration_3/Project-2-SLAM-Fall-2024_V3-1.pdf" type="application/pdf" width="100%" height="1000px"> 
             </iframe>
             </div>
+            <h3>File Folder Included with Assignment:</h3>
             <div style="margin-left: auto; margin-right: auto; margin-top: 20px; max-width: 80%">
             <select id="iteration3Dropdown"></select>
             <div class="content-display" id="iteration3Content"></div>
@@ -146,15 +149,15 @@ const filesConfig = {
     { label: "part_i_fitted_scan_labeler.m", path: "media/SLAM/iteration_2/code/part_i_fitted_scan_labeler.m" },
     { label: "part_j_innovation_calculator.m", path: "media/SLAM/iteration_2/code/part_j_innovation_calculator.m" },
     { label: "part_k_kalman_update.m", path: "media/SLAM/iteration_2/code/part_k_kalman_update.m" },
-    { label: "angle_subtract.m", path: "media/SLAM/iteration_2/code/helper_functions/angle_subtract.m" },
-    { label: "data_interleaver.m", path: "media/SLAM/iteration_2/code/helper_functions/data_interleaver.m" },
-    { label: "odom_reader.m", path: "media/SLAM/iteration_2/code/helper_functions/odom_reader.m" },
-    { label: "plot_2d_covariance_matrix.m", path: "media/SLAM/iteration_2/code/helper_functions/plot_2d_covariance_matrix.m" },
-    { label: "scan_reader.m", path: "media/SLAM/iteration_2/code/helper_functions/scan_reader.m" },
-    { label: "odom.csv", path: "media/SLAM/iteration_2/code/data/odom.csv" },
-    { label: "scan_dist.csv", path: "media/SLAM/iteration_2/code/data/scan_dist.csv" },
-    { label: "scan_partition_labels.csv", path: "media/SLAM/iteration_2/code/data/scan_partition_labels.csv" },
-    { label: "scan_partition.csv", path: "media/SLAM/iteration_2/code/data/scan_partition.csv" }
+    { label: "helper_functions/angle_subtract.m", path: "media/SLAM/iteration_2/code/helper_functions/angle_subtract.m" },
+    { label: "helper_functions/data_interleaver.m", path: "media/SLAM/iteration_2/code/helper_functions/data_interleaver.m" },
+    { label: "helper_functions/odom_reader.m", path: "media/SLAM/iteration_2/code/helper_functions/odom_reader.m" },
+    { label: "helper_functions/plot_2d_covariance_matrix.m", path: "media/SLAM/iteration_2/code/helper_functions/plot_2d_covariance_matrix.m" },
+    { label: "helper_functions/scan_reader.m", path: "media/SLAM/iteration_2/code/helper_functions/scan_reader.m" },
+    { label: "data/odom.csv", path: "media/SLAM/iteration_2/code/data/odom.csv" },
+    { label: "data/scan_dist.csv", path: "media/SLAM/iteration_2/code/data/scan_dist.csv" },
+    { label: "data/scan_partition_labels.csv", path: "media/SLAM/iteration_2/code/data/scan_partition_labels.csv" },
+    { label: "data/scan_partition.csv", path: "media/SLAM/iteration_2/code/data/scan_partition.csv" }
   ],
   iteration3: [
     { label: "README.txt", path: "media/SLAM/iteration_3/code/README.txt" },
@@ -169,26 +172,26 @@ const filesConfig = {
     { label: "part_i_fitted_scan_labeler.m", path: "media/SLAM/iteration_3/code/part_i_fitted_scan_labeler.m" },
     { label: "part_j_innovation_calculator.m", path: "media/SLAM/iteration_3/code/part_j_innovation_calculator.m" },
     { label: "part_k_kalman_update.m", path: "media/SLAM/iteration_3/code/part_k_kalman_update.m" },
-    { label: "draw_robot_on_axes.m", path: "media/SLAM/iteration_3/code/graphics_functions/draw_robot_on_axes.m" },
-    { label: "draw_walls_on_axes.m", path: "media/SLAM/iteration_3/code/graphics_functions/draw_walls_on_axes.m" },
-    { label: "odom_plot_app.m", path: "media/SLAM/iteration_3/code/graphics_functions/odom_plot_app.m" },
-    { label: "part_h_fitted_scan_plotter.m", path: "media/SLAM/iteration_3/code/graphics_functions/part_h_fitted_scan_plotter.m" },
-    { label: "plot_2d_covariance_matrix_on_axes.m", path: "media/SLAM/iteration_3/code/graphics_functions/plot_2d_covariance_matrix_on_axes.m" },
-    { label: "plot_2d_covariance_matrix.m", path: "media/SLAM/iteration_3/code/graphics_functions/plot_2d_covariance_matrix.m" },
-    { label: "plot_raw_scan.m", path: "media/SLAM/iteration_3/code/graphics_functions/plot_raw_scan.m" },
-    { label: "scan_plot_app.m", path: "media/SLAM/iteration_3/code/graphics_functions/scan_plot_app.m" },
-    { label: "SLAM_plot_app.m", path: "media/SLAM/iteration_3/code/graphics_functions/SLAM_plot_app.m" },
-    { label: "angle_subtract.m", path: "media/SLAM/iteration_3/code/helper_functions/angle_subtract.m" },
-    { label: "data_interleaver.m", path: "media/SLAM/iteration_3/code/helper_functions/data_interleaver.m" },
-    { label: "find_closest_element.m", path: "media/SLAM/iteration_3/code/helper_functions/find_closest_element.m" },
-    { label: "find_previous_element.m", path: "media/SLAM/iteration_3/code/helper_functions/find_previous_element.m" },
-    { label: "odom_reader.m", path: "media/SLAM/iteration_3/code/helper_functions/odom_reader.m" },
-    { label: "scan_reader.m", path: "media/SLAM/iteration_3/code/helper_functions/scan_reader.m" },
-    { label: "wall_line_segments_from_extended_state.m", path: "media/SLAM/iteration_3/code/helper_functions/wall_line_segments_from_extended_state.m" },
-    { label: "odom.csv", path: "media/SLAM/iteration_3/code/data/odom.csv" },
-    { label: "scan_dist.csv", path: "media/SLAM/iteration_3/code/data/scan_dist.csv" },
-    { label: "scan_partition_labels.csv", path: "media/SLAM/iteration_3/code/data/scan_partition_labels.csv" },
-    { label: "scan_partition.csv", path: "media/SLAM/iteration_3/code/data/scan_partition.csv" }
+    { label: "graphics_functions/draw_robot_on_axes.m", path: "media/SLAM/iteration_3/code/graphics_functions/draw_robot_on_axes.m" },
+    { label: "graphics_functions/draw_walls_on_axes.m", path: "media/SLAM/iteration_3/code/graphics_functions/draw_walls_on_axes.m" },
+    { label: "graphics_functions/odom_plot_app.m", path: "media/SLAM/iteration_3/code/graphics_functions/odom_plot_app.m" },
+    { label: "graphics_functions/part_h_fitted_scan_plotter.m", path: "media/SLAM/iteration_3/code/graphics_functions/part_h_fitted_scan_plotter.m" },
+    { label: "graphics_functions/plot_2d_covariance_matrix_on_axes.m", path: "media/SLAM/iteration_3/code/graphics_functions/plot_2d_covariance_matrix_on_axes.m" },
+    { label: "graphics_functions/plot_2d_covariance_matrix.m", path: "media/SLAM/iteration_3/code/graphics_functions/plot_2d_covariance_matrix.m" },
+    { label: "graphics_functions/plot_raw_scan.m", path: "media/SLAM/iteration_3/code/graphics_functions/plot_raw_scan.m" },
+    { label: "graphics_functions/scan_plot_app.m", path: "media/SLAM/iteration_3/code/graphics_functions/scan_plot_app.m" },
+    { label: "graphics_functions/SLAM_plot_app.m", path: "media/SLAM/iteration_3/code/graphics_functions/SLAM_plot_app.m" },
+    { label: "helper_functions/angle_subtract.m", path: "media/SLAM/iteration_3/code/helper_functions/angle_subtract.m" },
+    { label: "helper_functions/data_interleaver.m", path: "media/SLAM/iteration_3/code/helper_functions/data_interleaver.m" },
+    { label: "helper_functions/find_closest_element.m", path: "media/SLAM/iteration_3/code/helper_functions/find_closest_element.m" },
+    { label: "helper_functions/find_previous_element.m", path: "media/SLAM/iteration_3/code/helper_functions/find_previous_element.m" },
+    { label: "helper_functions/odom_reader.m", path: "media/SLAM/iteration_3/code/helper_functions/odom_reader.m" },
+    { label: "helper_functions/scan_reader.m", path: "media/SLAM/iteration_3/code/helper_functions/scan_reader.m" },
+    { label: "helper_functions/wall_line_segments_from_extended_state.m", path: "media/SLAM/iteration_3/code/helper_functions/wall_line_segments_from_extended_state.m" },
+    { label: "data/odom.csv", path: "media/SLAM/iteration_3/code/data/odom.csv" },
+    { label: "data/scan_dist.csv", path: "media/SLAM/iteration_3/code/data/scan_dist.csv" },
+    { label: "data/scan_partition_labels.csv", path: "media/SLAM/iteration_3/code/data/scan_partition_labels.csv" },
+    { label: "data/scan_partition.csv", path: "media/SLAM/iteration_3/code/data/scan_partition.csv" }
   ]
 };
 
