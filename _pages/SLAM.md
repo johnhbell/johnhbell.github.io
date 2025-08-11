@@ -11,7 +11,6 @@ subtitle: 'The user study had 13 participants (8 male, 5 female) aged 18-35 year
       href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/default.min.css">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/matlab.min.js"></script>
-<!--<script>hljs.highlightAll();</script>-->
 
 <style>
 /* Container styles */
@@ -91,9 +90,11 @@ pre, code {
             <iframe src="media/SLAM/iteration_1/Project-2-SLAM-Fall-2021_V2.pdf" type="application/pdf" width="100%" height="1000px"> 
             </iframe>
             </div>
+            <div style="margin-left: auto; margin-right: auto; margin-top: 20px; max-width: 80%">
             <select id="iteration1Dropdown"></select>
-            <div class="content-display" id="iteration1Content" style="margin-left: auto; margin-right: auto; margin-top: 20px; max-width: 80%"></div>
+            <div class="content-display" id="iteration1Content"></div>
             <pre><code id="iteration1Code" class=""></code></pre>
+            </div>
         </section>
         <!-- Iteration 2 -->
         <section id="iteration2" class="tab-panel1" style="margin:0">
@@ -101,9 +102,11 @@ pre, code {
             <iframe src="/media/SLAM/iteration_2/Project-2-SLAM-Fall-2022_V4.pdf" type="application/pdf" width="100%" height="1000px"> 
             </iframe>
             </div>
+            <div style="margin-left: auto; margin-right: auto; margin-top: 20px; max-width: 80%">
             <select id="iteration2Dropdown"></select>
-            <div class="content-display" id="iteration2Content" style="margin-left: auto; margin-right: auto; margin-top: 20px; max-width: 80%"></div>
+            <div class="content-display" id="iteration2Content"></div>
             <pre><code id="iteration2Code" class=""></code></pre>
+            </div>
         </section>
         <!-- Iteration 3 -->
         <section id="iteration3" class="tab-panel1" style="margin:0">
@@ -111,9 +114,11 @@ pre, code {
             <iframe src="/media/SLAM/iteration_3/Project-2-SLAM-Fall-2024_V3-1.pdf" type="application/pdf" width="100%" height="1000px"> 
             </iframe>
             </div>
+            <div style="margin-left: auto; margin-right: auto; margin-top: 20px; max-width: 80%">
             <select id="iteration3Dropdown"></select>
-            <div class="content-display" id="iteration3Content" style="margin-left: auto; margin-right: auto; margin-top: 20px; max-width: 80%"></div>
+            <div class="content-display" id="iteration3Content"></div>
             <pre><code id="iteration3Code" class=""></code></pre>
+            </div>
         </section>
     </div>
 </div>
@@ -234,7 +239,7 @@ function loadFileContent(iterationKey, index) {
   } else {
     const lang = detectLanguageFromExtension(file.label);
     codeDisplay.className = ""; 
-    codeDisplay.classList.add(`language-${lang}`);
+    codeDisplay.classList.add(lang);
     fetch(file.path)
       .then(res => { if (!res.ok) throw new Error("Failed to load file"); return res.text(); })
       .then(code => {
@@ -267,3 +272,4 @@ function initIteration(iterationKey) {
 
 ["iteration1", "iteration2", "iteration3"].forEach(initIteration);
 </script>
+<script>hljs.highlightAll();</script>
