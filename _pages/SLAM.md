@@ -272,4 +272,3 @@ function initIteration(iterationKey) {
 
 ["iteration1", "iteration2", "iteration3"].forEach(initIteration);
 </script>
-<script>hljs.highlightAll();</script>
