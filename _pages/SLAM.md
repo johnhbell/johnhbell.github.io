@@ -91,6 +91,7 @@ pre, code {
             </iframe>
             </div>
             <h3>File Folder Included with Assignment:</h3>
+            <i>(Reload the page if nothing is showing here.)</i>
             <div style="margin-left: auto; margin-right: auto; margin-top: 20px; max-width: 80%">
             <select id="iteration1Dropdown"></select>
             <div class="content-display" id="iteration1Content"></div>
@@ -103,7 +104,23 @@ pre, code {
             <iframe src="/media/SLAM/iteration_2/Project-2-SLAM-Fall-2022_V4.pdf" type="application/pdf" width="100%" height="1000px"> 
             </iframe>
             </div>
+            <video  class="video-js" style="
+                    display: block;
+                    width: 50%;
+                    max-width: 500px;
+                    height: auto;
+                    margin: 0 auto;
+                    border: 1px solid rgba(0,0,0,0.1);
+                    background: white;
+                    box-shadow: 0 4px 6px rgba(0,0,0,0.05);" 
+                controls 
+                muted 
+                playsinline
+                preload="metadata">
+                <source src="media/SLAM/iteration_2/LIDAR_raw_data_video.mp4" type="video/mp4">
+            </video>
             <h3>File Folder Included with Assignment:</h3>
+            <i>(Reload the page if nothing is showing here.)</i>
             <div style="margin-left: auto; margin-right: auto; margin-top: 20px; max-width: 80%">
             <select id="iteration2Dropdown"></select>
             <div class="content-display" id="iteration2Content"></div>
@@ -113,10 +130,101 @@ pre, code {
         <!-- Iteration 3 -->
         <section id="iteration3" class="tab-panel1" style="margin:0">
             <div style="margin-left: auto; margin-right: auto; margin-top: 20px; max-width: 80%">
+            This is a long COP, so I recommend starting early. Also please go to the recitation on <strong><em>Sunday 10/20, at 9:00 pm</em></strong>.
+            </div>
+            <div style="margin-left: auto; margin-right: auto; margin-top: 20px; max-width: 80%">
             <iframe src="/media/SLAM/iteration_3/Project-2-SLAM-Fall-2024_V3-1.pdf" type="application/pdf" width="100%" height="1000px"> 
             </iframe>
             </div>
+            <div style="margin-left: auto; margin-right: auto; margin-top: 20px; max-width: 80%">
+            This project involves processing LIDAR data.  Here is a video of the raw, unprocessed LIDAR scan, for your reference:
+            </div>
+            <video  class="video-js" style="
+                    display: block;
+                    width: 50%;
+                    max-width: 500px;
+                    height: auto;
+                    margin: 0 auto;
+                    border: 1px solid rgba(0,0,0,0.1);
+                    background: white;
+                    box-shadow: 0 4px 6px rgba(0,0,0,0.05);" 
+                controls 
+                muted 
+                playsinline
+                preload="metadata">
+                <source src="media/SLAM/iteration_3/LIDAR_raw_data_video.mp4" type="video/mp4">
+            </video>
+            <div style="margin-left: auto; margin-right: auto; margin-top: 20px; max-width: 80%">
+            So that you can check your work, here are animations of acceptably correct algorithms for Parts b, h, and k:
+            </div>
+            <div style="margin-left: auto; margin-right: auto; margin-top: 20px; max-width: 80%">
+            <u>Part b</u>
+            </div>
+            <video  class="video-js" style="
+                    display: block;
+                    width: 50%;
+                    max-width: 500px;
+                    height: auto;
+                    margin: 0 auto;
+                    border: 1px solid rgba(0,0,0,0.1);
+                    background: white;
+                    box-shadow: 0 4px 6px rgba(0,0,0,0.05);" 
+                controls 
+                muted 
+                playsinline
+                preload="metadata">
+                <source src="media/SLAM/iteration_3/Odometry_Animation_Example.mp4" type="video/mp4">
+            </video>
+            <div style="margin-left: auto; margin-right: auto; margin-top: 20px; max-width: 80%">
+            <u>Part h</u>
+            </div>
+            <video  class="video-js" style="
+                    display: block;
+                    width: 50%;
+                    max-width: 500px;
+                    height: auto;
+                    margin: 0 auto;
+                    border: 1px solid rgba(0,0,0,0.1);
+                    background: white;
+                    box-shadow: 0 4px 6px rgba(0,0,0,0.05);" 
+                controls 
+                muted 
+                playsinline
+                preload="metadata">
+                <source src="media/SLAM/iteration_3/Scan_Fitting_Animation_Example.mp4" type="video/mp4">
+            </video>
+            <div style="margin-left: auto; margin-right: auto; margin-top: 20px; max-width: 80%">
+            <u>Part k</u>
+            </div>
+            <video  class="video-js" style="
+                    display: block;
+                    width: 50%;
+                    max-width: 500px;
+                    height: auto;
+                    margin: 0 auto;
+                    border: 1px solid rgba(0,0,0,0.1);
+                    background: white;
+                    box-shadow: 0 4px 6px rgba(0,0,0,0.05);" 
+                controls 
+                muted 
+                playsinline
+                preload="metadata">
+                <source src="media\SLAM\iteration_3\SLAM_Animation_Example.mp4" type="video/mp4">
+            </video>
+            <div style="margin-left: auto; margin-right: auto; margin-top: 20px; max-width: 80%">
+            The animation videos are not the smoothest, since I manually moved the time bar and recorded my screen.  I apologize for any confusion this might cause --- I think I briefly (accidentally) dragged time backwards for a split second in the Part k video?
+            </div>
+            <div style="margin-left: auto; margin-right: auto; margin-top: 20px; max-width: 80%">
+            You can produce these animations for yourself using the included interactive visualizer tools that I coded, and included in the skeleton codebase.
+            </div>
+            <div style="margin-left: auto; margin-right: auto; margin-top: 20px; max-width: 80%">
+            You can get better results than what I demonstrate here; this is simply an example of what is an acceptable result.  If your simulations look vaguely similar, then they're probably correct.
+            </div>
+            <div style="margin-left: auto; margin-right: auto; margin-top: 20px; max-width: 80%">
+            -John
+            </div>
             <h3>File Folder Included with Assignment:</h3>
+            <i>(Reload the page if nothing is showing here.)</i>
             <div style="margin-left: auto; margin-right: auto; margin-top: 20px; max-width: 80%">
             <select id="iteration3Dropdown"></select>
             <div class="content-display" id="iteration3Content"></div>
@@ -137,9 +245,9 @@ const filesConfig = {
   ],
   iteration2: [
     { label: "README.txt", path: "media/SLAM/iteration_2/code/README.txt" },
+    { label: "example_data_loader.m", path: "media/SLAM/iteration_2/code/example_data_loader.m" },
     { label: "example_1.m", path: "media/SLAM/iteration_2/code/example_1.m" },
     { label: "example_2.m", path: "media/SLAM/iteration_2/code/example_2.m" },
-    { label: "example_data_loader.m", path: "media/SLAM/iteration_2/code/example_data_loader.m" },
     { label: "part_b_kalman_predict.m", path: "media/SLAM/iteration_2/code/part_b_kalman_predict.m" },
     { label: "part_e_observation_function_1_wall.m", path: "media/SLAM/iteration_2/code/part_e_observation_function_1_wall.m" },
     { label: "part_f_observation_builder.m", path: "media/SLAM/iteration_2/code/part_f_observation_builder.m" },
@@ -161,9 +269,9 @@ const filesConfig = {
   ],
   iteration3: [
     { label: "README.txt", path: "media/SLAM/iteration_3/code/README.txt" },
+    { label: "example_data_loader.m", path: "media/SLAM/iteration_3/code/example_data_loader.m" },
     { label: "example_1.m", path: "media/SLAM/iteration_3/code/example_1.m" },
     { label: "example_2.m", path: "media/SLAM/iteration_3/code/example_2.m" },
-    { label: "example_data_loader.m", path: "media/SLAM/iteration_3/code/example_data_loader.m" },
     { label: "part_b_kalman_predict.m", path: "media/SLAM/iteration_3/code/part_b_kalman_predict.m" },
     { label: "part_e_observation_function_1_wall.m", path: "media/SLAM/iteration_3/code/part_e_observation_function_1_wall.m" },
     { label: "part_f_observation_builder.m", path: "media/SLAM/iteration_3/code/part_f_observation_builder.m" },
