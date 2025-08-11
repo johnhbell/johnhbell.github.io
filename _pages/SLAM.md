@@ -91,25 +91,9 @@ pre, code {
             <iframe src="media/SLAM/iteration_1/Project-2-SLAM-Fall-2021_V2.pdf" type="application/pdf" width="100%" height="1000px"> 
             </iframe>
             </div>
-            <div class="dropdown-set">
-            <label for="dd-selector-it1" style="display:block; margin-bottom: 0.5rem; font-weight: bold;">
-                Choose a view:
-            </label>
-            <select id="dd-selector-it1">
-                <option value="panel1-1" selected>Option A</option>
-                <option value="panel1-2">Option B</option>
-                <option value="panel1-3">Option C</option>
-            </select>
-            <div id="panel1-1" class="dropdown-panel active">
-                Test text A
-            </div>
-            <div id="panel1-2" class="dropdown-panel">
-                Test text B
-            </div>
-            <div id="panel1-3" class="dropdown-panel">
-                Test text C
-            </div>
-            </div>
+            <select id="iteration1Dropdown"></select>
+            <div class="content-display" id="iteration1Content"></div>
+            <pre><code id="iteration1Code" class=""></code></pre>
         </section>
         <!-- Iteration 2 -->
         <section id="iteration2" class="tab-panel1" style="margin:0">
@@ -117,25 +101,9 @@ pre, code {
             <iframe src="/media/SLAM/iteration_2/Project-2-SLAM-Fall-2022_V4.pdf" type="application/pdf" width="100%" height="1000px"> 
             </iframe>
             </div>
-            <div class="dropdown-set">
-            <label for="dd-selector-it2" style="display:block; margin-bottom: 0.5rem; font-weight: bold;">
-                Choose a view:
-            </label>
-            <select id="dd-selector-it2">
-                <option value="panel2-1" selected>Option A</option>
-                <option value="panel2-2">Option B</option>
-                <option value="panel2-3">Option C</option>
-            </select>
-            <div id="panel2-1" class="dropdown-panel active">
-                Test text A
-            </div>
-            <div id="panel2-2" class="dropdown-panel">
-                Test text B
-            </div>
-            <div id="panel2-3" class="dropdown-panel">
-                Test text C
-            </div>
-            </div>
+            <select id="iteration2Dropdown"></select>
+            <div class="content-display" id="iteration2Content"></div>
+            <pre><code id="iteration2Code" class=""></code></pre>
         </section>
         <!-- Iteration 3 -->
         <section id="iteration3" class="tab-panel1" style="margin:0">
@@ -143,69 +111,159 @@ pre, code {
             <iframe src="/media/SLAM/iteration_3/Project-2-SLAM-Fall-2024_V3-1.pdf" type="application/pdf" width="100%" height="1000px"> 
             </iframe>
             </div>
-            <div class="dropdown-set">
-            <label for="dd-selector-it3" style="display:block; margin-bottom: 0.5rem; font-weight: bold;">
-                Choose a view:
-            </label>
-            <select id="dd-selector-it3">
-                <option value="panel3-1" selected>example_1.m</option>
-                <option value="panel3-2">Option B</option>
-                <option value="panel3-3">Option C</option>
-            </select>
-            <div id="panel3-1" class="dropdown-panel active">
-                <!-- Container for code display and download -->
-                <div style="margin: 2rem auto; max-width: 100%; font-family: sans-serif;">
-                <!-- Code block with syntax highlighting -->
-                <pre><code id="it3_example_1_display" class="language-matlab" style="max-height: 600px; overflow: auto; border: 1px solid #ccc; padding: 1rem; background: #f8f8f8;">Loading code...</code></pre>
-                </div>
-            </div>
-            <div id="panel3-2" class="dropdown-panel">
-                Test text B
-            </div>
-            <div id="panel3-3" class="dropdown-panel">
-                Test text C
-            </div>
-            </div>
+            <select id="iteration3Dropdown"></select>
+            <div class="content-display" id="iteration3Content"></div>
+            <pre><code id="iteration3Code" class=""></code></pre>
         </section>
     </div>
 </div>
 
 <script>
-function setupDropdown(selectId) {
-  const selector = document.getElementById(selectId);
-  const panels = Array.from(selector.parentElement.querySelectorAll('.dropdown-panel'));
+const filesConfig = {
+  iteration1: [
+    { label: "README.txt", path: "media/SLAM/iteration_1/code/README.txt" },
+    { label: "odom.csv", path: "media/SLAM/iteration_1/code/odom.csv" },
+    { label: "scan_dist.csv", path: "media/SLAM/iteration_1/code/scan_dist.csv" },
+    { label: "scan_partition_labels.csv", path: "media/SLAM/iteration_1/code/scan_partition_labels.csv" },
+    { label: "scan_partition.csv", path: "media/SLAM/iteration_1/code/scan_partition.csv" }
+  ],
+  iteration2: [
+    { label: "README.txt", path: "media/SLAM/iteration_2/code/README.txt" },
+    { label: "example_1.m", path: "media/SLAM/iteration_2/code/example_1.m" },
+    { label: "example_2.m", path: "media/SLAM/iteration_2/code/example_2.m" },
+    { label: "example_data_loader.m", path: "media/SLAM/iteration_2/code/example_data_loader.m" },
+    { label: "part_b_kalman_predict.m", path: "media/SLAM/iteration_2/code/part_b_kalman_predict.m" },
+    { label: "part_e_observation_function_1_wall.m", path: "media/SLAM/iteration_2/code/part_e_observation_function_1_wall.m" },
+    { label: "part_f_observation_builder.m", path: "media/SLAM/iteration_2/code/part_f_observation_builder.m" },
+    { label: "part_g_wall_param_fitter.m", path: "media/SLAM/iteration_2/code/part_g_wall_param_fitter.m" },
+    { label: "part_h_fitted_scan_plotter.m", path: "media/SLAM/iteration_2/code/part_h_fitted_scan_plotter.m" },
+    { label: "part_h_full_scan_fitter.m", path: "media/SLAM/iteration_2/code/part_h_full_scan_fitter.m" },
+    { label: "part_i_fitted_scan_labeler.m", path: "media/SLAM/iteration_2/code/part_i_fitted_scan_labeler.m" },
+    { label: "part_j_innovation_calculator.m", path: "media/SLAM/iteration_2/code/part_j_innovation_calculator.m" },
+    { label: "part_k_kalman_update.m", path: "media/SLAM/iteration_2/code/part_k_kalman_update.m" },
+    { label: "angle_subtract.m", path: "media/SLAM/iteration_2/code/helper_functions/angle_subtract.m" },
+    { label: "data_interleaver.m", path: "media/SLAM/iteration_2/code/helper_functions/data_interleaver.m" },
+    { label: "odom_reader.m", path: "media/SLAM/iteration_2/code/helper_functions/odom_reader.m" },
+    { label: "plot_2d_covariance_matrix.m", path: "media/SLAM/iteration_2/code/helper_functions/plot_2d_covariance_matrix.m" },
+    { label: "scan_reader.m", path: "media/SLAM/iteration_2/code/helper_functions/scan_reader.m" },
+    { label: "odom.csv", path: "media/SLAM/iteration_2/code/data/odom.csv" },
+    { label: "scan_dist.csv", path: "media/SLAM/iteration_2/code/data/scan_dist.csv" },
+    { label: "scan_partition_labels.csv", path: "media/SLAM/iteration_2/code/data/scan_partition_labels.csv" },
+    { label: "scan_partition.csv", path: "media/SLAM/iteration_2/code/data/scan_partition.csv" }
+  ],
+  iteration3: [
+    { label: "README.txt", path: "media/SLAM/iteration_3/code/README.txt" },
+    { label: "example_1.m", path: "media/SLAM/iteration_3/code/example_1.m" },
+    { label: "example_2.m", path: "media/SLAM/iteration_3/code/example_2.m" },
+    { label: "example_data_loader.m", path: "media/SLAM/iteration_3/code/example_data_loader.m" },
+    { label: "part_b_kalman_predict.m", path: "media/SLAM/iteration_3/code/part_b_kalman_predict.m" },
+    { label: "part_e_observation_function_1_wall.m", path: "media/SLAM/iteration_3/code/part_e_observation_function_1_wall.m" },
+    { label: "part_f_observation_builder.m", path: "media/SLAM/iteration_3/code/part_f_observation_builder.m" },
+    { label: "part_g_wall_param_fitter.m", path: "media/SLAM/iteration_3/code/part_g_wall_param_fitter.m" },
+    { label: "part_h_full_scan_fitter.m", path: "media/SLAM/iteration_3/code/part_h_full_scan_fitter.m" },
+    { label: "part_i_fitted_scan_labeler.m", path: "media/SLAM/iteration_3/code/part_i_fitted_scan_labeler.m" },
+    { label: "part_j_innovation_calculator.m", path: "media/SLAM/iteration_3/code/part_j_innovation_calculator.m" },
+    { label: "part_k_kalman_update.m", path: "media/SLAM/iteration_3/code/part_k_kalman_update.m" },
+    { label: "draw_robot_on_axes.m", path: "media/SLAM/iteration_3/code/graphics_functions/draw_robot_on_axes.m" },
+    { label: "draw_walls_on_axes.m", path: "media/SLAM/iteration_3/code/graphics_functions/draw_walls_on_axes.m" },
+    { label: "odom_plot_app.m", path: "media/SLAM/iteration_3/code/graphics_functions/odom_plot_app.m" },
+    { label: "part_h_fitted_scan_plotter.m", path: "media/SLAM/iteration_3/code/graphics_functions/part_h_fitted_scan_plotter.m" },
+    { label: "plot_2d_covariance_matrix_on_axes.m", path: "media/SLAM/iteration_3/code/graphics_functions/plot_2d_covariance_matrix_on_axes.m" },
+    { label: "plot_2d_covariance_matrix.m", path: "media/SLAM/iteration_3/code/graphics_functions/plot_2d_covariance_matrix.m" },
+    { label: "plot_raw_scan.m", path: "media/SLAM/iteration_3/code/graphics_functions/plot_raw_scan.m" },
+    { label: "scan_plot_app.m", path: "media/SLAM/iteration_3/code/graphics_functions/scan_plot_app.m" },
+    { label: "SLAM_plot_app.m", path: "media/SLAM/iteration_3/code/graphics_functions/SLAM_plot_app.m" },
+    { label: "angle_subtract.m", path: "media/SLAM/iteration_3/code/helper_functions/angle_subtract.m" },
+    { label: "data_interleaver.m", path: "media/SLAM/iteration_3/code/helper_functions/data_interleaver.m" },
+    { label: "find_closest_element.m", path: "media/SLAM/iteration_3/code/helper_functions/find_closest_element.m" },
+    { label: "find_previous_element.m", path: "media/SLAM/iteration_3/code/helper_functions/find_previous_element.m" },
+    { label: "odom_reader.m", path: "media/SLAM/iteration_3/code/helper_functions/odom_reader.m" },
+    { label: "scan_reader.m", path: "media/SLAM/iteration_3/code/helper_functions/scan_reader.m" },
+    { label: "wall_line_segments_from_extended_state.m", path: "media/SLAM/iteration_3/code/helper_functions/wall_line_segments_from_extended_state.m" },
+    { label: "odom.csv", path: "media/SLAM/iteration_3/code/data/odom.csv" },
+    { label: "scan_dist.csv", path: "media/SLAM/iteration_3/code/data/scan_dist.csv" },
+    { label: "scan_partition_labels.csv", path: "media/SLAM/iteration_3/code/data/scan_partition_labels.csv" },
+    { label: "scan_partition.csv", path: "media/SLAM/iteration_3/code/data/scan_partition.csv" }
+  ]
+};
 
-  function showPanel(id) {
-    panels.forEach(panel => {
-      panel.classList.toggle('active', panel.id === id);
-    });
-  }
-
-  selector.addEventListener('change', () => {
-    showPanel(selector.value);
-  });
-
-  // Initialize this dropdown on load
-  showPanel(selector.value);
+// Language detection from file extension
+function detectLanguageFromExtension(filename) {
+  const ext = filename.split('.').pop().toLowerCase();
+  const map = {
+    'm': 'matlab',
+    'txt': 'plaintext',
+    'js': 'javascript',
+    'py': 'python',
+    'csv': 'plaintext'
+  };
+  return map[ext] || 'plaintext';
 }
 
-// Set up each dropdown independently
-setupDropdown('dd-selector-it1');
-setupDropdown('dd-selector-it2');
-setupDropdown('dd-selector-it3');
+// Loader function
+function loadFileContent(iterationKey, index) {
+  const file = filesConfig[iterationKey][index];
+  const contentDisplay = document.getElementById(iterationKey + "Content");
+  const codeDisplay = document.getElementById(iterationKey + "Code");
+  contentDisplay.innerHTML = "";
+  codeDisplay.textContent = "";
+  contentDisplay.style.display = "none";
+  codeDisplay.style.display = "none";
 
-fetch("/media/SLAM/iteration_3/code/example_1.m")
-    .then(response => {
-      if (!response.ok) throw new Error("Failed to load code file.");
-      return response.text();
-    })
-    .then(code => {
-      const codeBlock = document.getElementById('it3_example_1_display');
-      codeBlock.textContent = code;
-      hljs.highlightElement(codeBlock);
-    })
-    .catch(error => {
-      document.getElementById('it3_example_1_display').textContent = "Error loading code: " + error.message;
-    });
+  if (file.label.endsWith(".csv")) {
+    fetch(file.path)
+      .then(res => { if (!res.ok) throw new Error("Failed to load CSV"); return res.text(); })
+      .then(text => {
+        const rows = text.trim().split('\n').map(row => row.split(','));
+        let html = "<table><thead><tr>";
+        rows[0].forEach(cell => html += `<th>${cell.trim()}</th>`);
+        html += "</tr></thead><tbody>";
+        for (let i = 1; i < rows.length; i++) {
+          html += "<tr>";
+          rows[i].forEach(cell => html += `<td>${cell.trim()}</td>`);
+          html += "</tr>";
+        }
+        html += "</tbody></table>";
+        contentDisplay.innerHTML = html;
+        contentDisplay.style.display = "block";
+      })
+      .catch(err => {
+        contentDisplay.style.display = "block";
+        contentDisplay.textContent = "Error loading CSV: " + err.message;
+      });
+  } else {
+    const lang = detectLanguageFromExtension(file.label);
+    codeDisplay.className = ""; 
+    codeDisplay.classList.add(`language-${lang}`);
+    fetch(file.path)
+      .then(res => { if (!res.ok) throw new Error("Failed to load file"); return res.text(); })
+      .then(code => {
+        codeDisplay.textContent = code;
+        hljs.highlightElement(codeDisplay);
+        codeDisplay.style.display = "block";
+      })
+      .catch(err => {
+        codeDisplay.textContent = "Error loading code: " + err.message;
+        codeDisplay.style.display = "block";
+      });
+  }
+}
 
+// Initialize dropdowns
+function initIteration(iterationKey) {
+  const dropdown = document.getElementById(iterationKey + "Dropdown");
+  filesConfig[iterationKey].forEach((file, i) => {
+    const opt = document.createElement("option");
+    opt.value = i;
+    opt.textContent = file.label;
+    dropdown.appendChild(opt);
+  });
+  dropdown.addEventListener("change", e => {
+    loadFileContent(iterationKey, e.target.value);
+  });
+  dropdown.value = 0;
+  loadFileContent(iterationKey, 0);
+}
+
+["iteration1", "iteration2", "iteration3"].forEach(initIteration);
 </script>
