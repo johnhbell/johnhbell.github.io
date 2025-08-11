@@ -1,7 +1,7 @@
 ---
 permalink: /SLAM
 title: 'Educational Design - SLAM Context-Oriented Project'
-subtitle: 'The user study had 13 participants (8 male, 5 female) aged 18-35 years with mean weight 64.8 kg and height range 165-180 cm. The participants represented varying levels of Tai Chi experience, with atleast two each at beginner, intermediate, and advanced levels. None had prior balance impairments.'
+subtitle: 'This is an assignment that I created for the MIT class 2.160 Identification, Estimation, and Learning, while I was a TA.  It is an end-of-unit project for teaching integration of the Extended Kalman Filter in the context of 2D Simultaneous Estimation and Learning (SLAM), a robotics application.'
 ---
 
 <script src="https://vjs.zencdn.net/8.0.4/video.min.js"></script>
@@ -90,8 +90,25 @@ pre, code {
             <iframe src="media/SLAM/iteration_1/Project-2-SLAM-Fall-2021_V2.pdf" type="application/pdf" width="100%" height="1000px"> 
             </iframe>
             </div>
+            <video  class="video-js" style="
+                    display: block;
+                    width: 50%;
+                    max-width: 870px;
+                    height: auto;
+                    margin: 0 auto;
+                    border: 1px solid rgba(0,0,0,0.1);
+                    background: white;
+                    box-shadow: 0 4px 6px rgba(0,0,0,0.05);" 
+                controls 
+                muted 
+                playsinline
+                preload="metadata">
+                <source src="media\SLAM\iteration_1\LIDAR_raw_data_video.mp4" type="video/mp4">
+            </video>
             <h3>File Folder Included with Assignment:</h3>
+            <div style="margin-left: auto; margin-right: auto; margin-top: 20px; max-width: 80%">
             <i>(Reload the page if nothing is showing here.)</i>
+            </div>
             <div style="margin-left: auto; margin-right: auto; margin-top: 20px; max-width: 80%">
             <select id="iteration1Dropdown"></select>
             <div class="content-display" id="iteration1Content"></div>
@@ -107,7 +124,7 @@ pre, code {
             <video  class="video-js" style="
                     display: block;
                     width: 50%;
-                    max-width: 500px;
+                    max-width: 870px;
                     height: auto;
                     margin: 0 auto;
                     border: 1px solid rgba(0,0,0,0.1);
@@ -120,7 +137,9 @@ pre, code {
                 <source src="media/SLAM/iteration_2/LIDAR_raw_data_video.mp4" type="video/mp4">
             </video>
             <h3>File Folder Included with Assignment:</h3>
+            <div style="margin-left: auto; margin-right: auto; margin-top: 20px; max-width: 80%">
             <i>(Reload the page if nothing is showing here.)</i>
+            </div>
             <div style="margin-left: auto; margin-right: auto; margin-top: 20px; max-width: 80%">
             <select id="iteration2Dropdown"></select>
             <div class="content-display" id="iteration2Content"></div>
@@ -142,7 +161,7 @@ pre, code {
             <video  class="video-js" style="
                     display: block;
                     width: 50%;
-                    max-width: 500px;
+                    max-width: 870px;
                     height: auto;
                     margin: 0 auto;
                     border: 1px solid rgba(0,0,0,0.1);
@@ -158,12 +177,12 @@ pre, code {
             So that you can check your work, here are animations of acceptably correct algorithms for Parts b, h, and k:
             </div>
             <div style="margin-left: auto; margin-right: auto; margin-top: 20px; max-width: 80%">
-            <u>Part b</u>
+            <span class="underline">Part b</span>
             </div>
             <video  class="video-js" style="
                     display: block;
-                    width: 50%;
-                    max-width: 500px;
+                    width: 80%;
+                    max-width: 1920px;
                     height: auto;
                     margin: 0 auto;
                     border: 1px solid rgba(0,0,0,0.1);
@@ -176,12 +195,12 @@ pre, code {
                 <source src="media/SLAM/iteration_3/Odometry_Animation_Example.mp4" type="video/mp4">
             </video>
             <div style="margin-left: auto; margin-right: auto; margin-top: 20px; max-width: 80%">
-            <u>Part h</u>
+            <span class="underline">Part h</span>
             </div>
             <video  class="video-js" style="
                     display: block;
-                    width: 50%;
-                    max-width: 500px;
+                    width: 80%;
+                    max-width: 1920px;
                     height: auto;
                     margin: 0 auto;
                     border: 1px solid rgba(0,0,0,0.1);
@@ -194,12 +213,12 @@ pre, code {
                 <source src="media/SLAM/iteration_3/Scan_Fitting_Animation_Example.mp4" type="video/mp4">
             </video>
             <div style="margin-left: auto; margin-right: auto; margin-top: 20px; max-width: 80%">
-            <u>Part k</u>
+            <span class="underline">Part k</span>
             </div>
             <video  class="video-js" style="
                     display: block;
-                    width: 50%;
-                    max-width: 500px;
+                    width: 80%;
+                    max-width: 1920px;
                     height: auto;
                     margin: 0 auto;
                     border: 1px solid rgba(0,0,0,0.1);
@@ -224,7 +243,9 @@ pre, code {
             -John
             </div>
             <h3>File Folder Included with Assignment:</h3>
+            <div style="margin-left: auto; margin-right: auto; margin-top: 20px; max-width: 80%">
             <i>(Reload the page if nothing is showing here.)</i>
+            </div>
             <div style="margin-left: auto; margin-right: auto; margin-top: 20px; max-width: 80%">
             <select id="iteration3Dropdown"></select>
             <div class="content-display" id="iteration3Content"></div>
