@@ -194,83 +194,64 @@ const filesConfig = {
 
 // Language detection from file extension
 function detectLanguageFromExtension(filename) {
-    const ext = filename.split(".").pop().toLowerCase();
-    const map = {
-        'm': 'language-matlab',
-        'py': 'language-python',
-        'js': 'language-javascript',
-        'json': 'language-json',
-        'csv': 'language-csv',
-        'txt': 'language-text',
-        // add more extensions if needed
-    };
-    return map[ext] || '';
+  const ext = filename.split('.').pop().toLowerCase();
+  const map = {
+    'm': 'language-matlab',
+    'txt': 'plaintext',
+    'js': 'javascript',
+    'py': 'python',
+    'csv': 'plaintext'
+  };
+  return map[ext] || 'plaintext';
 }
 
-function renderCSV(csvText) {
-    const csvDisplay = document.getElementById("csv-display");
-    csvDisplay.innerHTML = ""; // clear previous table
+// Loader function
+function loadFileContent(iterationKey, index) {
+  const file = filesConfig[iterationKey][index];
+  const contentDisplay = document.getElementById(iterationKey + "Content");
+  const codeDisplay = document.getElementById(iterationKey + "Code");
+  contentDisplay.innerHTML = "";
+  codeDisplay.textContent = "";
+  contentDisplay.style.display = "none";
+  codeDisplay.style.display = "none";
 
-    // Trim text and split into rows
-    const rows = csvText.trim().split(/\r?\n/).map(row => {
-        // Split only on commas not inside quotes
-        const regex = /(".*?"|[^",]+)(?=\s*,|\s*$)/g;
-        return [...row.matchAll(regex)].map(cell =>
-            cell[0].replace(/^"|"$/g, "").trim()
-        );
-    });
-
-    // Create table
-    const table = document.createElement("table");
-    rows.forEach((cols, rowIndex) => {
-        const tr = document.createElement("tr");
-        cols.forEach(col => {
-            const cell = document.createElement(rowIndex === 0 ? "th" : "td");
-            cell.textContent = col; // safe insertion
-            tr.appendChild(cell);
-        });
-        table.appendChild(tr);
-    });
-
-    csvDisplay.appendChild(table);
-}
-
-function loadFileContent(file) {
-    const codeDisplay = document.getElementById("code-display");
-    const csvDisplay = document.getElementById("csv-display");
-
-    // Hide both views initially
-    codeDisplay.style.display = "none";
-    csvDisplay.style.display = "none";
-
-    // Detect language
-    const lang = detectLanguageFromExtension(file.label);
-
-    // Reset and set highlight.js language class
-    codeDisplay.className = "";
-    if (lang) codeDisplay.classList.add(lang);
-
-    // Fetch and process file
+  if (file.label.endsWith(".csv")) {
     fetch(file.path)
-        .then(response => {
-            if (!response.ok) {
-                throw new Error(`HTTP error! status: ${response.status}`);
-            }
-            return response.text();
-        })
-        .then(content => {
-            if (lang === "language-csv") {
-                renderCSV(content);
-                csvDisplay.style.display = "block";
-            } else {
-                codeDisplay.textContent = content;
-                hljs.highlightElement(codeDisplay);
-                codeDisplay.style.display = "block";
-            }
-        })
-        .catch(error => {
-            console.error("Error loading file:", error);
-        });
+      .then(res => { if (!res.ok) throw new Error("Failed to load CSV"); return res.text(); })
+      .then(text => {
+        const rows = text.trim().split('\n').map(row => row.split(','));
+        let html = "<table><thead><tr>";
+        rows[0].forEach(cell => html += `<th>${cell.trim()}</th>`);
+        html += "</tr></thead><tbody>";
+        for (let i = 1; i < rows.length; i++) {
+          html += "<tr>";
+          rows[i].forEach(cell => html += `<td>${cell.trim()}</td>`);
+          html += "</tr>";
+        }
+        html += "</tbody></table>";
+        contentDisplay.innerHTML = html;
+        contentDisplay.style.display = "block";
+      })
+      .catch(err => {
+        contentDisplay.style.display = "block";
+        contentDisplay.textContent = "Error loading CSV: " + err.message;
+      });
+  } else {
+    const lang = detectLanguageFromExtension(file.label);
+    codeDisplay.className = ""; 
+    codeDisplay.classList.add(lang);
+    fetch(file.path)
+      .then(res => { if (!res.ok) throw new Error("Failed to load file"); return res.text(); })
+      .then(code => {
+        codeDisplay.textContent = code;
+        hljs.highlightElement(codeDisplay);
+        codeDisplay.style.display = "block";
+      })
+      .catch(err => {
+        codeDisplay.textContent = "Error loading code: " + err.message;
+        codeDisplay.style.display = "block";
+      });
+  }
 }
 
 // Initialize dropdowns
