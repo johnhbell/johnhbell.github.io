@@ -16,7 +16,7 @@ menu_settings:
       url: '/design'
     - title: 'Educational Design'
       url: '/SLAM'
-    - title: 'Artwork'
+    - title: 'Art'
       url: '/artwork'
     - title: 'CV'
       url: '/CV'
