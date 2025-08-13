@@ -1,7 +1,7 @@
 ---
 permalink: /SLAM
 title: 'Educational Design - SLAM Context-Oriented Project'
-subtitle: 'This is an assignment that I created for the MIT class 2.160 Identification, Estimation, and Learning, while I was a TA.  It is an end-of-unit project for teaching integration of the Extended Kalman Filter in the context of 2D Simultaneous Estimation and Learning (SLAM), a robotics application.'
+subtitle: 'This is an assignment that I created for the MIT class 2.160 Identification, Estimation, and Learning, while I was a TA.  It is an end-of-unit project for teaching integration of the Extended Kalman Filter in the context of 2D Simultaneous Localization and Measurement (SLAM), a robotics application.'
 ---
 
 <script src="https://vjs.zencdn.net/8.0.4/video.min.js"></script>
