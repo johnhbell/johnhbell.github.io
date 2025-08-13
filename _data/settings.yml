@@ -8,8 +8,6 @@ header_settings:
 
 menu_settings:
   menu_items:
-    - title: 'Home'
-      url: '/'
     - title: 'Research'
       url: '/research'
     - title: 'Publications'
@@ -20,8 +18,8 @@ menu_settings:
       url: '/SLAM'
     - title: 'Artwork'
       url: '/artwork'
-    - title: 'Résumé'
-      url: '/resume'
+    - title: 'CV'
+      url: '/CV'
     
 footer_settings:
   logo_image: 

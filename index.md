@@ -3,7 +3,7 @@ layout: index
 ---
 <img src="/media/Home/john_portrait.png" style="width: 30vw;" />
 
-I am recently earned my Ph.D. in
+I recently earned my Ph.D. in
 Mechanical Engineering, with a Minor in Applied Mathematics, from MIT,
 working with Professor H. Harry Asada at the [d'Arbeloff Laboratory](https://darbelofflab.mit.edu/). I
 previously earned my S.M. and S.B. from MIT as well, with my S.M. work
