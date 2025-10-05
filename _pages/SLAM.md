@@ -103,9 +103,11 @@ pre, code {
                 muted 
                 playsinline
                 preload="metadata">
-                <source src="media\SLAM\iteration_1\LIDAR_raw_data_video.mp4" type="video/mp4">
+                <source src="media/SLAM/iteration_1/LIDAR_raw_data_video.mp4" type="video/mp4">
             </video>
-            <a href="media\SLAM\iteration_1\cop2_data_2021_V2.zip" download>Download the data here to try it for yourself.</a>
+            <div style="margin-left: auto; margin-right: auto; margin-top: 20px; max-width: 80%">
+            <a href="media/SLAM/iteration_1/cop2_data_2021_V2.zip" download>Download the data here to try it for yourself.</a>
+            </div>
             <h3>File Viewer for Folder Included with Assignment:</h3>
             <div style="margin-left: auto; margin-right: auto; margin-top: 20px; max-width: 80%">
             <i>(Reload the page if nothing is showing here.)</i>
@@ -137,7 +139,9 @@ pre, code {
                 preload="metadata">
                 <source src="media/SLAM/iteration_2/LIDAR_raw_data_video.mp4" type="video/mp4">
             </video>
-            <a href="media\SLAM\iteration_2\cop2_data_and_skeleton_code_fa2022.zip" download>Download the data and skeleton code here to try it for yourself.</a>
+            <div style="margin-left: auto; margin-right: auto; margin-top: 20px; max-width: 80%">
+            <a href="media/SLAM/iteration_2/cop2_data_and_skeleton_code_fa2022.zip" download>Download the data and skeleton code here to try it for yourself.</a>
+            </div>
             <h3>File Viewer for Folder Included with Assignment:</h3>
             <div style="margin-left: auto; margin-right: auto; margin-top: 20px; max-width: 80%">
             <i>(Reload the page if nothing is showing here.)</i>
@@ -230,7 +234,7 @@ pre, code {
                 muted 
                 playsinline
                 preload="metadata">
-                <source src="media\SLAM\iteration_3\SLAM_Animation_Example.mp4" type="video/mp4">
+                <source src="media/SLAM/iteration_3/SLAM_Animation_Example.mp4" type="video/mp4">
             </video>
             <div style="margin-left: auto; margin-right: auto; margin-top: 20px; max-width: 80%">
             The animation videos are not the smoothest, since I manually moved the time bar and recorded my screen.  I apologize for any confusion this might cause --- I think I briefly (accidentally) dragged time backwards for a split second in the Part k video?
@@ -244,7 +248,9 @@ pre, code {
             <div style="margin-left: auto; margin-right: auto; margin-top: 20px; max-width: 80%">
             -John
             </div>
-            <a href="media\SLAM\iteration_3\cop_2_data_and_skeleton_code_V3-1.zip" download>Download the data and skeleton code here to try it for yourself.</a>
+            <div style="margin-left: auto; margin-right: auto; margin-top: 20px; max-width: 80%">
+            <a href="media/SLAM/iteration_3/cop_2_data_and_skeleton_code_V3-1.zip" download>Download the data and skeleton code here to try it for yourself.</a>
+            </div>
             <h3>File Viewer for Folder Included with Assignment:</h3>
             <div style="margin-left: auto; margin-right: auto; margin-top: 20px; max-width: 80%">
             <i>(Reload the page if nothing is showing here.)</i>
