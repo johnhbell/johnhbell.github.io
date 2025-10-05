@@ -105,7 +105,8 @@ pre, code {
                 preload="metadata">
                 <source src="media\SLAM\iteration_1\LIDAR_raw_data_video.mp4" type="video/mp4">
             </video>
-            <h3>File Folder Included with Assignment:</h3>
+            <a href="media\SLAM\iteration_1\cop2_data_2021_V2.zip" download>Download the data here to try it for yourself.</a>
+            <h3>File Viewer for Folder Included with Assignment:</h3>
             <div style="margin-left: auto; margin-right: auto; margin-top: 20px; max-width: 80%">
             <i>(Reload the page if nothing is showing here.)</i>
             </div>
@@ -136,7 +137,8 @@ pre, code {
                 preload="metadata">
                 <source src="media/SLAM/iteration_2/LIDAR_raw_data_video.mp4" type="video/mp4">
             </video>
-            <h3>File Folder Included with Assignment:</h3>
+            <a href="media\SLAM\iteration_2\cop2_data_and_skeleton_code_fa2022.zip" download>Download the data and skeleton code here to try it for yourself.</a>
+            <h3>File Viewer for Folder Included with Assignment:</h3>
             <div style="margin-left: auto; margin-right: auto; margin-top: 20px; max-width: 80%">
             <i>(Reload the page if nothing is showing here.)</i>
             </div>
@@ -242,7 +244,8 @@ pre, code {
             <div style="margin-left: auto; margin-right: auto; margin-top: 20px; max-width: 80%">
             -John
             </div>
-            <h3>File Folder Included with Assignment:</h3>
+            <a href="media\SLAM\iteration_3\cop_2_data_and_skeleton_code_V3-1.zip" download>Download the data and skeleton code here to try it for yourself.</a>
+            <h3>File Viewer for Folder Included with Assignment:</h3>
             <div style="margin-left: auto; margin-right: auto; margin-top: 20px; max-width: 80%">
             <i>(Reload the page if nothing is showing here.)</i>
             </div>
