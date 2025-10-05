@@ -106,7 +106,7 @@ pre, code {
                 <source src="media/SLAM/iteration_1/LIDAR_raw_data_video.mp4" type="video/mp4">
             </video>
             <div style="margin-left: auto; margin-right: auto; margin-top: 20px; max-width: 80%">
-            <a href="/media/SLAM/iteration_1/cop2_data_2021_V2.zip" download>Download the data here to try it for yourself.</a>
+            <a href="https://raw.githubusercontent.com/johnhbell/johnhbell.github.io/main/media/SLAM/iteration_1/cop2_data_2021_V2.zip" download>Download the data here to try it for yourself.</a>
             </div>
             <h3>File Viewer for Folder Included with Assignment:</h3>
             <div style="margin-left: auto; margin-right: auto; margin-top: 20px; max-width: 80%">
@@ -140,7 +140,7 @@ pre, code {
                 <source src="media/SLAM/iteration_2/LIDAR_raw_data_video.mp4" type="video/mp4">
             </video>
             <div style="margin-left: auto; margin-right: auto; margin-top: 20px; max-width: 80%">
-            <a href="/media/SLAM/iteration_2/cop2_data_and_skeleton_code_fa2022.zip" download>Download the data and skeleton code here to try it for yourself.</a>
+            <a href="https://raw.githubusercontent.com/johnhbell/johnhbell.github.io/main/media/SLAM/iteration_2/cop2_data_and_skeleton_code_fa2022.zip" download>Download the data and skeleton code here to try it for yourself.</a>
             </div>
             <h3>File Viewer for Folder Included with Assignment:</h3>
             <div style="margin-left: auto; margin-right: auto; margin-top: 20px; max-width: 80%">
@@ -249,7 +249,7 @@ pre, code {
             -John
             </div>
             <div style="margin-left: auto; margin-right: auto; margin-top: 20px; max-width: 80%">
-            <a href="/media/SLAM/iteration_3/cop_2_data_and_skeleton_code_V3-1.zip" download>Download the data and skeleton code here to try it for yourself.</a>
+            <a href="https://raw.githubusercontent.com/johnhbell/johnhbell.github.io/main/media/SLAM/iteration_3/cop_2_data_and_skeleton_code_V3-1.zip" download>Download the data and skeleton code here to try it for yourself.</a>
             </div>
             <h3>File Viewer for Folder Included with Assignment:</h3>
             <div style="margin-left: auto; margin-right: auto; margin-top: 20px; max-width: 80%">
