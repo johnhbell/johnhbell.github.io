@@ -5,7 +5,7 @@ title: 'Power Grid Stability and Liquid Metal Recapillarity (Undergraduate Resea
 
 ## Power Grid Stability
 
-*Key Skills: Stochastic Modeling*
+*Key Skills: Stochastic Systems Modeling, Probabilistic Analysis, MATLAB*
 
 In this work, I leveraged the Fokker-Planck equation to characterize the
 stochastic frequency properties of power grids whose frequencies are
@@ -30,7 +30,7 @@ Frequency Distribution,\" in *IEEE Transactions on Power Systems*, vol.
 
 ## Liquid Metal Recapillarity
 
-*Key Skills: Experimental Design, Image Analysis*
+*Key Skills: Experimental Design, Quantitative Measurement, Automated Image Analysis*
 
 In this work, I iterated on the idea of using an electrical potential to
 reduce the oxide layer of a liquid metal alloy, eutectic Gallium-Indium

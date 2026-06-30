@@ -3,7 +3,7 @@ permalink: /cooperativeness
 title: 'Human Mental State Estimation at the Start of Sit-to-Stand'
 ---
 
-*Key Skills: Experimental Design, State Estimation*
+*Key Skills: State Estimation (Kalman Filtering), Dynamic Modeling, Experimental Design*
 
 In providing physical assistance to elderly people, ensuring cooperative
 behavior from the elderly persons is a critical requirement. In

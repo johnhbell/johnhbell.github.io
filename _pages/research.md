@@ -4,11 +4,12 @@ title: 'Research'
 subtitle: 
 ---
 
-### Modeling Human Sit-to-Stand Dynamics using Koopman Operator Theory
+### [Modeling Human Sit-to-Stand Dynamics using Koopman Operator Theory](/STS)
 
 <img src="/media/Research/image1.png" style="width: 20vw;" />
 
-publication under review (portfolio entry coming soon)
+Representing multi-phase nonlinear dynamics as a single globally linear
+model, enabling analysis and control with linear-systems tools.
 
 
 ### [Dual-Motor Actuator Design for Human Support](/DMA)

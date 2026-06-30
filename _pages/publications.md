@@ -4,7 +4,9 @@ title: 'Publications'
 subtitle: 
 ---
 
-R. Tejwani, **J. Bell**, D. Elliott, C. Wright, P. Wayne, P. Bonato, and H. Asada, \"Spring Loaded Double Pantograph: A Robotic Mechanism for Safe Balance Training,\" *2025 IEEE International Symposium on Robot and Human Interactive Communication (RO-MAN)*, Eindhoven, Netherlands, 2025, publication pending.
+**J. Bell** and H. Harry Asada, \"Multi-Phase Sit-to-Stand Dynamics Represented Using Koopman Operators: Incorporating Segmented Local Dynamics into Globally Linear Models,\" *npj Complexity*, 2026, publication pending.
+
+R. Tejwani, **J. Bell**, D. Elliott, C. Wright, P. Wayne, P. Bonato, and H. Asada, \"Spring Loaded Double Pantograph: A Robotic Mechanism for Safe Balance Training,\" *2025 34th IEEE International Conference on Robot and Human Interactive Communication (RO-MAN)*, Eindhoven, Netherlands, 2025, pp. 843-850, doi: [10.1109/RO-MAN63969.2025.11217789](https://doi.org/10.1109/RO-MAN63969.2025.11217789).
 
 **J. Bell** and H. Harry Asada, \"Monitoring the Mental State of Cooperativeness for Guiding an Elderly Person in Sit-to-Stand Assistance,\" *2022 International Conference on Robotics and Automation (ICRA)*, Philadelphia, PA, USA, 2022, pp. 6465-6471, doi: [10.1109/ICRA46639.2022.9812422](https://doi.org/10.1109/ICRA46639.2022.9812422).
 

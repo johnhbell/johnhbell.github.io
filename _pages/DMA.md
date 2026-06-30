@@ -3,8 +3,8 @@ permalink: /DMA
 title: 'Dual-Motor Actuator Design for Human Support'
 ---
 
-*Key Skills: Mechanical Design, Low-Level Control, Trajectory
-Optimization, Design for Manufacturing*
+*Key Skills: Dynamic Modeling, Optimal Control, Trajectory
+Optimization, Mechanical Design, Design for Manufacturing*
 
 ## Dual-Motor Actuator Prototype and Control
 
